@@ -2,8 +2,8 @@
 Contributors: a3rev, A3 Revolution Software Development team
 Tags: WooCommerce, WooCommerce Email Inquiry, WooCommerce Catalog Visibility, WooCommerce add to cart, WooCommerce Brochure Page, WooCommerce product Emails
 Requires at least: 3.7
-Tested up to: 3.9
-Stable tag: 1.1.0.1
+Tested up to: 3.9.1
+Stable tag: 1.1.0.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -182,6 +182,13 @@ You can use this plugin only when you have installed the WooCommerce plugin.
  
 == Changelog ==
 
+= 1.1.0.2 - 2014/05/26 =
+* Feature - Show uploaded files as Hyplerlinked File name on Order Received page and customer email. WooCommerce by default shows URL.
+* Tweak - Changed add_filter( 'gettext', array( $this, 'change_button_text' ), null, 2 ); to add_filter( 'gettext', array( $this, 'change_button_text' ), null, 3 );
+* Tweak - Update change_button_text() function from ( $original == 'Insert into Post' ) to ( is_admin() && $original === 'Insert into Post' )
+* Tweak - Tested 100% compatible with WooCommerce Version 2.1.9
+* Tweak - Tested 100% compatible with WordPress Version 3.9.1
+
 = 1.1.0.1 - 2014/04/28 =
 * Tweak - Checked and updated for full compatibility with WooCommerce Version 2.1.7 and WordPress version 3.9
 * Tweak - Updated Framework help text font for consistency.
@@ -308,6 +315,9 @@ You can use this plugin only when you have installed the WooCommerce plugin.
 
 
 == Upgrade Notice ==
+
+= 1.1.0.2 =
+Update now for 1 new feature, 2 a3rev Plugin framework Tweaks and full compatibility with WooCommerce Version 2.1.9 and WordPress 3.9.1
 
 = 1.1.0.1 =
 Upgrade now for full compatibility with WooCommerce Version 2.1.7 and WordPress version 3.9 plus 2 framework tweaks.

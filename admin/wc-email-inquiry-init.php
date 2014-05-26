@@ -1,8 +1,8 @@
 <?php
 function wc_email_inquiry_install(){
-	update_option('a3rev_wc_email_inquiry_version', '1.1.0.1');
-	update_option('a3rev_wc_email_inquiry_ultimate_version', '1.0.9.1');
-	update_option('a3rev_wc_orders_quotes_version', '1.1.7.4');
+	update_option('a3rev_wc_email_inquiry_version', '1.1.0.2');
+	update_option('a3rev_wc_email_inquiry_ultimate_version', '1.0.9.2');
+	update_option('a3rev_wc_orders_quotes_version', '1.1.7.7');
 
 	// Set Settings Default from Admin Init
 	global $wc_ei_admin_init;
@@ -58,6 +58,9 @@ add_filter( 'plugin_row_meta', array('WC_Email_Inquiry_Hook_Filter', 'plugin_ext
 	
 	// Include script into footer
 	add_action('get_footer', array('WC_Email_Inquiry_Hook_Filter', 'script_contact_popup'), 2);
+	
+	// Change item meta value as long url to short url
+	add_filter('woocommerce_order_item_display_meta_value', array('WC_Email_Inquiry_Hook_Filter', 'change_order_item_display_meta_value' ) );
 	
 	// AJAX hide yellow message dontshow
 	add_action('wp_ajax_wc_ei_yellow_message_dontshow', array('WC_Email_Inquiry_Functions', 'wc_ei_yellow_message_dontshow') );
@@ -136,9 +139,9 @@ add_filter( 'plugin_row_meta', array('WC_Email_Inquiry_Hook_Filter', 'plugin_ext
 			WC_Email_Inquiry_Functions::upgrade_version_1_0_9_2();
 		}
 	
-		update_option('a3rev_wc_email_inquiry_version', '1.1.0.1');	
-		update_option('a3rev_wc_email_inquiry_ultimate_version', '1.0.9.1');
-		update_option('a3rev_wc_orders_quotes_version', '1.1.7.4');
+		update_option('a3rev_wc_email_inquiry_version', '1.1.0.2');	
+		update_option('a3rev_wc_email_inquiry_ultimate_version', '1.0.9.2');
+		update_option('a3rev_wc_orders_quotes_version', '1.1.7.7');
 		
 	}
 
