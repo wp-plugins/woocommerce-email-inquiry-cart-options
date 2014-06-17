@@ -3,7 +3,7 @@ Contributors: a3rev, A3 Revolution Software Development team
 Tags: WooCommerce, WooCommerce Email Inquiry, WooCommerce Catalog Visibility, WooCommerce add to cart, WooCommerce Brochure Page, WooCommerce product Emails
 Requires at least: 3.7
 Tested up to: 3.9.1
-Stable tag: 1.1.0.2
+Stable tag: 1.1.0.3
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -182,6 +182,11 @@ You can use this plugin only when you have installed the WooCommerce plugin.
  
 == Changelog ==
 
+= 1.1.0.3 - 2014/06/17 = 
+* Tweak - Updated chosen js script to latest version 1.0.1 on the a3rev Plugin Framework 
+* Tweak - Added support for placeholder feature for input, email , password , text area types 
+* Tweak - Tested 100% compatible with WooCommerce version 2.1.11 
+
 = 1.1.0.2 - 2014/05/26 =
 * Feature - Show uploaded files as Hyplerlinked File name on Order Received page and customer email. WooCommerce by default shows URL.
 * Tweak - Changed add_filter( 'gettext', array( $this, 'change_button_text' ), null, 2 ); to add_filter( 'gettext', array( $this, 'change_button_text' ), null, 3 );
@@ -315,6 +320,9 @@ You can use this plugin only when you have installed the WooCommerce plugin.
 
 
 == Upgrade Notice ==
+
+= 1.1.0.3 =
+Upgrade now for 2 framework code tweaks that makes your plugin fully compatible with WooCommerce version 2.1.11
 
 = 1.1.0.2 =
 Update now for 1 new feature, 2 a3rev Plugin framework Tweaks and full compatibility with WooCommerce Version 2.1.9 and WordPress 3.9.1

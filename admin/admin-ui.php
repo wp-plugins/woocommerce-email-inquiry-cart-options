@@ -32,6 +32,14 @@ class WC_Email_Inquiry_Admin_UI
 	 */
 	public $plugin_name = 'wc_orders_quotes';
 	
+	public $is_free_plugin = true;
+	
+	/**
+	 * @var string
+	 * You must change to correct class name that you are working
+	 */
+	public $class_name = 'WC_Email_Inquiry';
+	
 	/**
 	 * @var string
 	 * You must change to correct pro plugin page url on a3rev site
