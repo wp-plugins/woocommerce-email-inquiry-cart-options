@@ -509,6 +509,16 @@ jQuery(document).ready(function() {
     <?php
 	}
 	
+	public static function change_order_item_display_meta_value( $meta_value = '' ) {
+		if ( stristr( $meta_value, 'http://' ) !== false || stristr( $meta_value, 'https://' ) !== false ) {
+			$meta_value = strip_tags( $meta_value );
+			$meta_file_name = basename( $meta_value );
+			$meta_value = '<a href="'.$meta_value.'">'.$meta_file_name.'</a>';
+		}
+		
+		return $meta_value;
+	}
+	
 	public static function a3_wp_admin() {
 		wp_enqueue_style( 'a3rev-wp-admin-style', WC_EMAIL_INQUIRY_CSS_URL . '/a3_wp_admin.css' );
 	}
