@@ -316,7 +316,7 @@ class WC_Email_Inquiry_Functions
 	public static function wc_ei_yellow_message_dismiss() {
 		check_ajax_referer( 'wc_ei_yellow_message_dismiss', 'security' );
 		$session_name   = $_REQUEST['session_name'];
-		if ( !isset($_SESSION) ) { session_start(); } 
+		if ( !isset($_SESSION) ) { @session_start(); } 
 		$_SESSION[$session_name] = 1 ;
 		die();
 	}

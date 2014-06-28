@@ -329,7 +329,7 @@ class WC_EI_Read_More_Global_Settings extends WC_Email_Inquiry_Admin_UI
 .a3rev_panel_container .hide_read_more_yellow_message_container {
 <?php if ( $customized_settings['show_read_more_button_before_login'] == 'no' && $customized_settings['show_read_more_button_after_login'] == 'no' ) echo 'display: none;'; ?>
 <?php if ( get_option( 'wc_ei_hide_read_more_message_dontshow', 0 ) == 1 ) echo 'display: none !important;'; ?>
-<?php if ( !isset($_SESSION) ) { session_start(); } if ( isset( $_SESSION['wc_ei_hide_read_more_message_dismiss'] ) ) echo 'display: none !important;'; ?>
+<?php if ( !isset($_SESSION) ) { @session_start(); } if ( isset( $_SESSION['wc_ei_hide_read_more_message_dismiss'] ) ) echo 'display: none !important;'; ?>
 }
 </style>
 <script>

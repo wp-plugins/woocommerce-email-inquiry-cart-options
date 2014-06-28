@@ -301,7 +301,7 @@ class WC_EI_Global_Settings extends WC_Email_Inquiry_Admin_UI
 				'checked_label' 	=> __( 'ON', 'wc_email_inquiry' ),
 				'unchecked_label'	=> __( 'OFF', 'wc_email_inquiry' ),
 			),
-			
+		
 			array(
             	'name' => __( 'Contact Form Type', 'wc_email_inquiry' ),
                 'type' => 'heading',
@@ -412,7 +412,7 @@ class WC_EI_Global_Settings extends WC_Email_Inquiry_Admin_UI
 .a3rev_panel_container .hide_inquiry_button_yellow_message_container {
 <?php if ( $customized_settings['show_button'] == 'no' && $customized_settings['show_button_after_login'] == 'no' ) echo 'display: none;'; ?>
 <?php if ( get_option( 'wc_ei_hide_inquiry_button_message_dontshow', 0 ) == 1 ) echo 'display: none !important;'; ?>
-<?php if ( !isset($_SESSION) ) { session_start(); } if ( isset( $_SESSION['wc_ei_hide_inquiry_button_message_dismiss'] ) ) echo 'display: none !important;'; ?>
+<?php if ( !isset($_SESSION) ) { @session_start(); } if ( isset( $_SESSION['wc_ei_hide_inquiry_button_message_dismiss'] ) ) echo 'display: none !important;'; ?>
 }
 </style>
 <script>

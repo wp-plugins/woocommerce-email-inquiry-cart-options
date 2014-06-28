@@ -45,7 +45,7 @@ class WC_EI_Orders_Mode_Global_Settings extends WC_Email_Inquiry_Admin_UI
 	 * @var string
 	 * You must change to correct option name that you are working
 	 */
-	public $option_name = '';
+	public $option_name = 'wc_email_inquiry_orders_mode_global_settings';
 	
 	/**
 	 * @var string
@@ -82,6 +82,8 @@ class WC_EI_Orders_Mode_Global_Settings extends WC_Email_Inquiry_Admin_UI
 				'error_message'		=> __( 'Error: Orders Mode Settings can not save.', 'wc_email_inquiry' ),
 				'reset_message'		=> __( 'Orders Mode Settings successfully reseted.', 'wc_email_inquiry' ),
 			);
+			
+		add_action( $this->plugin_name . '-' . $this->form_key . '_settings_end', array( $this, 'include_script' ) );
 			
 		add_action( $this->plugin_name . '_set_default_settings' , array( $this, 'set_default_settings' ) );
 				
@@ -198,7 +200,75 @@ class WC_EI_Orders_Mode_Global_Settings extends WC_Email_Inquiry_Admin_UI
                 'type' 		=> 'heading',
            	),
 			
+			array(
+            	'name' 		=> __( 'Shipping Options', 'wc_email_inquiry' ),
+				'desc'		=> sprintf( __( 'Configure store Shipping Options at <a href="%s">WooCommerce Shipping</a> and set Orders mode Shipping visibility options below.', 'wc_email_inquiry'), ( ( version_compare( $woocommerce_db_version, '2.1', '<' ) ) ? admin_url( 'admin.php?page=woocommerce_settings&tab=shipping', 'relative' ) : admin_url( 'admin.php?page=wc-settings&tab=shipping', 'relative' ) ) ),
+                'type' 		=> 'heading',
+           	),
+			
+			array(
+            	'name' 		=> __( 'Order Shipping', 'wc_email_inquiry' ),
+				'desc'		=> __( 'Settings apply to Checkout, Order Received pages and Customer Order email. Shipping is not shown the Cart Page.', 'wc_email_inquiry' ),
+                'type' 		=> 'heading',
+           	),
+			array(  
+				'name' 		=> __( 'Display Shipping Options', 'wc_email_inquiry' ),
+				'class'		=> 'order_display_shipping_options',
+				'id' 		=> 'order_display_shipping_options',
+				'type' 		=> 'onoff_checkbox',
+				'default'	=> 'yes',
+				'checked_value'		=> 'yes',
+				'unchecked_value' 	=> 'no',
+				'checked_label'		=> __( 'ON', 'wc_email_inquiry' ),
+				'unchecked_label' 	=> __( 'OFF', 'wc_email_inquiry' ),
+			),
+			
+			array(
+                'type' 		=> 'heading',
+				'class'		=> 'order_quotes_display_shipping_prices_container',
+           	),
+			array(  
+				'name' 		=> __( 'Display Shipping Prices', 'wc_email_inquiry' ),
+				'class'		=> 'order_quotes_display_shipping_prices',
+				'id' 		=> 'order_quotes_display_shipping_prices',
+				'type' 		=> 'onoff_checkbox',
+				'default'	=> 'yes',
+				'checked_value'		=> 'yes',
+				'unchecked_value' 	=> 'no',
+				'checked_label'		=> __( 'ON', 'wc_email_inquiry' ),
+				'unchecked_label' 	=> __( 'OFF', 'wc_email_inquiry' ),
+			),
+			
         ));
+	}
+	
+	public function include_script() {
+	?>
+<script>
+(function($) {
+	
+	$(document).ready(function() {
+		
+		if ( $("input.order_display_shipping_options:checked").val() == 'yes') {
+			$(".order_quotes_display_shipping_prices_container").css( {'visibility': 'visible', 'height' : 'auto', 'overflow' : 'inherit'} );
+		} else {
+			$(".order_quotes_display_shipping_prices_container").css( {'visibility': 'hidden', 'height' : '0px', 'overflow' : 'hidden'} );
+		}
+			
+		$(document).on( "a3rev-ui-onoff_checkbox-switch", '.order_display_shipping_options', function( event, value, status ) {
+			$(".order_quotes_display_shipping_prices_container").hide().css( {'visibility': 'visible', 'height' : 'auto', 'overflow' : 'inherit'} );
+			if ( status == 'true' ) {
+				$(".order_quotes_display_shipping_prices_container").slideDown();
+			} else {
+				$(".order_quotes_display_shipping_prices_container").slideUp();
+			}
+		});
+		
+	});
+	
+})(jQuery);
+</script>
+    <?php	
 	}
 }
 
