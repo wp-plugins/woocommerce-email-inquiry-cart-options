@@ -837,19 +837,19 @@ $(document).ready(function() {
 			 * Apply when page is loaded
 			 */
 			if ( $("input.hide_addcartbt_after_login:checked").val() == 'yes' ) {
-				$(".hide_addcartbt_after_login_container").show();
+				$('.hide_addcartbt_after_login_container').css( {'visibility': 'visible', 'height' : 'auto', 'overflow' : 'inherit'} );
 			} else {
-				$(".hide_addcartbt_after_login_container").hide();
+				$('.hide_addcartbt_after_login_container').css( {'visibility': 'hidden', 'height' : '0px', 'overflow' : 'hidden'} );
 			}
 			if ( $("input.email_inquiry_hide_price_after_login:checked").val() == 'yes') {
-				$(".email_inquiry_hide_price_after_login_container").show();
+				$('.email_inquiry_hide_price_after_login_container').css( {'visibility': 'visible', 'height' : 'auto', 'overflow' : 'inherit'} );
 			} else {
-				$(".email_inquiry_hide_price_after_login_container").hide();
+				$('.email_inquiry_hide_price_after_login_container').css( {'visibility': 'hidden', 'height' : '0px', 'overflow' : 'hidden'} );
 			}
 			if ( $("input.activate_order_logged_in:checked").val() == 'yes') {
-				$(".role_apply_activate_order_logged_in_container").show();
+				$('.role_apply_activate_order_logged_in_container').css( {'visibility': 'visible', 'height' : 'auto', 'overflow' : 'inherit'} );
 			} else {
-				$(".role_apply_activate_order_logged_in_container").hide();
+				$('.role_apply_activate_order_logged_in_container').css( {'visibility': 'hidden', 'height' : '0px', 'overflow' : 'hidden'} );
 			}
 			
 		},
@@ -871,6 +871,7 @@ $(document).ready(function() {
 			// deactivate Auto Quote Rule, Add to Order Rule
 			// deactivate Hide Add to Cart Rule, activated Hide Price Rule and disabled both to admin can't change the status
 			$(document).on( "a3rev-ui-onoff_checkbox-switch", '.apply_manual_quote_rule', function( event, value, status ) {
+				$('.enable_guest_checkout_container').hide().css( {'visibility': 'visible', 'height' : 'auto', 'overflow' : 'inherit'} );
 				if ( status == 'true' ) {
 					$('input.apply_auto_quote_rule').removeAttr('checked').iphoneStyle("refresh");
 					$('input.apply_add_to_order_rule').removeAttr('checked').iphoneStyle("refresh");
@@ -881,6 +882,7 @@ $(document).ready(function() {
 			// deactivate Manual Quote Rule, Add to Order Rule
 			// deactivate Hide Add to Cart Rule, activated Hide Price Rule and disabled both to admin can't change the status
 			$(document).on( "a3rev-ui-onoff_checkbox-switch", '.apply_auto_quote_rule', function( event, value, status ) {
+				$('.enable_guest_checkout_container').hide().css( {'visibility': 'visible', 'height' : 'auto', 'overflow' : 'inherit'} );
 				if ( status == 'true' ) {
 					$('input.apply_manual_quote_rule').removeAttr('checked').iphoneStyle("refresh");
 					$('input.apply_add_to_order_rule').removeAttr('checked').iphoneStyle("refresh");
@@ -891,6 +893,7 @@ $(document).ready(function() {
 			// deactivate Manual Quote Rule, Auto Quote Rule
 			// deactivate Hide Add to Cart Rule, Hide Price Rule and disabled them
 			$(document).on( "a3rev-ui-onoff_checkbox-switch-end", '.apply_add_to_order_rule', function( event, value, status ) {
+				$('.enable_guest_checkout_container').hide().css( {'visibility': 'visible', 'height' : 'auto', 'overflow' : 'inherit'} );
 				if ( status == 'true' ) {
 					$('input.apply_manual_quote_rule').removeAttr('checked').iphoneStyle("refresh");
 					$('input.apply_auto_quote_rule').removeAttr('checked').iphoneStyle("refresh");
@@ -903,13 +906,16 @@ $(document).ready(function() {
 			 * Show Roles dropdown for : Hide Add to Cart, Show Email Inquiry Button, Hide Price, Add to Order rules
 			 */
 			$(document).on( "a3rev-ui-onoff_checkbox-switch", '.hide_addcartbt_after_login', function( event, value, status ) {
+				$('.hide_addcartbt_after_login_container').hide().css( {'visibility': 'visible', 'height' : 'auto', 'overflow' : 'inherit'} );
 				if ( status == 'true' ) {
 					$(".hide_addcartbt_after_login_container").slideDown();
 				} else {
 					$(".hide_addcartbt_after_login_container").slideUp();
 				}
 			});
+			
 			$(document).on( "a3rev-ui-onoff_checkbox-switch", '.email_inquiry_hide_price_after_login', function( event, value, status ) {
+				$('.email_inquiry_hide_price_after_login_container').hide().css( {'visibility': 'visible', 'height' : 'auto', 'overflow' : 'inherit'} );
 				if ( status == 'true' ) {
 					$(".email_inquiry_hide_price_after_login_container").slideDown();
 				} else {
@@ -917,6 +923,7 @@ $(document).ready(function() {
 				}
 			});
 			$(document).on( "a3rev-ui-onoff_checkbox-switch", '.activate_order_logged_in', function( event, value, status ) {
+				$('.role_apply_activate_order_logged_in_container').hide().css( {'visibility': 'visible', 'height' : 'auto', 'overflow' : 'inherit'} );
 				if ( status == 'true' ) {
 					$(".role_apply_activate_order_logged_in_container").slideDown();
 				} else {
@@ -961,20 +968,20 @@ $(document).ready(function() {
 			
 			$("select.role_apply_manual_quote").on( 'change', function() {
 				a3revEIRulesRoles.rulesRolesSchema();
-				$("select.role_apply_auto_quote").trigger("liszt:updated");
-				$("select.role_apply_activate_order_logged_in").trigger("liszt:updated");
+				$("select.role_apply_auto_quote").trigger("chosen:updated");
+				$("select.role_apply_activate_order_logged_in").trigger("chosen:updated");
 			});
 			
 			$("select.role_apply_auto_quote").on( 'change', function() {
 				a3revEIRulesRoles.rulesRolesSchema();
-				$("select.role_apply_manual_quote").trigger("liszt:updated");
-				$("select.role_apply_activate_order_logged_in").trigger("liszt:updated");
+				$("select.role_apply_manual_quote").trigger("chosen:updated");
+				$("select.role_apply_activate_order_logged_in").trigger("chosen:updated");
 			});
 			
 			$("select.role_apply_activate_order_logged_in").on( 'change', function() {
 				a3revEIRulesRoles.rulesRolesSchema();
-				$("select.role_apply_manual_quote").trigger("liszt:updated");
-				$("select.role_apply_auto_quote").trigger("liszt:updated");
+				$("select.role_apply_manual_quote").trigger("chosen:updated");
+				$("select.role_apply_auto_quote").trigger("chosen:updated");
 			});
 		}
 	}

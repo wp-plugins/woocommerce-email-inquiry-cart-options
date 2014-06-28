@@ -399,9 +399,9 @@ $(document).ready(function() {
 	$(document).ready(function() {
 		
 		if ( $("input.show_read_more_button_after_login:checked").val() == 'yes') {
-			$(".show_read_more_button_after_login_container").show();
+			$('.show_read_more_button_after_login_container').css( {'visibility': 'visible', 'height' : 'auto', 'overflow' : 'inherit'} );
 		} else {
-			$(".show_read_more_button_after_login_container").hide();
+			$('.show_read_more_button_after_login_container').css( {'visibility': 'hidden', 'height' : '0px', 'overflow' : 'hidden'} );
 		}
 		
 		$(document).on( "a3rev-ui-onoff_checkbox-switch", '.rules_roles_explanation', function( event, value, status ) {
@@ -414,6 +414,7 @@ $(document).ready(function() {
 			
 			
 		$(document).on( "a3rev-ui-onoff_checkbox-switch", '.show_read_more_button_after_login', function( event, value, status ) {
+			$('.show_read_more_button_after_login_container').hide().css( {'visibility': 'visible', 'height' : 'auto', 'overflow' : 'inherit'} );
 			if ( status == 'true' ) {
 				$(".show_read_more_button_after_login_container").slideDown();
 			} else {
