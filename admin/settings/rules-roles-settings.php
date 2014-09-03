@@ -70,7 +70,7 @@ class WC_EI_Rules_Roles_Settings extends WC_Email_Inquiry_Admin_UI
 	public $form_messages = array();
 	
 	public function custom_types() {
-		$custom_type = array( 'hide_addtocart_yellow_message', 'hide_price_yellow_message', 'manual_quote_yellow_message', 'store_rule_yellow_message' );
+		$custom_type = array( 'hide_addtocart_yellow_message', 'hide_price_yellow_message', 'manual_quote_yellow_message', 'store_rule_yellow_message', 'use_woocommerce_css_yellow_message' );
 		
 		return $custom_type;
 	}
@@ -277,7 +277,7 @@ class WC_EI_Rules_Roles_Settings extends WC_Email_Inquiry_Admin_UI
 		
   		// Define settings			
      	$this->form_fields = apply_filters( $this->option_name . '_settings_fields', array(
-			
+		
 			array(
             	'name' 		=> __( 'Conditional Logic', 'wc_email_inquiry' ),
                 'type' 		=> 'heading',
@@ -435,6 +435,31 @@ class WC_EI_Rules_Roles_Settings extends WC_Email_Inquiry_Admin_UI
            	),
 			
 			array(
+            	'name' 		=> __( 'Shop Display Templates', 'wc_email_inquiry' ),
+                'type' 		=> 'heading',
+           	),
+			array(  
+				'name' 		=> __( "Use WooCommerce CSS", 'wc_email_inquiry' ),
+				'desc'		=> __( 'Turn on if the cart Page, Checkout Page or Order Received Page CSS is broken when a Store Rule is activated.', 'wc_email_inquiry' ) ,
+				'id' 		=> 'use_woocommerce_css',
+				'type' 		=> 'onoff_checkbox',
+				'default'	=> 'no',
+				'checked_value'		=> 'yes',
+				'unchecked_value' 	=> 'no',
+				'checked_label'		=> __( 'ON', 'wc_email_inquiry' ),
+				'unchecked_label' 	=> __( 'OFF', 'wc_email_inquiry' ),
+				
+			),
+			
+			array(
+                'type' 		=> 'heading',
+				'class'		=> 'yellow_message_container use_woocommerce_css_yellow_message_container',
+           	),
+			array(
+                'type' 		=> 'use_woocommerce_css_yellow_message',
+           	),
+			
+			array(
             	'name' 		=> __( 'Store Rule: Manual Quote', 'wc_email_inquiry' ),
                 'type' 		=> 'heading',
            	),
@@ -452,6 +477,27 @@ class WC_EI_Rules_Roles_Settings extends WC_Email_Inquiry_Admin_UI
 				'unchecked_label' 	=> __( 'OFF', 'wc_email_inquiry' ),
 				
 			),
+			
+			array(
+                'type' 		=> 'heading',
+				'class'		=> 'enable_guest_checkout_container manual_quote_enable_guest_checkout_container',
+           	),
+			array(  
+				'name' 		=> __( "Enable guest checkout", 'wc_email_inquiry' ),
+				'desc'		=> __( 'ON to Request a Quote without auto creating an account with Manual Quote Role.', 'wc_email_inquiry' ) ,
+				'id' 		=> 'manual_quote_enable_guest_checkout',
+				'type' 		=> 'onoff_checkbox',
+				'default'	=> 'no',
+				'checked_value'		=> 'yes',
+				'unchecked_value' 	=> 'no',
+				'checked_label'		=> __( 'ON', 'wc_email_inquiry' ),
+				'unchecked_label' 	=> __( 'OFF', 'wc_email_inquiry' ),
+				
+			),
+			
+			array(
+                'type' 		=> 'heading',
+           	),
 			array(  
 				'name' 		=> __( 'Apply by user role after log in', 'wc_email_inquiry' ),
 				'desc' 		=> '',
@@ -486,6 +532,27 @@ class WC_EI_Rules_Roles_Settings extends WC_Email_Inquiry_Admin_UI
 				'checked_label'		=> __( 'ON', 'wc_email_inquiry' ),
 				'unchecked_label' 	=> __( 'OFF', 'wc_email_inquiry' ),
 			),
+			
+			array(
+                'type' 		=> 'heading',
+				'class'		=> 'enable_guest_checkout_container auto_quote_enable_guest_checkout_container',
+           	),
+			array(  
+				'name' 		=> __( "Enable guest checkout", 'wc_email_inquiry' ),
+				'desc'		=> __( 'ON to Request a Quote without auto creating an account with Auto Quote Role.', 'wc_email_inquiry' ) ,
+				'id' 		=> 'auto_quote_enable_guest_checkout',
+				'type' 		=> 'onoff_checkbox',
+				'default'	=> 'no',
+				'checked_value'		=> 'yes',
+				'unchecked_value' 	=> 'no',
+				'checked_label'		=> __( 'ON', 'wc_email_inquiry' ),
+				'unchecked_label' 	=> __( 'OFF', 'wc_email_inquiry' ),
+				
+			),
+			
+			array(
+                'type' 		=> 'heading',
+           	),
 			array(  
 				'name' 		=> __( 'Apply by user role after log in', 'wc_email_inquiry' ),
 				'desc' 		=> '',
@@ -514,6 +581,26 @@ class WC_EI_Rules_Roles_Settings extends WC_Email_Inquiry_Admin_UI
 				'unchecked_label' 	=> __( 'OFF', 'wc_email_inquiry' ),
 			),
 			
+			array(
+                'type' 		=> 'heading',
+				'class'		=> 'enable_guest_checkout_container order_mode_enable_guest_checkout_container',
+           	),
+			array(  
+				'name' 		=> __( "Enable guest checkout", 'wc_email_inquiry' ),
+				'desc'		=> __( 'ON to Add to Order without auto creating an account with Customer Role.', 'wc_email_inquiry' ) ,
+				'id' 		=> 'order_mode_enable_guest_checkout',
+				'type' 		=> 'onoff_checkbox',
+				'default'	=> 'no',
+				'checked_value'		=> 'yes',
+				'unchecked_value' 	=> 'no',
+				'checked_label'		=> __( 'ON', 'wc_email_inquiry' ),
+				'unchecked_label' 	=> __( 'OFF', 'wc_email_inquiry' ),
+				
+			),
+			
+			array(
+                'type' 		=> 'heading',
+           	),
 			array(  
 				'name' 		=> __( "Apply by user role after log in", 'wc_email_inquiry' ),
 				'class' 	=> 'activate_order_logged_in',
@@ -563,7 +650,7 @@ class WC_EI_Rules_Roles_Settings extends WC_Email_Inquiry_Admin_UI
 .a3rev_panel_container .hide_addtocart_yellow_message_container {
 <?php if ( $customized_settings['hide_addcartbt'] == 'no' && $customized_settings['hide_addcartbt_after_login'] == 'no' ) echo 'display: none;'; ?>
 <?php if ( get_option( 'wc_ei_hide_addtocart_message_dontshow', 0 ) == 1 ) echo 'display: none !important;'; ?>
-<?php if ( !isset($_SESSION) ) { session_start(); } if ( isset( $_SESSION['wc_ei_hide_addtocart_message_dismiss'] ) ) echo 'display: none !important;'; ?>
+<?php if ( !isset($_SESSION) ) { @session_start(); } if ( isset( $_SESSION['wc_ei_hide_addtocart_message_dismiss'] ) ) echo 'display: none !important;'; ?>
 }
 </style>
 <script>
@@ -632,7 +719,7 @@ $(document).ready(function() {
 .a3rev_panel_container .hide_price_yellow_message_container {
 <?php if ( $customized_settings['hide_price'] == 'no' && $customized_settings['hide_price_after_login'] == 'no' ) echo 'display: none;'; ?>
 <?php if ( get_option( 'wc_ei_hide_price_message_dontshow', 0 ) == 1 ) echo 'display: none !important;'; ?>
-<?php if ( !isset($_SESSION) ) { session_start(); } if ( isset( $_SESSION['wc_ei_hide_price_message_dismiss'] ) ) echo 'display: none !important;'; ?>
+<?php if ( !isset($_SESSION) ) { @session_start(); } if ( isset( $_SESSION['wc_ei_hide_price_message_dismiss'] ) ) echo 'display: none !important;'; ?>
 }
 </style>
 <script>
@@ -699,7 +786,7 @@ $(document).ready(function() {
 <style>
 .a3rev_panel_container .manual_quote_yellow_message_container {
 <?php if ( get_option( 'wc_ei_manual_quote_message_dontshow', 0 ) == 1 ) echo 'display: none !important;'; ?>
-<?php if ( !isset($_SESSION) ) { session_start(); } if ( isset( $_SESSION['wc_ei_manual_quote_message_dismiss'] ) ) echo 'display: none !important;'; ?>
+<?php if ( !isset($_SESSION) ) { @session_start(); } if ( isset( $_SESSION['wc_ei_manual_quote_message_dismiss'] ) ) echo 'display: none !important;'; ?>
 }
 </style>
 <script>
@@ -752,7 +839,7 @@ $(document).ready(function() {
 <style>
 .a3rev_panel_container .store_rule_yellow_message_container {
 <?php if ( get_option( 'wc_ei_store_rule_message_dontshow', 0 ) == 1 ) echo 'display: none !important;'; ?>
-<?php if ( !isset($_SESSION) ) { session_start(); } if ( isset( $_SESSION['wc_ei_store_rule_message_dismiss'] ) ) echo 'display: none !important;'; ?>
+<?php if ( !isset($_SESSION) ) { @session_start(); } if ( isset( $_SESSION['wc_ei_store_rule_message_dismiss'] ) ) echo 'display: none !important;'; ?>
 }
 </style>
 <script>
@@ -776,6 +863,59 @@ $(document).ready(function() {
 		var data = {
 				action: 		"wc_ei_yellow_message_dismiss",
 				session_name: 	"wc_ei_store_rule_message_dismiss",
+				security: 		"<?php echo wp_create_nonce("wc_ei_yellow_message_dismiss"); ?>"
+			};
+		$.post( "<?php echo admin_url( 'admin-ajax.php', 'relative' ); ?>", data);
+	});
+});
+})(jQuery);
+</script>
+			</td>
+		</tr>
+    <?php
+	
+	}
+	
+	public function use_woocommerce_css_yellow_message( $value ) {
+	?>
+    	<tr valign="top" class="use_woocommerce_css_yellow_message_tr" style=" ">
+			<th scope="row" class="titledesc">&nbsp;</th>
+			<td class="forminp forminp-<?php echo sanitize_title( $value['type'] ) ?>">
+            <?php 
+				$use_woocommerce_css_yellow_message = '<div><div><strong>'.__( 'Tip', 'wc_email_inquiry' ).':</strong></div><div>'.__( "This only applies if you are using a Bespoke theme and the Theme developer has removed the woocommerce.css and replaced it with a custom template that uses a different HTML structure. This is very bad practise but there are plenty of Bespoke Theme developers who do it. You will know if you have such a theme because in Quotes or Orders mode on the Cart page, Checkout page and Order received pages layout and style will be broken.", 'wc_email_inquiry' ).'</div><div>'.__( "If you have this issue and after activating this feature you still have issues with the WooCommerce page layouts and style it will be because the custom HTML structure of the theme is over riding the woocommerce.css. If using WooCommerce Quotes and Orders is important to your stores functionality you should do one of 2 things.", 'wc_email_inquiry' ).'</div><div>'.__( "1. Contact the theme developer and ask them to fix their code.", 'wc_email_inquiry' ).'</div><div>'.__( "2. Ask for a refund and choose a theme that is 100% WooCommerce Compatible (It is not hard the Default WordPress themes are all 100% compatible).", 'wc_email_inquiry' ).'</div></div>
+				<div style="clear:both"></div>
+                <a class="use_woocommerce_css_yellow_message_dontshow" style="float:left;" href="javascript:void(0);">'.__( "Don't show again", 'wc_email_inquiry' ).'</a>
+                <a class="use_woocommerce_css_yellow_message_dismiss" style="float:right;" href="javascript:void(0);">'.__( "Dismiss", 'wc_email_inquiry' ).'</a>
+                <div style="clear:both"></div>';
+            	echo $this->blue_message_box( $use_woocommerce_css_yellow_message, '450px' ); 
+			?>
+<style>
+.a3rev_panel_container .use_woocommerce_css_yellow_message_container {
+<?php if ( get_option( 'wc_ei_use_woocommerce_css_message_dontshow', 0 ) == 1 ) echo 'display: none !important;'; ?>
+<?php if ( !isset($_SESSION) ) { @session_start(); } if ( isset( $_SESSION['wc_ei_use_woocommerce_css_message_dismiss'] ) ) echo 'display: none !important;'; ?>
+}
+</style>
+<script>
+(function($) {
+$(document).ready(function() {
+	
+	$(document).on( "click", ".use_woocommerce_css_yellow_message_dontshow", function(){
+		$(".use_woocommerce_css_yellow_message_tr").slideUp();
+		$(".use_woocommerce_css_yellow_message_container").slideUp();
+		var data = {
+				action: 		"wc_ei_yellow_message_dontshow",
+				option_name: 	"wc_ei_use_woocommerce_css_message_dontshow",
+				security: 		"<?php echo wp_create_nonce("wc_ei_yellow_message_dontshow"); ?>"
+			};
+		$.post( "<?php echo admin_url( 'admin-ajax.php', 'relative' ); ?>", data);
+	});
+	
+	$(document).on( "click", ".use_woocommerce_css_yellow_message_dismiss", function(){
+		$(".use_woocommerce_css_yellow_message_tr").slideUp();
+		$(".use_woocommerce_css_yellow_message_container").slideUp();
+		var data = {
+				action: 		"wc_ei_yellow_message_dismiss",
+				session_name: 	"wc_ei_use_woocommerce_css_message_dismiss",
 				security: 		"<?php echo wp_create_nonce("wc_ei_yellow_message_dismiss"); ?>"
 			};
 		$.post( "<?php echo admin_url( 'admin-ajax.php', 'relative' ); ?>", data);
@@ -831,25 +971,28 @@ $(document).ready(function() {
 				$(".rules_roles_explanation_container").hide();
 			}
 			
+			$('.enable_guest_checkout_container').css( {'visibility': 'hidden', 'height' : '0px', 'overflow' : 'hidden'} );
+			
+			
 			/* 
 			 * Condition logic for activate apply rule to logged in users
 			 * Show Roles dropdown for : Hide Add to Cart, Show Email Inquiry Button, Hide Price, Add to Order rules
 			 * Apply when page is loaded
 			 */
 			if ( $("input.hide_addcartbt_after_login:checked").val() == 'yes' ) {
-				$(".hide_addcartbt_after_login_container").show();
+				$('.hide_addcartbt_after_login_container').css( {'visibility': 'visible', 'height' : 'auto', 'overflow' : 'inherit'} );
 			} else {
-				$(".hide_addcartbt_after_login_container").hide();
+				$('.hide_addcartbt_after_login_container').css( {'visibility': 'hidden', 'height' : '0px', 'overflow' : 'hidden'} );
 			}
 			if ( $("input.email_inquiry_hide_price_after_login:checked").val() == 'yes') {
-				$(".email_inquiry_hide_price_after_login_container").show();
+				$('.email_inquiry_hide_price_after_login_container').css( {'visibility': 'visible', 'height' : 'auto', 'overflow' : 'inherit'} );
 			} else {
-				$(".email_inquiry_hide_price_after_login_container").hide();
+				$('.email_inquiry_hide_price_after_login_container').css( {'visibility': 'hidden', 'height' : '0px', 'overflow' : 'hidden'} );
 			}
 			if ( $("input.activate_order_logged_in:checked").val() == 'yes') {
-				$(".role_apply_activate_order_logged_in_container").show();
+				$('.role_apply_activate_order_logged_in_container').css( {'visibility': 'visible', 'height' : 'auto', 'overflow' : 'inherit'} );
 			} else {
-				$(".role_apply_activate_order_logged_in_container").hide();
+				$('.role_apply_activate_order_logged_in_container').css( {'visibility': 'hidden', 'height' : '0px', 'overflow' : 'hidden'} );
 			}
 			
 		},
@@ -871,9 +1014,12 @@ $(document).ready(function() {
 			// deactivate Auto Quote Rule, Add to Order Rule
 			// deactivate Hide Add to Cart Rule, activated Hide Price Rule and disabled both to admin can't change the status
 			$(document).on( "a3rev-ui-onoff_checkbox-switch", '.apply_manual_quote_rule', function( event, value, status ) {
+				$('.enable_guest_checkout_container').hide().css( {'visibility': 'visible', 'height' : 'auto', 'overflow' : 'inherit'} );
 				if ( status == 'true' ) {
 					$('input.apply_auto_quote_rule').removeAttr('checked').iphoneStyle("refresh");
 					$('input.apply_add_to_order_rule').removeAttr('checked').iphoneStyle("refresh");
+					
+					$('.manual_quote_enable_guest_checkout_container').slideDown();
 				}
 			});
 			
@@ -881,9 +1027,11 @@ $(document).ready(function() {
 			// deactivate Manual Quote Rule, Add to Order Rule
 			// deactivate Hide Add to Cart Rule, activated Hide Price Rule and disabled both to admin can't change the status
 			$(document).on( "a3rev-ui-onoff_checkbox-switch", '.apply_auto_quote_rule', function( event, value, status ) {
+				$('.enable_guest_checkout_container').hide().css( {'visibility': 'visible', 'height' : 'auto', 'overflow' : 'inherit'} );
 				if ( status == 'true' ) {
 					$('input.apply_manual_quote_rule').removeAttr('checked').iphoneStyle("refresh");
 					$('input.apply_add_to_order_rule').removeAttr('checked').iphoneStyle("refresh");
+					$('.auto_quote_enable_guest_checkout_container').slideDown();
 				}
 			});
 			
@@ -891,9 +1039,13 @@ $(document).ready(function() {
 			// deactivate Manual Quote Rule, Auto Quote Rule
 			// deactivate Hide Add to Cart Rule, Hide Price Rule and disabled them
 			$(document).on( "a3rev-ui-onoff_checkbox-switch-end", '.apply_add_to_order_rule', function( event, value, status ) {
+				$('.enable_guest_checkout_container').hide().css( {'visibility': 'visible', 'height' : 'auto', 'overflow' : 'inherit'} );
 				if ( status == 'true' ) {
 					$('input.apply_manual_quote_rule').removeAttr('checked').iphoneStyle("refresh");
 					$('input.apply_auto_quote_rule').removeAttr('checked').iphoneStyle("refresh");
+
+					$('.order_mode_enable_guest_checkout_container').slideDown();
+
 				}
 			});
 
@@ -903,13 +1055,16 @@ $(document).ready(function() {
 			 * Show Roles dropdown for : Hide Add to Cart, Show Email Inquiry Button, Hide Price, Add to Order rules
 			 */
 			$(document).on( "a3rev-ui-onoff_checkbox-switch", '.hide_addcartbt_after_login', function( event, value, status ) {
+				$('.hide_addcartbt_after_login_container').hide().css( {'visibility': 'visible', 'height' : 'auto', 'overflow' : 'inherit'} );
 				if ( status == 'true' ) {
 					$(".hide_addcartbt_after_login_container").slideDown();
 				} else {
 					$(".hide_addcartbt_after_login_container").slideUp();
 				}
 			});
+			
 			$(document).on( "a3rev-ui-onoff_checkbox-switch", '.email_inquiry_hide_price_after_login', function( event, value, status ) {
+				$('.email_inquiry_hide_price_after_login_container').hide().css( {'visibility': 'visible', 'height' : 'auto', 'overflow' : 'inherit'} );
 				if ( status == 'true' ) {
 					$(".email_inquiry_hide_price_after_login_container").slideDown();
 				} else {
@@ -917,6 +1072,7 @@ $(document).ready(function() {
 				}
 			});
 			$(document).on( "a3rev-ui-onoff_checkbox-switch", '.activate_order_logged_in', function( event, value, status ) {
+				$('.role_apply_activate_order_logged_in_container').hide().css( {'visibility': 'visible', 'height' : 'auto', 'overflow' : 'inherit'} );
 				if ( status == 'true' ) {
 					$(".role_apply_activate_order_logged_in_container").slideDown();
 				} else {
@@ -961,20 +1117,20 @@ $(document).ready(function() {
 			
 			$("select.role_apply_manual_quote").on( 'change', function() {
 				a3revEIRulesRoles.rulesRolesSchema();
-				$("select.role_apply_auto_quote").trigger("liszt:updated");
-				$("select.role_apply_activate_order_logged_in").trigger("liszt:updated");
+				$("select.role_apply_auto_quote").trigger("chosen:updated");
+				$("select.role_apply_activate_order_logged_in").trigger("chosen:updated");
 			});
 			
 			$("select.role_apply_auto_quote").on( 'change', function() {
 				a3revEIRulesRoles.rulesRolesSchema();
-				$("select.role_apply_manual_quote").trigger("liszt:updated");
-				$("select.role_apply_activate_order_logged_in").trigger("liszt:updated");
+				$("select.role_apply_manual_quote").trigger("chosen:updated");
+				$("select.role_apply_activate_order_logged_in").trigger("chosen:updated");
 			});
 			
 			$("select.role_apply_activate_order_logged_in").on( 'change', function() {
 				a3revEIRulesRoles.rulesRolesSchema();
-				$("select.role_apply_manual_quote").trigger("liszt:updated");
-				$("select.role_apply_auto_quote").trigger("liszt:updated");
+				$("select.role_apply_manual_quote").trigger("chosen:updated");
+				$("select.role_apply_auto_quote").trigger("chosen:updated");
 			});
 		}
 	}
