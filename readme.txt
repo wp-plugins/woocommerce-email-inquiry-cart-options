@@ -2,17 +2,17 @@
 Contributors: a3rev, A3 Revolution Software Development team
 Tags: WooCommerce, WooCommerce Email Inquiry, WooCommerce Catalog Visibility, WooCommerce add to cart, WooCommerce Brochure Page, WooCommerce product Emails
 Requires at least: 3.8
-Tested up to: 3.9.2
-Stable tag: 1.2.0
+Tested up to: 4.0
+Stable tag: 1.2.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Set Product Page Rules, Hide Add to Cart, Show Email Inquiry, Filter Rules by Roles for logged in users. 100% Mobile responsive Email Inquiry form!  
+Set Product Page Rules, Hide Add to Cart, Show Email Inquiry, Filter Rules by Roles for logged in users. 100% Mobile responsive Email Inquiry form!
 == Description ==
 
 WooCommerce Email Inquiry & Cart Options allows you to fine tune the e-commerce accessibility on your WooCommerce site by setting 'Rules' that apply to all site visitors. Fine tune access to the e-commerce function for logged in users by assigning the Rules to WordPress user roles, including the WooCommerce Customer and Store manager Roles.
 
-Add a space saving and impressive pop-up email inquiry form to your product offering. Pop-up Email Inquiry form is 100% mobile responsive and displays the form beautifully in any mobile in portrait or landscape. 
+Add a space saving and impressive pop-up email inquiry form to your product offering. Pop-up Email Inquiry form is 100% mobile responsive and displays the form beautifully in any mobile in portrait or landscape.
 
 = Catalog Visibility Rules =
 
@@ -30,7 +30,7 @@ Fine tune your entire Catalog visibility by
 
 = Hide 'Add to Cart' =
 
-* Turn the Rule ON and Hide the add to cart feature from all not logged in users. 
+* Turn the Rule ON and Hide the add to cart feature from all not logged in users.
 *  Use Roles to give selected users grouped by Roles access to full store functionality.
 
 = Email Product Inquiry =
@@ -44,9 +44,9 @@ WooCommerce Email Inquiry & Cart Options uses the WordPress email config and req
 * Email Contact form breaks down to show beautifully in any mobile device.
 * Use 'Rules and Roles' setting to customize who can see the Email Inquiry button once they are logged in.
 * Set the receiver email address.
-* Set a receiver cc email address 
+* Set a receiver cc email address
 * Fully customizable Sent success message shows as a pop-up on screen after inquiry is submitted.
-* Use the WordPress text editor (WYSIWYG and HTML) to style the success message (see image under the Screenshots tab on this page). 
+* Use the WordPress text editor (WYSIWYG and HTML) to style the success message (see image under the Screenshots tab on this page).
 
 = Mobile Responsive App style admin interface =
 
@@ -78,7 +78,7 @@ This plugin has a choice of 3 Pro version upgrade plugins that add more function
 [WooCommerce Email Inquiry & Cart Options Pro](http://a3rev.com/shop/woocommerce-email-inquiry-and-cart-options/) features:
 
 * Hide Products Prices. The Pro Version includes the additional Product Page Rule: Hide Product Prices.
-* Per Product Page Customization. Customize Product Page Rules for every individual product from the Product page Email and Cart meta. 
+* Per Product Page Customization. Customize Product Page Rules for every individual product from the Product page Email and Cart meta.
 * Gives you tremendous flexibility in setting up a mixed 'add to cart' and product brochure store.
 * All plugins front end display created with Sass #dymanic {stylesheets}
 * Sass #dynamic {stylesheets} Email Inquiry button creator - allows you to style the button anyway you like without writing a line of code.
@@ -86,7 +86,7 @@ This plugin has a choice of 3 Pro version upgrade plugins that add more function
 * Option to show the Email Inquiry Button or Hyperlink text on product card (Grid View)
 * Option to allow the sender to send a copy of the Email Inquiry form they are submitting to themselves.
 * Option to set Email Sender Options - Set the email 'From Name' and 'From Email Address'
-* 100% WPML compatibility for all static and dynamic text. 
+* 100% WPML compatibility for all static and dynamic text.
 
 
 = WooCommerce Email Inquiry Ultimate =
@@ -107,10 +107,10 @@ This plugin has a choice of 3 Pro version upgrade plugins that add more function
 
 * Includes every feature listed above
 * All plugins front end display created with Sass #dymanic {stylesheets}
-* Adds all new 3 Store Rules, Manual Quote, Auto Quote and Add to Order.  
+* Adds all new 3 Store Rules, Manual Quote, Auto Quote and Add to Order.
 * Auto Converts the WooCommerce add to cart function into the activated Store Rule function.
 * Apply a Store Rule to not logged in users and then Filter by selected Roles for logged in users.
-* Choice of Manual Quotes or Auto Quotes  
+* Choice of Manual Quotes or Auto Quotes
 	- Users never see product prices
 	- Add products to 'Request a Quote' cart.
 	- Fully integrated with WooCommerce - submit Quote request and saved as new Order Status 'Quotes'
@@ -119,16 +119,16 @@ This plugin has a choice of 3 Pro version upgrade plugins that add more function
 	- Manual Quotes - Submit Quote Prices 'Off line' or edit Quote and send to client from the Edit Order dashboard.
 	- Auto Quotes - Quote Request Received Email shows products prices with link to pay for the order. Client still never sees prices on products on your store.
 * Use Manual' Quote Mode when you want to submit quote prices off-line after the Quote request is received.
-* Generate Instant and payable (via your payment gateways) Quotes including shipping and taxes with Auto Quotes Mode.  
+* Generate Instant and payable (via your payment gateways) Quotes including shipping and taxes with Auto Quotes Mode.
 * Add to Order for Business to Business users.
-	- Converts the WooCommerce add to cart function into a client friendly on-line Ordering system. 
+	- Converts the WooCommerce add to cart function into a client friendly on-line Ordering system.
 	- Ideal for businesses with monthly account clients.
 	- Customizable Orders My Cart, Checkout, Order Received Templates
 	- Built in Orders payment gateway removes WooCommerce payment requests
 	- Customizable Email Order received and account created email templates.
 	- Fully integrated with WooCommerce 'Orders' system.
 	- Fully integrated with WooCommerce My Account dashboard.
-* 100% WPML compatibility for all static and dynamic text. 
+* 100% WPML compatibility for all static and dynamic text.
 
 = Localization =
 
@@ -150,12 +150,12 @@ This plugin has a choice of 3 Pro version upgrade plugins that add more function
 * WooCommerce v2.1 and backwards.
 * PHP version 5.2.4 or greater
 * MySQL version 5.0 or greater
- 
+
 = Automatic installation =
 
-Automatic installation is the easiest option as WordPress handles the file transfers itself and you don't even need to leave your web browser. To do an automatic install of WooCommerce Email Inquiry & Cart Options, log in to your WordPress admin panel, navigate to the Plugins menu and click Add New. 
+Automatic installation is the easiest option as WordPress handles the file transfers itself and you don't even need to leave your web browser. To do an automatic install of WooCommerce Email Inquiry & Cart Options, log in to your WordPress admin panel, navigate to the Plugins menu and click Add New.
 
-In the search field type "WooCommerce Email Inquiry & Cart Options" and click Search Plugins. Once you have found our plugin you can install it by simply clicking Install Now. After clicking that link you will be asked if you are sure you want to install the plugin. Click yes and WordPress will automatically complete the installation. 
+In the search field type "WooCommerce Email Inquiry & Cart Options" and click Search Plugins. Once you have found our plugin you can install it by simply clicking Install Now. After clicking that link you will be asked if you are sure you want to install the plugin. Click yes and WordPress will automatically complete the installation.
 
 = Manual installation =
 
@@ -168,12 +168,12 @@ The manual installation method involves downloading our plugin and uploading it 
 
 == Screenshots ==
 
-1. Transform your WooCommerce store into a brochure site with email inquiry pop up for front end users. 
+1. Transform your WooCommerce store into a brochure site with email inquiry pop up for front end users.
 2. Set Rules that apply to all front end users and then select user Roles that the Rule is to apply to.
 3. The on page Email pop-up form
 4. The on page Email sent success message also shows in the pop up.
 5. Use the WordPress text editor to fully customize your success message.
- 
+
 == Usage ==
 
 1. Install and activate the plugin
@@ -191,9 +191,15 @@ The manual installation method involves downloading our plugin and uploading it 
 = When can I use this plugin? =
 
 You can use this plugin only when you have installed the WooCommerce plugin.
- 
- 
+
+
 == Changelog ==
+
+= 1.2.1 - 2014/09/12 =
+* Tweak - Tested 100% compatible with WooCommerce 2.2.2
+* Tweak - Tested 100% compatible with WordPress Version 4.0
+* Tweak - Added WordPress plugin icon
+* Fix - Changed __DIR__ to dirname( __FILE__ ) for Sass script so that on some server __DIR___ is not defined
 
 = 1.2.0 - 2014/09/03 =
 * Feature - Converted all front end CSS #dynamic {stylesheets} to Sass #dynamic {stylesheets} for faster loading.
@@ -201,16 +207,16 @@ You can use this plugin only when you have installed the WooCommerce plugin.
 * Tweak - Updated google font face in plugin framework.
 * Tweak - Tested 100% compatible with WooCommerce Version 2.2 and backwards to v2.1
 
-= 1.1.0.4 - 2014/06/28 = 
-* Tweak - Change wp_register_script( 'a3rev-chosen') to wp_register_script( 'a3rev-chosen-new') 
-* Tweak - Added all Quotes and Orders settings to admin dashboard for full upgrade compatibility 
-* Tweak - Added Italian Translation thanks to Fabio Biocchetti 
-* Fix - Add @ for called session_start() function to fix uncaught header warning message. 
+= 1.1.0.4 - 2014/06/28 =
+* Tweak - Change wp_register_script( 'a3rev-chosen') to wp_register_script( 'a3rev-chosen-new')
+* Tweak - Added all Quotes and Orders settings to admin dashboard for full upgrade compatibility
+* Tweak - Added Italian Translation thanks to Fabio Biocchetti
+* Fix - Add @ for called session_start() function to fix uncaught header warning message.
 
-= 1.1.0.3 - 2014/06/17 = 
-* Tweak - Updated chosen js script to latest version 1.0.1 on the a3rev Plugin Framework 
-* Tweak - Added support for placeholder feature for input, email , password , text area types 
-* Tweak - Tested 100% compatible with WooCommerce version 2.1.11 
+= 1.1.0.3 - 2014/06/17 =
+* Tweak - Updated chosen js script to latest version 1.0.1 on the a3rev Plugin Framework
+* Tweak - Added support for placeholder feature for input, email , password , text area types
+* Tweak - Tested 100% compatible with WooCommerce version 2.1.11
 
 = 1.1.0.2 - 2014/05/26 =
 * Feature - Show uploaded files as Hyplerlinked File name on Order Received page and customer email. WooCommerce by default shows URL.
@@ -252,10 +258,10 @@ You can use this plugin only when you have installed the WooCommerce plugin.
 = 1.0.9.3 - 2013/11/20 =
 * Fix - add filter to 'single_add_to_cart_text' for hide Add to Cart button for Child Products in Grouped Product when Hide Add to Cart Rule is ON.
 * Fix - add action to 'woocommerce_before_template_part' and 'woocommerce_after_template_part' for hide Child Products Quantity selector in Grouped Product when Hide Add to Cart is ON.
-* Credit - Thanks to Marc Schwinges Underdog Productions South Africa for alerting us to the issue and wp-admin and ftp access to find and fix the bug. 
+* Credit - Thanks to Marc Schwinges Underdog Productions South Africa for alerting us to the issue and wp-admin and ftp access to find and fix the bug.
 
 = 1.0.9.2 - 2013/11/18 =
-* Tweak - Moved - Hide Add to Cart and Hide Price Rules and Roles to the top of the Rules and Roles menu. 
+* Tweak - Moved - Hide Add to Cart and Hide Price Rules and Roles to the top of the Rules and Roles menu.
 * Tweak - Moved the Email Inquiry Rules & Roles settings from Rules & Roles menu to Email Inquiry menu > Settings tab.
 * Tweak - Moved the show Email Inquiry feature on Product Cards settings from Button Style tab to settings tab.
 * Tweak - Changed Product Cards activation syntax - ON is enables, OFF is disabled.
@@ -267,11 +273,11 @@ You can use this plugin only when you have installed the WooCommerce plugin.
 * Tweak - Stricter sanitization of Default Form Message input field. Only allow input of plain text with auto paragraph on line break.
 * Tweak - Added function .replace(/^\s+|\s+$/g, '') to check form for empty spaces for required fields Name, Email and Phone.
 * Tweak - Default Form Success Message Pop-up auto resizes to whatever the tall of the success message content is.
-* Tweak - Added class .email_inquiry_cb for Colorbox Pop-up tool content custom background display. 
+* Tweak - Added class .email_inquiry_cb for Colorbox Pop-up tool content custom background display.
 
 = 1.0.9 - 2013/11/01 =
 * Tweak - Removed dynamic pop-up wide setting and replaced with static pop-up max wide.
-* Tweak - Pop-up tools wide under 520px shows 100% wide of the screen for mobiles in portrait or landscape. 
+* Tweak - Pop-up tools wide under 520px shows 100% wide of the screen for mobiles in portrait or landscape.
 * Tweak - Default Form breaks down for greatly enhanced display in tablets and mobiles.
 * Tweak - Default Form - added static 20px content padding that auto reduces to 5px in tablets and mobiles.
 * Tweak - Default From - vertical alignment of the text fields
@@ -283,7 +289,7 @@ You can use this plugin only when you have installed the WooCommerce plugin.
 * Fix - Default form success message showing HTML tags with text.
 
 = 1.0.8 - 2013/10/25 =
-* Feature - Major plugin upgrade. Full code rework. 
+* Feature - Major plugin upgrade. Full code rework.
 * Feature - Upgraded the plugin to the newly developed a3rev admin Framework with app style interface.
 * Feature - Moved admin from WooCommerce settings tab onto its own Email Inquiry & Cart Options main menu item with sidebar sub menu.
 * Feature - Email Inquiry & Cart Options sub menus, Rules & Roles | Email Inquiry | Quotes Mode | Orders Mode
@@ -304,7 +310,7 @@ You can use this plugin only when you have installed the WooCommerce plugin.
 = 1.0.7 - 2013/08/09 =
 * Feature - Default Contact Form new options for 'Email Pop-up Font Styling'. Use WYSIWYG settings to set the default pop-ups Font type (choose from 17 web safe fonts), size, style and colour.
 * Tweak - Tested for full compatibility with WordPress v3.6.0
-* Fix - Script validate email for default contact form. Old script conflicted with WordPress 3.6.0 jQuery 1.10.2. Conflict caused the popup tools to break. 
+* Fix - Script validate email for default contact form. Old script conflicted with WordPress 3.6.0 jQuery 1.10.2. Conflict caused the popup tools to break.
 * Fix - Added box-sizing:content-box class attribute for compatibility with new WordPress Twenty Thirteen default theme.
 
 = 1.0.6 - 2013/06/28 =
@@ -318,7 +324,7 @@ You can use this plugin only when you have installed the WooCommerce plugin.
 * Feature - Email Inquiry - Settings. Added option to set relative Button or link position, Above or Below add to cart button position.
 * Feature - Email Inquiry - Settings. Added option to set padding for button / link position.
 * Feature - Email Inquiry - Settings. Added option to show Email Inquiry button / Link on product grid view extracts on shop and archives pages.
-* Tweak - Upgraded admin Yellow sidebar box information to show the 3 available feature Upgrade plugins.  
+* Tweak - Upgraded admin Yellow sidebar box information to show the 3 available feature Upgrade plugins.
 
 = 1.0.3.1 - 2013/06/05 =
 * Tweak - Upgraded and synched the plugins code to be inline with the new WooCommerce Quotes and Orders plugin. This allows users to seamlessly upgrade to that plugin at any time.
@@ -345,6 +351,9 @@ You can use this plugin only when you have installed the WooCommerce plugin.
 
 
 == Upgrade Notice ==
+
+= 1.2.1 =
+Upgrade now for 1 Sass bug fix and full compatibility with WooCommerce Version 2.2.2 and WordPress 4.0
 
 = 1.2.0 =
 Major version upgrade. Full front end and back end conversion to Sass and Tweaks for full compatibility with WooCommerce 2.2
