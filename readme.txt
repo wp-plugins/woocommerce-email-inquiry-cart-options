@@ -1,9 +1,9 @@
 === WooCommerce Email Inquiry & Cart Options ===
 Contributors: a3rev, A3 Revolution Software Development team
 Tags: WooCommerce, WooCommerce Email Inquiry, WooCommerce Catalog Visibility, WooCommerce add to cart, WooCommerce Brochure Page, WooCommerce product Emails
-Requires at least: 3.7
-Tested up to: 3.9.1
-Stable tag: 1.1.0.3
+Requires at least: 3.8
+Tested up to: 3.9.2
+Stable tag: 1.2.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -55,11 +55,22 @@ WooCommerce Email Inquiry & Cart Options uses the WordPress email config and req
 * App style admin inteface.
 * Admin interface is optimized for mobiles and tablets.
 
-= Lite Version Support =
+>= Sass and #dynamic {stylesheets} =
+> All front end style is created with Sass #dnymaic {stylesheets}
+> All admin panels style are created in Sass.
 
-As a Lite Version user please post all support requests to the plugins WordPress Support forum. We do not watch that forum and posting there you will be relying on another user for support not an a3rev team member. Pro Version License holders have 'write' access to the a3rev support forum and priority support, not from support staff but from the developers.
+= a3rev Plugins Lite & Pro Version Admin Interface =
 
-= Pro Version Upgrade =
+* All a3rev Lite Version plugins have exactly the same admin interface as the Pro Version.
+* Pro Version features and settings are inside of a Yellow border.
+* The Pro Version settings are all active on the admin panels But do not save and are not applied to the front end.
+* Upgrading to the Pro version activates all the Pro version Features and Settings and removes the Yellow side bar and borders.
+
+>= Premium Support =
+
+> The a3rev team does not provide support for the WooCommerce Email Inquiry and Cart Options plugin on the WordPress.org forums. One on one developer support is available via the plugins a3rev support forum to people who have purchased a Pro Version License.
+
+> The Pro Versions of this plugin have lots of extra features that coupled with developer support might be well worth your investment!
 
 This plugin has a choice of 3 Pro version upgrade plugins that add more functionality to this Free version. You will see all of the available upgrade features on the plugins admin panel, in the Yellow sidebar. Those Pro features include:
 
@@ -69,8 +80,9 @@ This plugin has a choice of 3 Pro version upgrade plugins that add more function
 * Hide Products Prices. The Pro Version includes the additional Product Page Rule: Hide Product Prices.
 * Per Product Page Customization. Customize Product Page Rules for every individual product from the Product page Email and Cart meta. 
 * Gives you tremendous flexibility in setting up a mixed 'add to cart' and product brochure store.
-* Point and click Email Inquiry button creator - allows you to style the button anyway you like without writing a line of code.
-* Point and click pop-up form creator allows you to style your email pop-up form without writing a line of code.
+* All plugins front end display created with Sass #dymanic {stylesheets}
+* Sass #dynamic {stylesheets} Email Inquiry button creator - allows you to style the button anyway you like without writing a line of code.
+* Sass #dynamic {stylesheets} pop-up form creator allows you to style your email pop-up form without writing a line of code.
 * Option to show the Email Inquiry Button or Hyperlink text on product card (Grid View)
 * Option to allow the sender to send a copy of the Email Inquiry form they are submitting to themselves.
 * Option to set Email Sender Options - Set the email 'From Name' and 'From Email Address'
@@ -94,6 +106,7 @@ This plugin has a choice of 3 Pro version upgrade plugins that add more function
 [WooCommerce Quotes and Orders](http://a3rev.com/shop/woocommerce-quotes-and-orders/) Features:
 
 * Includes every feature listed above
+* All plugins front end display created with Sass #dymanic {stylesheets}
 * Adds all new 3 Store Rules, Manual Quote, Auto Quote and Add to Order.  
 * Auto Converts the WooCommerce add to cart function into the activated Store Rule function.
 * Apply a Store Rule to not logged in users and then Filter by selected Roles for logged in users.
@@ -133,8 +146,8 @@ This plugin has a choice of 3 Pro version upgrade plugins that add more function
 
 = Minimum Requirements =
 
-* WordPress 3.5
-* WooCommerce v2.0 and backwards.
+* WordPress 3.8
+* WooCommerce v2.1 and backwards.
 * PHP version 5.2.4 or greater
 * MySQL version 5.0 or greater
  
@@ -181,6 +194,18 @@ You can use this plugin only when you have installed the WooCommerce plugin.
  
  
 == Changelog ==
+
+= 1.2.0 - 2014/09/03 =
+* Feature - Converted all front end CSS #dynamic {stylesheets} to Sass #dynamic {stylesheets} for faster loading.
+* Feature - Convert all back end CSS to Sass.
+* Tweak - Updated google font face in plugin framework.
+* Tweak - Tested 100% compatible with WooCommerce Version 2.2 and backwards to v2.1
+
+= 1.1.0.4 - 2014/06/28 = 
+* Tweak - Change wp_register_script( 'a3rev-chosen') to wp_register_script( 'a3rev-chosen-new') 
+* Tweak - Added all Quotes and Orders settings to admin dashboard for full upgrade compatibility 
+* Tweak - Added Italian Translation thanks to Fabio Biocchetti 
+* Fix - Add @ for called session_start() function to fix uncaught header warning message. 
 
 = 1.1.0.3 - 2014/06/17 = 
 * Tweak - Updated chosen js script to latest version 1.0.1 on the a3rev Plugin Framework 
@@ -320,6 +345,12 @@ You can use this plugin only when you have installed the WooCommerce plugin.
 
 
 == Upgrade Notice ==
+
+= 1.2.0 =
+Major version upgrade. Full front end and back end conversion to Sass and Tweaks for full compatibility with WooCommerce 2.2
+
+= 1.1.0.4 =
+Upgrade your plugin now for 1 framework code tweak, 1 bug fix and new Italian translation.
 
 = 1.1.0.3 =
 Upgrade now for 2 framework code tweaks that makes your plugin fully compatible with WooCommerce version 2.1.11
