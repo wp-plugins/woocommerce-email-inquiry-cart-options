@@ -195,7 +195,7 @@ You can use this plugin only when you have installed the WooCommerce plugin.
 
 == Changelog ==
 
-== 1.2.2 - 2015/02/02 ==
+= 1.2.2 - 2015/02/02 =
 * Tweak - Removed CSS Class input box from the Default Email form button style settings.
 * Tweak - Tested for 100% compatibility with WooCommerce version 2.2.11
 * Tweak - Tested and Tweaked for 100% compatibility with WordPress version 4.1.0
