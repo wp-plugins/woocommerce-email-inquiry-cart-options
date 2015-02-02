@@ -288,7 +288,9 @@ class WC_Email_Inquiry_Functions
 		$html .= '<h3>'.__('More FREE a3rev WordPress plugins', 'wc_email_inquiry').'</h3>';
 		$html .= '<p>';
 		$html .= '<ul style="padding-left:10px;">';
-		$html .= '<li>* <a href="http://wordpress.org/plugins/a3-responsive-slider/" target="_blank">'.__('a3 Responsive Slider', 'wc_email_inquiry').'</a>&nbsp;&nbsp;&nbsp;'.__( 'New Release!' , 'wc_email_inquiry' ).'</li>';
+		$html .= '<li>* <a href="https://wordpress.org/plugins/a3-lazy-load/" target="_blank">'.__('a3 Lazy Load', 'wc_email_inquiry').'</a> ('.__( 'WooCommerce Compatible' , 'wc_email_inquiry' ).')</li>';
+		$html .= '<li>* <a href="https://wordpress.org/plugins/a3-portfolio/" target="_blank">'.__('a3 Portfolio', 'wc_email_inquiry').'</a></li>';
+		$html .= '<li>* <a href="http://wordpress.org/plugins/a3-responsive-slider/" target="_blank">'.__('a3 Responsive Slider', 'wc_email_inquiry').'</a></li>';
 		$html .= '<li>* <a href="http://wordpress.org/plugins/contact-us-page-contact-people/" target="_blank">'.__('Contact Us Page - Contact People', 'wc_email_inquiry').'</a></li>';
 		$html .= '<li>* <a href="http://wordpress.org/extend/plugins/wp-email-template/" target="_blank">'.__('WordPress Email Template', 'wc_email_inquiry').'</a></li>';
 		$html .= '<li>* <a href="http://wordpress.org/extend/plugins/page-views-count/" target="_blank">'.__('Page View Count', 'wc_email_inquiry').'</a></li>';

@@ -16,7 +16,7 @@ class WC_Email_Inquiry_Less
     public function __construct()
     {
 		add_action( $this->plugin_name.'_after_settings_save_reset', array ($this, 'plugin_build_sass') );
-		add_action( 'wp_head', array ($this, 'apply_style_css_fontend') , 11 );
+		add_action( 'wp_head', array ($this, 'apply_style_css_fontend') , 9 );
     }
 	
 	public function apply_style_css_fontend()
@@ -58,6 +58,14 @@ class WC_Email_Inquiry_Less
             @file_put_contents($_upload_dir['basedir'] . '/sass/' . $filename . '.css', '');
             @file_put_contents($_upload_dir['basedir'] . '/sass/' . $filename . '.min.css', '');
         }
+
+        $mixins = $this->css_file_name . '_mixins';
+        if( !file_exists( $_upload_dir['basedir'].'/sass/'.$mixins.'.less' ) ){
+            $mixinsless = $this->plugin_dir.'/admin/less/assets/css/mixins.less';
+            $a3rev_mixins_less = $_upload_dir['basedir'].'/sass/'.$mixins.'.less';
+            @copy($mixinsless, $a3rev_mixins_less);
+        }
+
         $files = array_diff(scandir($_upload_dir['basedir'] . '/sass'), array(
             '.',
             '..'
@@ -71,9 +79,9 @@ class WC_Email_Inquiry_Less
         $sass_data = '';
       
         if ($sass != '') {
-            
-            $sass_data = '@import "'.$this->plugin_dir.'/admin/less/assets/css/mixins.less";' . "\n";
-            
+
+            $sass_data = '@import "'.$mixins.'.less";' . "\n";
+
             $sass_data .= $sass;
             
             $sass_data = str_replace(':;', ': transparent;', $sass_data);
@@ -104,7 +112,8 @@ class WC_Email_Inquiry_Less
 		include( $this->plugin_dir. '/templates/customized_style.php' );
 		$sass = ob_get_clean();
 		$sass = str_replace( '<style>', '', str_replace( '</style>', '', $sass ) );
-		
+		$sass = str_replace( '<style type="text/css">', '', str_replace( '</style>', '', $sass ) );
+
         // Start Less
         $sass_ext = '';
         

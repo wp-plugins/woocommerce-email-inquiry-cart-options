@@ -2,8 +2,8 @@
 Contributors: a3rev, A3 Revolution Software Development team
 Tags: WooCommerce, WooCommerce Email Inquiry, WooCommerce Catalog Visibility, WooCommerce add to cart, WooCommerce Brochure Page, WooCommerce product Emails
 Requires at least: 3.8
-Tested up to: 4.0
-Stable tag: 1.2.1
+Tested up to: 4.1
+Stable tag: 1.2.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -195,6 +195,13 @@ You can use this plugin only when you have installed the WooCommerce plugin.
 
 == Changelog ==
 
+== 1.2.2 - 2015/02/02 ==
+* Tweak - Removed CSS Class input box from the Default Email form button style settings.
+* Tweak - Tested for 100% compatibility with WooCommerce version 2.2.11
+* Tweak - Tested and Tweaked for 100% compatibility with WordPress version 4.1.0
+* Tweak - Added Link to new plugins a3 Lazy Load and a3 Portfolio to the Free WordPress plugins list in yelow sidebar.
+* Fix - Sass compile path not saving on windows xampp.
+
 = 1.2.1 - 2014/09/12 =
 * Tweak - Tested 100% compatible with WooCommerce 2.2.2
 * Tweak - Tested 100% compatible with WordPress Version 4.0
@@ -351,6 +358,9 @@ You can use this plugin only when you have installed the WooCommerce plugin.
 
 
 == Upgrade Notice ==
+
+= 1.2.2 =
+Upgrade now for full compatibility with WooCommerce 2.2.11 and WordPress 4.1. Includes 1 code tweak and a bug fix.
 
 = 1.2.1 =
 Upgrade now for 1 Sass bug fix and full compatibility with WooCommerce Version 2.2.2 and WordPress 4.0

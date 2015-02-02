@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WP e-Commerce Catalog Visibility Email inquiry PRO\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-28 10:19+0700\n"
-"PO-Revision-Date: 2014-06-28 10:19+0700\n"
+"POT-Creation-Date: 2015-02-02 12:10+0700\n"
+"PO-Revision-Date: 2015-02-02 12:10+0700\n"
 "Last-Translator: Nguyen Cong Tuan <mr.nguyencongtuan@gmail.com>\n"
 "Language-Team: a3rev\n"
 "Language: it_IT\n"
@@ -84,8 +84,8 @@ msgstr "Interno"
 msgid "Outset"
 msgstr "Esterno"
 
-#: admin/admin-interface.php:1354 admin/admin-interface.php:1444
-#: admin/admin-interface.php:1473
+#: admin/admin-interface.php:1359 admin/admin-interface.php:1449
+#: admin/admin-interface.php:1478
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:232
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:238
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:244
@@ -137,8 +137,8 @@ msgstr "Esterno"
 msgid "ON"
 msgstr "ON"
 
-#: admin/admin-interface.php:1355 admin/admin-interface.php:1445
-#: admin/admin-interface.php:1474
+#: admin/admin-interface.php:1360 admin/admin-interface.php:1450
+#: admin/admin-interface.php:1479
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:233
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:239
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:245
@@ -182,65 +182,65 @@ msgstr "ON"
 msgid "OFF"
 msgstr "OFF"
 
-#: admin/admin-interface.php:1515
+#: admin/admin-interface.php:1520
 msgid "Width"
 msgstr "Larghezza"
 
-#: admin/admin-interface.php:1517
+#: admin/admin-interface.php:1522
 msgid "Height"
 msgstr "Altezza"
 
-#: admin/admin-interface.php:1519
+#: admin/admin-interface.php:1524
 msgid "Hard Crop"
 msgstr "Forzatura Ritaglio"
 
-#: admin/admin-interface.php:1596
+#: admin/admin-interface.php:1601
 msgid "-- Default Fonts --"
 msgstr "-- Font Predefinite --"
 
-#: admin/admin-interface.php:1607
+#: admin/admin-interface.php:1612
 msgid "-- Google Fonts --"
 msgstr "-- Font Google --"
 
-#: admin/admin-interface.php:1648
+#: admin/admin-interface.php:1653
 msgid "Preview your customized typography settings"
 msgstr "Anteprima delle impostazioni di tipografia"
 
-#: admin/admin-interface.php:1782 admin/admin-interface.php:2041
+#: admin/admin-interface.php:1787 admin/admin-interface.php:2046
 msgid "Preview your customized border settings"
 msgstr "Anteprima delle impostazioni dei bordi"
 
-#: admin/admin-interface.php:1791 admin/admin-interface.php:2032
+#: admin/admin-interface.php:1796 admin/admin-interface.php:2037
 msgid "Rounded"
 msgstr "Arrotondato"
 
-#: admin/admin-interface.php:1792 admin/admin-interface.php:2033
+#: admin/admin-interface.php:1797 admin/admin-interface.php:2038
 msgid "Square"
 msgstr "Squadrato"
 
-#: admin/admin-interface.php:1802 admin/admin-interface.php:2046
+#: admin/admin-interface.php:1807 admin/admin-interface.php:2051
 msgid "Top Left Corner"
 msgstr "In alto a sinistra"
 
-#: admin/admin-interface.php:1822 admin/admin-interface.php:2066
+#: admin/admin-interface.php:1827 admin/admin-interface.php:2071
 msgid "Top Right Corner"
 msgstr "In alto a destra"
 
-#: admin/admin-interface.php:1842 admin/admin-interface.php:2086
+#: admin/admin-interface.php:1847 admin/admin-interface.php:2091
 msgid "Bottom Right Corner"
 msgstr "In basso a destra"
 
-#: admin/admin-interface.php:1862 admin/admin-interface.php:2106
+#: admin/admin-interface.php:1867 admin/admin-interface.php:2111
 msgid "Bottom Left Corner"
 msgstr "In basso a sinistra"
 
-#: admin/admin-interface.php:1955
+#: admin/admin-interface.php:1960
 msgid "Preview your customized border styles settings"
 msgstr "Anteprima dello stile dei bordi"
 
-#: admin/admin-interface.php:2167
-#: admin/settings/email-inquiry-3rd-contact-form-settings.php:313
-#: admin/settings/email-inquiry-button-style-settings.php:418
+#: admin/admin-interface.php:2172
+#: admin/settings/email-inquiry-3rd-contact-form-settings.php:332
+#: admin/settings/email-inquiry-button-style-settings.php:411
 #: admin/settings/email-inquiry-contact-form-global-settings.php:245
 #: admin/settings/orders-mode/new-account-email-settings.php:259
 #: admin/settings/orders-mode/new-account-email-settings.php:265
@@ -251,18 +251,15 @@ msgstr "Anteprima dello stile dei bordi"
 #: admin/settings/quotes-mode/new-account-email-settings.php:238
 #: admin/settings/quotes-mode/new-account-email-settings.php:244
 #: admin/settings/quotes-mode/new-account-email-settings.php:250
-#: admin/settings/quotes-mode/quotes-emails-settings.php:244
-#: admin/settings/quotes-mode/quotes-emails-settings.php:250
-#: admin/settings/quotes-mode/quotes-emails-settings.php:256
 #: admin/settings/quotes-mode/send-quote-email-settings.php:239
 #: admin/settings/quotes-mode/send-quote-email-settings.php:245
 #: admin/settings/quotes-mode/send-quote-email-settings.php:251
 msgid "YES"
 msgstr "SI"
 
-#: admin/admin-interface.php:2168
-#: admin/settings/email-inquiry-3rd-contact-form-settings.php:314
-#: admin/settings/email-inquiry-button-style-settings.php:419
+#: admin/admin-interface.php:2173
+#: admin/settings/email-inquiry-3rd-contact-form-settings.php:333
+#: admin/settings/email-inquiry-button-style-settings.php:412
 #: admin/settings/email-inquiry-contact-form-global-settings.php:246
 #: admin/settings/orders-mode/new-account-email-settings.php:260
 #: admin/settings/orders-mode/new-account-email-settings.php:266
@@ -273,48 +270,45 @@ msgstr "SI"
 #: admin/settings/quotes-mode/new-account-email-settings.php:239
 #: admin/settings/quotes-mode/new-account-email-settings.php:245
 #: admin/settings/quotes-mode/new-account-email-settings.php:251
-#: admin/settings/quotes-mode/quotes-emails-settings.php:245
-#: admin/settings/quotes-mode/quotes-emails-settings.php:251
-#: admin/settings/quotes-mode/quotes-emails-settings.php:257
 #: admin/settings/quotes-mode/send-quote-email-settings.php:240
 #: admin/settings/quotes-mode/send-quote-email-settings.php:246
 #: admin/settings/quotes-mode/send-quote-email-settings.php:252
 msgid "NO"
 msgstr "NO"
 
-#: admin/admin-interface.php:2182
+#: admin/admin-interface.php:2187
 msgid "Horizontal Shadow"
 msgstr "Ombra Orizzontale"
 
-#: admin/admin-interface.php:2200
+#: admin/admin-interface.php:2205
 msgid "Vertical Shadow"
 msgstr "Ombra Verticale"
 
-#: admin/admin-interface.php:2218
+#: admin/admin-interface.php:2223
 msgid "Blur Distance"
 msgstr "Distanza Sfocatura"
 
-#: admin/admin-interface.php:2236
+#: admin/admin-interface.php:2241
 msgid "Spread Size"
 msgstr "Dimensioni"
 
-#: admin/admin-interface.php:2254
+#: admin/admin-interface.php:2259
 msgid "INNER"
 msgstr "INTERNA"
 
-#: admin/admin-interface.php:2255
+#: admin/admin-interface.php:2260
 msgid "OUTER"
 msgstr "ESTERNA"
 
-#: admin/admin-interface.php:2273
+#: admin/admin-interface.php:2278
 msgid "Preview your customized box shadow settings"
 msgstr "Anteprima dell'ombreggiatura"
 
-#: admin/admin-interface.php:2509
+#: admin/admin-interface.php:2514
 msgid "Save changes"
 msgstr "Salva cambiamenti"
 
-#: admin/admin-interface.php:2510
+#: admin/admin-interface.php:2515
 msgid "Reset Settings"
 msgstr "Ripristina Impostazioni"
 
@@ -640,15 +634,38 @@ msgid "Select Page"
 msgstr "Seleziona Pagina"
 
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:300
+#, fuzzy
+msgid "Form Header Message"
+msgstr "Messaggio Carrello Vuoto"
+
+#: admin/settings/email-inquiry-3rd-contact-form-settings.php:305
+#, fuzzy
+msgid "Header Meassage"
+msgstr "Messaggio di Errore"
+
+#: admin/settings/email-inquiry-3rd-contact-form-settings.php:306
+msgid "empty and no message will show at the top of the form"
+msgstr ""
+
+#: admin/settings/email-inquiry-3rd-contact-form-settings.php:309
+msgid "You are making an Email Inquiry about:"
+msgstr ""
+
+#: admin/settings/email-inquiry-3rd-contact-form-settings.php:312
+#, fuzzy
+msgid "Meassage Font"
+msgstr "Contenuto Messaggio"
+
+#: admin/settings/email-inquiry-3rd-contact-form-settings.php:319
 msgid "Reset Products Contact Form Shortcodes"
 msgstr "Ripristina i codici del Form di Contatto dei Prodotti"
 
-#: admin/settings/email-inquiry-3rd-contact-form-settings.php:305
-#: admin/settings/email-inquiry-button-style-settings.php:410
+#: admin/settings/email-inquiry-3rd-contact-form-settings.php:324
+#: admin/settings/email-inquiry-button-style-settings.php:403
 msgid "Global Re-Set"
 msgstr "Ripristino Globale"
 
-#: admin/settings/email-inquiry-3rd-contact-form-settings.php:306
+#: admin/settings/email-inquiry-3rd-contact-form-settings.php:325
 msgid ""
 "Set to Yes and Save Changes will reset all products that have a unique "
 "contact form shortcode to the form shortcode set on this page."
@@ -755,8 +772,8 @@ msgid "&lt;empty&gt; for default 'Product Enquiry' or enter text"
 msgstr "&lt;empty&gt; per 'Richiesta Prodotto' o inserisci il testo"
 
 #: admin/settings/email-inquiry-button-style-settings.php:299
-#: classes/class-wc-email-inquiry-hook.php:142
-#: classes/class-wc-email-inquiry-hook.php:227
+#: classes/class-wc-email-inquiry-hook.php:141
+#: classes/class-wc-email-inquiry-hook.php:225
 msgid "Product Enquiry"
 msgstr "Richiesta Prodotto"
 
@@ -826,72 +843,61 @@ msgstr "Font Pulsante"
 msgid "Button Shadow"
 msgstr "Ombra Pulsante"
 
-#: admin/settings/email-inquiry-button-style-settings.php:358
-#: admin/settings/read-more/under-image-style-settings.php:361
-msgid "CSS Class"
-msgstr "Classe CSS"
-
 #: admin/settings/email-inquiry-button-style-settings.php:359
-#: admin/settings/email-inquiry-popup-form-style-settings.php:392
-#: admin/settings/read-more/under-image-style-settings.php:362
-msgid "Enter your own button CSS class"
-msgstr "Inserisci una tua classe CSS per il pulsante"
-
-#: admin/settings/email-inquiry-button-style-settings.php:366
 #: admin/settings/read-more/under-image-style-settings.php:264
 msgid "Hyperlink Styling"
 msgstr "Stile Ipertesto"
 
-#: admin/settings/email-inquiry-button-style-settings.php:371
+#: admin/settings/email-inquiry-button-style-settings.php:364
 msgid "Text Before"
 msgstr "Testo Precedente"
 
-#: admin/settings/email-inquiry-button-style-settings.php:372
+#: admin/settings/email-inquiry-button-style-settings.php:365
 msgid "&lt;empty&gt; for default 'no text' or add text to prepent link text"
 msgstr ""
 "&lt;empty&gt; per inserire 'nessun testo' oppur aggiungi un testo a tua "
 "scelta"
 
-#: admin/settings/email-inquiry-button-style-settings.php:378
+#: admin/settings/email-inquiry-button-style-settings.php:371
 #: admin/settings/read-more/under-image-style-settings.php:269
 msgid "Hyperlink Text"
 msgstr "Collegamento Ipertestuale"
 
-#: admin/settings/email-inquiry-button-style-settings.php:379
+#: admin/settings/email-inquiry-button-style-settings.php:372
 msgid "&lt;empty&gt; for default 'Click Here' or your own text"
 msgstr "&lt;empty&gt; per 'Clicca Qui' o aggiungi un testo a tua scelta"
 
-#: admin/settings/email-inquiry-button-style-settings.php:382
-#: classes/class-wc-email-inquiry-hook.php:136
-#: classes/class-wc-email-inquiry-hook.php:232
+#: admin/settings/email-inquiry-button-style-settings.php:375
+#: classes/class-wc-email-inquiry-hook.php:135
+#: classes/class-wc-email-inquiry-hook.php:230
 msgid "Click Here"
 msgstr "Clicca Qui"
 
-#: admin/settings/email-inquiry-button-style-settings.php:385
+#: admin/settings/email-inquiry-button-style-settings.php:378
 msgid "Trailing Text"
 msgstr "Testo Traccia"
 
-#: admin/settings/email-inquiry-button-style-settings.php:386
+#: admin/settings/email-inquiry-button-style-settings.php:379
 msgid "&lt;empty&gt; for default 'no text' or add text to trail linked text"
 msgstr ""
 "&lt;empty&gt; per inserire 'nessun testo' o aggiungi un testo per il testo "
 "traccia"
 
-#: admin/settings/email-inquiry-button-style-settings.php:392
+#: admin/settings/email-inquiry-button-style-settings.php:385
 #: admin/settings/read-more/under-image-style-settings.php:276
 msgid "Hyperlink Font"
 msgstr "Font Ipertesto"
 
-#: admin/settings/email-inquiry-button-style-settings.php:399
+#: admin/settings/email-inquiry-button-style-settings.php:392
 #: admin/settings/read-more/under-image-style-settings.php:283
 msgid "Hyperlink hover Colour"
 msgstr "Colore al Passaggio Ipertesto"
 
-#: admin/settings/email-inquiry-button-style-settings.php:406
+#: admin/settings/email-inquiry-button-style-settings.php:399
 msgid "Reset Products Button Style"
 msgstr "Ripristina Stile del Pulsante Prodotti"
 
-#: admin/settings/email-inquiry-button-style-settings.php:411
+#: admin/settings/email-inquiry-button-style-settings.php:404
 msgid ""
 "Set to Yes and Save Changes will reset ALL products that have custom Button "
 "or Hyperlink Text settings to the settings made above."
@@ -900,7 +906,7 @@ msgstr ""
 "hanno un pulsante o un collegamento ipertestuale predefinito con le "
 "impostazioni usate sopra."
 
-#: admin/settings/email-inquiry-button-style-settings.php:435
+#: admin/settings/email-inquiry-button-style-settings.php:428
 #: admin/settings/email-inquiry-global-settings.php:404
 #: admin/settings/read-more/global-settings.php:321
 #: admin/settings/rules-roles-settings.php:779
@@ -909,7 +915,7 @@ msgstr ""
 msgid "Tip"
 msgstr "Suggerimento"
 
-#: admin/settings/email-inquiry-button-style-settings.php:435
+#: admin/settings/email-inquiry-button-style-settings.php:428
 msgid ""
 "If you see margin between the add to cart button and the email button before "
 "adding a value here that margin is added by your theme. Increasing the "
@@ -920,7 +926,7 @@ msgstr ""
 "Incrementando il margine qui aggiungerai al tema un margine predefinito per "
 "il pulsante."
 
-#: admin/settings/email-inquiry-button-style-settings.php:437
+#: admin/settings/email-inquiry-button-style-settings.php:430
 #: admin/settings/email-inquiry-global-settings.php:406
 #: admin/settings/read-more/global-settings.php:323
 #: admin/settings/rules-roles-settings.php:644
@@ -931,7 +937,7 @@ msgstr ""
 msgid "Don't show again"
 msgstr "Non mostrare più"
 
-#: admin/settings/email-inquiry-button-style-settings.php:438
+#: admin/settings/email-inquiry-button-style-settings.php:431
 #: admin/settings/email-inquiry-global-settings.php:407
 #: admin/settings/read-more/global-settings.php:324
 #: admin/settings/rules-roles-settings.php:645
@@ -1246,7 +1252,7 @@ msgid "Title Font"
 msgstr "Font del Titolo"
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:250
-#: classes/class-wc-email-inquiry-functions.php:175
+#: classes/class-wc-email-inquiry-functions.php:167
 msgid "Product Name"
 msgstr "Nome Prodotto"
 
@@ -1303,7 +1309,7 @@ msgid "&lt;empty&gt; for default SEND"
 msgstr "&lt;empty&gt; per l'INVIO predefinito"
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:332
-#: classes/class-wc-email-inquiry-hook.php:246
+#: classes/class-wc-email-inquiry-hook.php:244
 msgid "SEND"
 msgstr "INVIA"
 
@@ -1322,6 +1328,11 @@ msgstr "&lt;empty&gt; per ripristinare o inserisci un form CSS personalizzato"
 #: admin/settings/email-inquiry-popup-form-style-settings.php:391
 msgid "Button CSS Class"
 msgstr "Classe CSS Pulsante"
+
+#: admin/settings/email-inquiry-popup-form-style-settings.php:392
+#: admin/settings/read-more/under-image-style-settings.php:362
+msgid "Enter your own button CSS class"
+msgstr "Inserisci una tua classe CSS per il pulsante"
 
 #: admin/settings/email-inquiry-success-message-settings.php:81
 msgid "Success Message successfully saved."
@@ -1358,7 +1369,7 @@ msgid "Message that user will see after their Inquiry is sent."
 msgstr "Messaggio che l'utente vedrà dopo l'invio della Richiesta."
 
 #: admin/settings/email-inquiry-success-message-settings.php:190
-#: classes/class-wc-email-inquiry-functions.php:112
+#: classes/class-wc-email-inquiry-functions.php:104
 msgid ""
 "Thanks for your inquiry - we'll be in touch with you as soon as possible!"
 msgstr "Grazie per la tua richiesta - ti ricontatteremo il prima possibile!"
@@ -1758,7 +1769,6 @@ msgstr "Imposta Ruolo per il Nuovo Account"
 #: admin/settings/orders-mode/new-account-email-settings.php:221
 #: admin/settings/orders-mode/orders-emails-settings.php:228
 #: admin/settings/quotes-mode/new-account-email-settings.php:200
-#: admin/settings/quotes-mode/quotes-emails-settings.php:206
 msgid "New User Account Email"
 msgstr "Nuovo Account Email Utente"
 
@@ -1776,7 +1786,6 @@ msgstr ""
 #: admin/settings/orders-mode/new-account-email-settings.php:227
 #: admin/settings/orders-mode/orders-emails-settings.php:234
 #: admin/settings/quotes-mode/new-account-email-settings.php:206
-#: admin/settings/quotes-mode/quotes-emails-settings.php:212
 #: admin/settings/quotes-mode/send-quote-email-settings.php:206
 msgid "Email Subject"
 msgstr "Oggetto Email"
@@ -1784,21 +1793,18 @@ msgstr "Oggetto Email"
 #: admin/settings/orders-mode/new-account-email-settings.php:228
 #: admin/settings/orders-mode/orders-emails-settings.php:235
 #: admin/settings/quotes-mode/new-account-email-settings.php:207
-#: admin/settings/quotes-mode/quotes-emails-settings.php:213
 msgid "Defaults to <code>Your account on {blogname}</code>."
 msgstr "Predefiniti a <code>Il tuo account su {blogname}</code>."
 
 #: admin/settings/orders-mode/new-account-email-settings.php:231
 #: admin/settings/orders-mode/orders-emails-settings.php:238
 #: admin/settings/quotes-mode/new-account-email-settings.php:210
-#: admin/settings/quotes-mode/quotes-emails-settings.php:216
 msgid "Your account on {blogname}"
 msgstr "Il tuo account su {blogname}"
 
 #: admin/settings/orders-mode/new-account-email-settings.php:234
 #: admin/settings/orders-mode/orders-emails-settings.php:241
 #: admin/settings/quotes-mode/new-account-email-settings.php:213
-#: admin/settings/quotes-mode/quotes-emails-settings.php:219
 #: admin/settings/quotes-mode/send-quote-email-settings.php:213
 msgid "Email Heading"
 msgstr "Intestazione Email"
@@ -1806,28 +1812,24 @@ msgstr "Intestazione Email"
 #: admin/settings/orders-mode/new-account-email-settings.php:235
 #: admin/settings/orders-mode/orders-emails-settings.php:242
 #: admin/settings/quotes-mode/new-account-email-settings.php:214
-#: admin/settings/quotes-mode/quotes-emails-settings.php:220
 msgid "Defaults to <code>Welcome to {blogname}</code>."
 msgstr "Predefiniti a <code>Benvenuto in {blogname}</code>."
 
 #: admin/settings/orders-mode/new-account-email-settings.php:238
 #: admin/settings/orders-mode/orders-emails-settings.php:245
 #: admin/settings/quotes-mode/new-account-email-settings.php:217
-#: admin/settings/quotes-mode/quotes-emails-settings.php:223
 msgid "Welcome to {blogname}"
 msgstr "Benvenuto in {blogname}"
 
 #: admin/settings/orders-mode/new-account-email-settings.php:241
 #: admin/settings/orders-mode/orders-emails-settings.php:248
 #: admin/settings/quotes-mode/new-account-email-settings.php:220
-#: admin/settings/quotes-mode/quotes-emails-settings.php:226
 msgid "Email Content"
 msgstr "Contenuto Email"
 
 #: admin/settings/orders-mode/new-account-email-settings.php:245
 #: admin/settings/orders-mode/orders-emails-settings.php:252
 #: admin/settings/quotes-mode/new-account-email-settings.php:224
-#: admin/settings/quotes-mode/quotes-emails-settings.php:230
 msgid ""
 "<p>Hello {first_name},</p><p>Your login link and credentials are:</"
 "p><p>{account_url}</p><p>Username: {username}<br />Password: {password}</"
@@ -1842,7 +1844,6 @@ msgstr ""
 #: admin/settings/orders-mode/new-account-email-settings.php:249
 #: admin/settings/orders-mode/orders-emails-settings.php:256
 #: admin/settings/quotes-mode/new-account-email-settings.php:228
-#: admin/settings/quotes-mode/quotes-emails-settings.php:234
 #: admin/settings/quotes-mode/send-quote-email-settings.php:229
 msgid "Email Type"
 msgstr "Tipo Email"
@@ -1850,7 +1851,6 @@ msgstr "Tipo Email"
 #: admin/settings/orders-mode/new-account-email-settings.php:250
 #: admin/settings/orders-mode/orders-emails-settings.php:257
 #: admin/settings/quotes-mode/new-account-email-settings.php:229
-#: admin/settings/quotes-mode/quotes-emails-settings.php:235
 #: admin/settings/quotes-mode/send-quote-email-settings.php:230
 msgid "Choose which format of email to send"
 msgstr "Scegli il formato dell'email da inviare"
@@ -1858,7 +1858,6 @@ msgstr "Scegli il formato dell'email da inviare"
 #: admin/settings/orders-mode/new-account-email-settings.php:258
 #: admin/settings/orders-mode/orders-emails-settings.php:265
 #: admin/settings/quotes-mode/new-account-email-settings.php:237
-#: admin/settings/quotes-mode/quotes-emails-settings.php:243
 #: admin/settings/quotes-mode/send-quote-email-settings.php:238
 msgid "HTML"
 msgstr "HTML"
@@ -1866,7 +1865,6 @@ msgstr "HTML"
 #: admin/settings/orders-mode/new-account-email-settings.php:264
 #: admin/settings/orders-mode/orders-emails-settings.php:271
 #: admin/settings/quotes-mode/new-account-email-settings.php:243
-#: admin/settings/quotes-mode/quotes-emails-settings.php:249
 #: admin/settings/quotes-mode/send-quote-email-settings.php:244
 msgid "Plain text"
 msgstr "Solo testo"
@@ -1874,7 +1872,6 @@ msgstr "Solo testo"
 #: admin/settings/orders-mode/new-account-email-settings.php:270
 #: admin/settings/orders-mode/orders-emails-settings.php:277
 #: admin/settings/quotes-mode/new-account-email-settings.php:249
-#: admin/settings/quotes-mode/quotes-emails-settings.php:255
 #: admin/settings/quotes-mode/send-quote-email-settings.php:250
 msgid "Multipart"
 msgstr "Multiparte"
@@ -1882,7 +1879,6 @@ msgstr "Multiparte"
 #: admin/settings/orders-mode/new-account-email-settings.php:306
 #: admin/settings/orders-mode/orders-emails-settings.php:313
 #: admin/settings/quotes-mode/new-account-email-settings.php:285
-#: admin/settings/quotes-mode/quotes-emails-settings.php:291
 #: admin/settings/quotes-mode/send-quote-email-settings.php:286
 msgid "HTML template"
 msgstr "Modello HTML"
@@ -1890,7 +1886,6 @@ msgstr "Modello HTML"
 #: admin/settings/orders-mode/new-account-email-settings.php:307
 #: admin/settings/orders-mode/orders-emails-settings.php:314
 #: admin/settings/quotes-mode/new-account-email-settings.php:286
-#: admin/settings/quotes-mode/quotes-emails-settings.php:292
 #: admin/settings/quotes-mode/send-quote-email-settings.php:287
 msgid "Plain text template"
 msgstr "Modello solo testo"
@@ -1898,7 +1893,6 @@ msgstr "Modello solo testo"
 #: admin/settings/orders-mode/new-account-email-settings.php:326
 #: admin/settings/orders-mode/orders-emails-settings.php:333
 #: admin/settings/quotes-mode/new-account-email-settings.php:305
-#: admin/settings/quotes-mode/quotes-emails-settings.php:311
 #: admin/settings/quotes-mode/send-quote-email-settings.php:306
 msgid "Delete template file"
 msgstr "Elimina il file modello"
@@ -1906,7 +1900,6 @@ msgstr "Elimina il file modello"
 #: admin/settings/orders-mode/new-account-email-settings.php:329
 #: admin/settings/orders-mode/orders-emails-settings.php:336
 #: admin/settings/quotes-mode/new-account-email-settings.php:308
-#: admin/settings/quotes-mode/quotes-emails-settings.php:314
 #: admin/settings/quotes-mode/send-quote-email-settings.php:309
 #, php-format
 msgid ""
@@ -1919,7 +1912,6 @@ msgstr ""
 #: admin/settings/orders-mode/new-account-email-settings.php:344
 #: admin/settings/orders-mode/orders-emails-settings.php:351
 #: admin/settings/quotes-mode/new-account-email-settings.php:323
-#: admin/settings/quotes-mode/quotes-emails-settings.php:329
 #: admin/settings/quotes-mode/send-quote-email-settings.php:324
 msgid "Copy file to theme"
 msgstr "Copia file nel tema"
@@ -1927,7 +1919,6 @@ msgstr "Copia file nel tema"
 #: admin/settings/orders-mode/new-account-email-settings.php:347
 #: admin/settings/orders-mode/orders-emails-settings.php:354
 #: admin/settings/quotes-mode/new-account-email-settings.php:326
-#: admin/settings/quotes-mode/quotes-emails-settings.php:332
 #: admin/settings/quotes-mode/send-quote-email-settings.php:327
 #, php-format
 msgid ""
@@ -1940,7 +1931,6 @@ msgstr ""
 #: admin/settings/orders-mode/new-account-email-settings.php:358
 #: admin/settings/orders-mode/orders-emails-settings.php:365
 #: admin/settings/quotes-mode/new-account-email-settings.php:337
-#: admin/settings/quotes-mode/quotes-emails-settings.php:343
 #: admin/settings/quotes-mode/send-quote-email-settings.php:338
 msgid "File was not found."
 msgstr "Il file non è stato trovato."
@@ -1948,7 +1938,6 @@ msgstr "Il file non è stato trovato."
 #: admin/settings/orders-mode/new-account-email-settings.php:391
 #: admin/settings/orders-mode/orders-emails-settings.php:398
 #: admin/settings/quotes-mode/new-account-email-settings.php:370
-#: admin/settings/quotes-mode/quotes-emails-settings.php:376
 #: admin/settings/quotes-mode/send-quote-email-settings.php:371
 msgid "View template"
 msgstr "Visualizza modello"
@@ -1956,7 +1945,6 @@ msgstr "Visualizza modello"
 #: admin/settings/orders-mode/new-account-email-settings.php:392
 #: admin/settings/orders-mode/orders-emails-settings.php:399
 #: admin/settings/quotes-mode/new-account-email-settings.php:371
-#: admin/settings/quotes-mode/quotes-emails-settings.php:377
 #: admin/settings/quotes-mode/send-quote-email-settings.php:372
 msgid "Hide template"
 msgstr "Nascondi modello"
@@ -1964,7 +1952,6 @@ msgstr "Nascondi modello"
 #: admin/settings/orders-mode/new-account-email-settings.php:403
 #: admin/settings/orders-mode/orders-emails-settings.php:410
 #: admin/settings/quotes-mode/new-account-email-settings.php:382
-#: admin/settings/quotes-mode/quotes-emails-settings.php:388
 #: admin/settings/quotes-mode/send-quote-email-settings.php:383
 msgid "Are you sure you want to delete this template file?"
 msgstr "Vuoi davvero eliminare questo file modello?"
@@ -2497,7 +2484,6 @@ msgstr ""
 "correttamente."
 
 #: admin/settings/quotes-mode/new-account-email-settings.php:201
-#: admin/settings/quotes-mode/quotes-emails-settings.php:207
 msgid ""
 "A new user account is created (if none exists) when a quote request is "
 "submitted. Customize the New user account notification email that is auto "
@@ -2548,12 +2534,10 @@ msgid "Quote Request Recieved"
 msgstr "Richiesta di Preventivo ricevuta"
 
 #: admin/settings/quotes-mode/processing-quote-email-settings.php:186
-#: admin/settings/quotes-mode/quotes-emails-settings.php:200
 msgid "'Processing Quote' Email"
 msgstr "Email 'Preventivi in Corso'"
 
 #: admin/settings/quotes-mode/processing-quote-email-settings.php:187
-#: admin/settings/quotes-mode/quotes-emails-settings.php:201
 #, php-format
 msgid ""
 "When the quote is submitted a WooCommerce 'Processing Quote' email is auto "
@@ -2630,29 +2614,6 @@ msgstr "Il prodotto era presente nel preventivo"
 #: admin/settings/quotes-mode/product-page-settings.php:272
 msgid "You already have this item in your quote."
 msgstr "Questo elemento è già in elenco per il preventivo."
-
-#: admin/settings/quotes-mode/quotes-emails-settings.php:84
-msgid "Quotes Emails Settings successfully saved."
-msgstr ""
-"Le impostazioni di invio dei preventivi via email sono state salvate "
-"correttamente."
-
-#: admin/settings/quotes-mode/quotes-emails-settings.php:85
-msgid "Error: Quotes Emails Settings can not save."
-msgstr ""
-"Errore: Le impostazioni di invio dei preventivi via email non possono essere "
-"salvate."
-
-#: admin/settings/quotes-mode/quotes-emails-settings.php:86
-msgid "Quotes Emails Settings successfully reseted."
-msgstr ""
-"Le impostazioni di invio dei preventivi via email sono state ripristinate "
-"correttamente."
-
-#: admin/settings/quotes-mode/quotes-emails-settings.php:156
-#: admin/tabs/quotes-mode/quotes-emails-tab.php:78
-msgid "Quotes Emails"
-msgstr "Email Preventivi"
 
 #: admin/settings/quotes-mode/send-quote-email-settings.php:84
 msgid "Send Quote Email Settings successfully saved."
@@ -2866,6 +2827,10 @@ msgstr "Testo da mostrare sotto l'immagine del pulsante"
 #: admin/settings/read-more/under-image-style-settings.php:303
 msgid "Padding from Button text to Button border show under image"
 msgstr "Sfumatura dal testo del pulsante al bordo da mostrare sotto l'immagine"
+
+#: admin/settings/read-more/under-image-style-settings.php:361
+msgid "CSS Class"
+msgstr "Classe CSS"
 
 #: admin/settings/rules-roles-settings.php:92
 msgid "Rules & Roles Settings successfully saved."
@@ -3161,42 +3126,46 @@ msgstr "Form Predefinito"
 msgid "Pop-Up Style"
 msgstr "Stile Pop-Up"
 
-#: classes/class-wc-email-inquiry-functions.php:149
+#: admin/tabs/quotes-mode/quotes-emails-tab.php:78
+msgid "Quotes Emails"
+msgstr "Email Preventivi"
+
+#: classes/class-wc-email-inquiry-functions.php:141
 msgid "Email inquiry for"
 msgstr "Richiesta email per"
 
-#: classes/class-wc-email-inquiry-functions.php:150
+#: classes/class-wc-email-inquiry-functions.php:142
 msgid "[Copy]: Email inquiry for"
 msgstr "[Copy]: Richiesta email per"
 
-#: classes/class-wc-email-inquiry-functions.php:158
-#: classes/class-wc-email-inquiry-hook.php:262
+#: classes/class-wc-email-inquiry-functions.php:150
+#: classes/class-wc-email-inquiry-hook.php:260
 msgid "Name"
 msgstr "Nome"
 
-#: classes/class-wc-email-inquiry-functions.php:164
+#: classes/class-wc-email-inquiry-functions.php:156
 msgid "Email Address"
 msgstr "Indirizzo Email"
 
-#: classes/class-wc-email-inquiry-functions.php:170
-#: classes/class-wc-email-inquiry-hook.php:268
+#: classes/class-wc-email-inquiry-functions.php:162
+#: classes/class-wc-email-inquiry-hook.php:266
 msgid "Phone"
 msgstr "Telefono"
 
-#: classes/class-wc-email-inquiry-functions.php:180
-#: classes/class-wc-email-inquiry-hook.php:274
+#: classes/class-wc-email-inquiry-functions.php:172
+#: classes/class-wc-email-inquiry-hook.php:272
 msgid "Message"
 msgstr "Messaggio"
 
-#: classes/class-wc-email-inquiry-functions.php:215
+#: classes/class-wc-email-inquiry-functions.php:207
 msgid "Sorry, this product don't enable email inquiry."
 msgstr "Questo prodotto non è abilitato alle richieste email."
 
-#: classes/class-wc-email-inquiry-functions.php:247
+#: classes/class-wc-email-inquiry-functions.php:239
 msgid "Upgrades available for Extra Functionality"
 msgstr "Aggiornamenti disponibili per funzionalità Extra"
 
-#: classes/class-wc-email-inquiry-functions.php:248
+#: classes/class-wc-email-inquiry-functions.php:240
 msgid ""
 "<strong>NOTE:</strong> All the functions inside the Yellow border are extra "
 "functionality that is only avaiable by upgrading to one of 3 fully supported "
@@ -3206,199 +3175,208 @@ msgstr ""
 "caratteristiche extra disponibili solo con l'aggiornamento a una delle 3 "
 "versioni Pro dei plugin."
 
-#: classes/class-wc-email-inquiry-functions.php:249
+#: classes/class-wc-email-inquiry-functions.php:241
 msgid "WooCommerce Email Inquiry & Cart Options Pro"
 msgstr "WooCommerce Email Inquiry & Cart Options Pro"
 
-#: classes/class-wc-email-inquiry-functions.php:249
-#: classes/class-wc-email-inquiry-functions.php:260
-#: classes/class-wc-email-inquiry-functions.php:272
+#: classes/class-wc-email-inquiry-functions.php:241
+#: classes/class-wc-email-inquiry-functions.php:252
+#: classes/class-wc-email-inquiry-functions.php:264
 msgid "Features"
 msgstr "Funzioni"
 
-#: classes/class-wc-email-inquiry-functions.php:252
+#: classes/class-wc-email-inquiry-functions.php:244
 msgid "Rule: Hide Product Prices."
 msgstr "Regola: Nascondi i prezzi dei prodotti"
 
-#: classes/class-wc-email-inquiry-functions.php:253
+#: classes/class-wc-email-inquiry-functions.php:245
 msgid "Email and Cart Product Page Meta."
 msgstr "Email e Carrello "
 
-#: classes/class-wc-email-inquiry-functions.php:254
+#: classes/class-wc-email-inquiry-functions.php:246
 msgid "Create a mixed 'add to cart' and product brochure store."
 msgstr ""
 "Crea un negozio misto con 'aggiungi al carrello' e descrizione dei prodotti."
 
-#: classes/class-wc-email-inquiry-functions.php:255
+#: classes/class-wc-email-inquiry-functions.php:247
 msgid "WYSIWYG Email Inquiry button creator."
 msgstr "Realizza un pulsante Richiesta Email in WYSIWYG."
 
-#: classes/class-wc-email-inquiry-functions.php:256
+#: classes/class-wc-email-inquiry-functions.php:248
 msgid "WYSIWYG pop-up form creator."
 msgstr "Realizza un form pop-up in WYSIWYG."
 
-#: classes/class-wc-email-inquiry-functions.php:257
+#: classes/class-wc-email-inquiry-functions.php:249
 msgid "Hyperlinked text instead of a Button."
 msgstr "Collegamento ipertestuale anziché un pulsante."
 
-#: classes/class-wc-email-inquiry-functions.php:260
+#: classes/class-wc-email-inquiry-functions.php:252
 #, fuzzy
 msgid "WooCommerce Email Inquiry Ultimate"
 msgstr "Pagina Richiesta Email"
 
-#: classes/class-wc-email-inquiry-functions.php:263
+#: classes/class-wc-email-inquiry-functions.php:255
 msgid "Includes all Email Inquiry and Cart Option Pro features."
 msgstr "Include tutte le funzionalità di Email Inquiry e Cart Option Pro."
 
-#: classes/class-wc-email-inquiry-functions.php:264
+#: classes/class-wc-email-inquiry-functions.php:256
 msgid "Full integration with Gravity Forms, Conatct Form 7."
 msgstr "Massima integrazione con Gravity Forms, Contact Form 7."
 
-#: classes/class-wc-email-inquiry-functions.php:265
+#: classes/class-wc-email-inquiry-functions.php:257
 msgid "Custom Inquiry forms with Gravity Forms shortcode."
 msgstr "Form di Richiesta personalizzati usando il codice di Gravity Forms."
 
-#: classes/class-wc-email-inquiry-functions.php:266
+#: classes/class-wc-email-inquiry-functions.php:258
 msgid "Custom Inquiry forms using Contact Form 7 shortcode."
 msgstr "Form di Richiesta personalizzati usando il codice di Contact Form 7."
 
-#: classes/class-wc-email-inquiry-functions.php:267
+#: classes/class-wc-email-inquiry-functions.php:259
 msgid "Inquiry form opens On Page below button."
 msgstr "Pulsante per aprire il form di Richiesta di seguito."
 
-#: classes/class-wc-email-inquiry-functions.php:268
+#: classes/class-wc-email-inquiry-functions.php:260
 msgid "Open Email Inquiry form on new page option."
 msgstr "Opzione per aprire il form di Richiesta Email in una nuova pagina."
 
-#: classes/class-wc-email-inquiry-functions.php:269
+#: classes/class-wc-email-inquiry-functions.php:261
 msgid "Open Gravity / Contact 7 form by pop-up."
 msgstr "Apri il form Gravity / Contact 7 in un pop-up."
 
-#: classes/class-wc-email-inquiry-functions.php:272
+#: classes/class-wc-email-inquiry-functions.php:264
 msgid "WooCommerce Quotes and Orders"
 msgstr "WooCommerce Quotes and Orders"
 
-#: classes/class-wc-email-inquiry-functions.php:275
+#: classes/class-wc-email-inquiry-functions.php:267
 msgid "Includes all features listed above."
 msgstr "Include tutte le funzioni elencate di seguito."
 
-#: classes/class-wc-email-inquiry-functions.php:276
+#: classes/class-wc-email-inquiry-functions.php:268
 msgid "Extends WooCommerce add to cart mode to 3 new modes."
 msgstr "Estendi Aggiungi al Carrello di WooCommerce con 3 nuove funzioni."
 
-#: classes/class-wc-email-inquiry-functions.php:277
+#: classes/class-wc-email-inquiry-functions.php:269
 msgid "Converts add to cart function into an add to Quote function."
 msgstr "Converti la funzione Aggiungi al Carrello in Confronta"
 
-#: classes/class-wc-email-inquiry-functions.php:278
+#: classes/class-wc-email-inquiry-functions.php:270
 msgid "Manual' Quote Mode - quote prices off-line after request."
 msgstr ""
 "Modalità Preventivo Manuale - preventiva i prezzi off-line su richiesta."
 
-#: classes/class-wc-email-inquiry-functions.php:279
+#: classes/class-wc-email-inquiry-functions.php:271
 msgid "Auto Quote Mode - Auto sends full quote to user."
 msgstr ""
 "Modalità Preventivo Automatico - Invia automaticamente un preventivo "
 "completo all'utente."
 
-#: classes/class-wc-email-inquiry-functions.php:280
+#: classes/class-wc-email-inquiry-functions.php:272
 msgid "Converts add to cart function into add to Order function."
 msgstr "Converti la funzione Aggiungi al Carrello in Aggiungi agli Ordini."
 
-#: classes/class-wc-email-inquiry-functions.php:281
+#: classes/class-wc-email-inquiry-functions.php:273
 msgid "Full integration with WooCommerce."
 msgstr "Massima integrazione con WooCommerce."
 
-#: classes/class-wc-email-inquiry-functions.php:284
+#: classes/class-wc-email-inquiry-functions.php:276
 msgid "View this plugins"
 msgstr "Consulta la"
 
-#: classes/class-wc-email-inquiry-functions.php:284
+#: classes/class-wc-email-inquiry-functions.php:276
 msgid "documentation"
 msgstr "documentazione"
 
-#: classes/class-wc-email-inquiry-functions.php:285
+#: classes/class-wc-email-inquiry-functions.php:277
 msgid "Visit this plugins"
 msgstr "Visita il"
 
-#: classes/class-wc-email-inquiry-functions.php:285
+#: classes/class-wc-email-inquiry-functions.php:277
 #, fuzzy
 msgid "support forum"
 msgstr "forum di supporto"
 
-#: classes/class-wc-email-inquiry-functions.php:286
+#: classes/class-wc-email-inquiry-functions.php:278
 msgid "More FREE a3rev WooCommerce Plugins"
 msgstr "Altri plugin a3rev GRATUITI per WooCommerce"
 
-#: classes/class-wc-email-inquiry-functions.php:289
+#: classes/class-wc-email-inquiry-functions.php:281
 msgid "WooCommerce Product Sort and Display"
 msgstr "WooCommerce Product Sort and Display"
 
-#: classes/class-wc-email-inquiry-functions.php:290
+#: classes/class-wc-email-inquiry-functions.php:282
 msgid "WooCommerce Dynamic Products Gallery"
 msgstr "WooCommerce Dynamic Products Gallery"
 
-#: classes/class-wc-email-inquiry-functions.php:291
+#: classes/class-wc-email-inquiry-functions.php:283
 msgid "WooCommerce Predictive Search"
 msgstr "WooCommerce Predictive Search"
 
-#: classes/class-wc-email-inquiry-functions.php:292
+#: classes/class-wc-email-inquiry-functions.php:284
 msgid "WooCommerce Compare Products"
 msgstr "WooCommerce Compare Products"
 
-#: classes/class-wc-email-inquiry-functions.php:293
+#: classes/class-wc-email-inquiry-functions.php:285
 msgid "WooCommerce Widget Product Slideshow"
 msgstr "WooCommerce Widget Product Slideshow"
 
-#: classes/class-wc-email-inquiry-functions.php:296
+#: classes/class-wc-email-inquiry-functions.php:288
 msgid "More FREE a3rev WordPress plugins"
 msgstr "Altri plugin a3rev GRATUITI per WordPress"
 
-#: classes/class-wc-email-inquiry-functions.php:299
+#: classes/class-wc-email-inquiry-functions.php:291
+msgid "a3 Lazy Load"
+msgstr ""
+
+#: classes/class-wc-email-inquiry-functions.php:291
+#, fuzzy
+msgid "WooCommerce Compatible"
+msgstr "WooCommerce Compare Products"
+
+#: classes/class-wc-email-inquiry-functions.php:292
+msgid "a3 Portfolio"
+msgstr ""
+
+#: classes/class-wc-email-inquiry-functions.php:293
 msgid "a3 Responsive Slider"
 msgstr ""
 
-#: classes/class-wc-email-inquiry-functions.php:299
-msgid "New Release!"
-msgstr ""
-
-#: classes/class-wc-email-inquiry-functions.php:300
+#: classes/class-wc-email-inquiry-functions.php:294
 msgid "Contact Us Page - Contact People"
 msgstr "Pagina Contatti - Contatto Utenti"
 
-#: classes/class-wc-email-inquiry-functions.php:301
+#: classes/class-wc-email-inquiry-functions.php:295
 msgid "WordPress Email Template"
 msgstr "Modello Email Wordpress"
 
-#: classes/class-wc-email-inquiry-functions.php:302
+#: classes/class-wc-email-inquiry-functions.php:296
 msgid "Page View Count"
 msgstr "Contatore Visite Pagina"
 
-#: classes/class-wc-email-inquiry-hook.php:265
+#: classes/class-wc-email-inquiry-hook.php:263
 msgid "Email"
 msgstr "Email"
 
-#: classes/class-wc-email-inquiry-hook.php:271
+#: classes/class-wc-email-inquiry-hook.php:269
 msgid "Subject"
 msgstr "Oggetto"
 
-#: classes/class-wc-email-inquiry-hook.php:418
+#: classes/class-wc-email-inquiry-hook.php:412
 msgid "Please enter your Name"
 msgstr "Inserisci il tuo nome"
 
-#: classes/class-wc-email-inquiry-hook.php:422
+#: classes/class-wc-email-inquiry-hook.php:416
 msgid "Please enter valid Email address"
 msgstr "Inserisci un indirizzo Email valido"
 
-#: classes/class-wc-email-inquiry-hook.php:426
+#: classes/class-wc-email-inquiry-hook.php:420
 msgid "Please enter your Phone"
 msgstr "Inserisci il tuo numero di telefono"
 
-#: classes/class-wc-email-inquiry-hook.php:534
+#: classes/class-wc-email-inquiry-hook.php:528
 msgid "Documentation"
 msgstr "Documentazione"
 
-#: classes/class-wc-email-inquiry-hook.php:535
+#: classes/class-wc-email-inquiry-hook.php:529
 msgid "Support"
 msgstr "Supporto"
 
@@ -3491,6 +3469,21 @@ msgstr "&lt;empty&gt; predefiniti a testo Globale"
 #: templates/emails/send-quote.php:12
 msgid "Please Upgrade to WooCommerce Quotes and Orders plugin"
 msgstr "Aggiorna al plugin WooCommerce Quotes and Orders"
+
+#~ msgid "Quotes Emails Settings successfully saved."
+#~ msgstr ""
+#~ "Le impostazioni di invio dei preventivi via email sono state salvate "
+#~ "correttamente."
+
+#~ msgid "Error: Quotes Emails Settings can not save."
+#~ msgstr ""
+#~ "Errore: Le impostazioni di invio dei preventivi via email non possono "
+#~ "essere salvate."
+
+#~ msgid "Quotes Emails Settings successfully reseted."
+#~ msgstr ""
+#~ "Le impostazioni di invio dei preventivi via email sono state ripristinate "
+#~ "correttamente."
 
 #, fuzzy
 #~ msgid "Error: "
