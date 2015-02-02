@@ -6,7 +6,7 @@ msgstr ""
 "PO-Revision-Date: 2014-06-28 10:19+0700\n"
 "Last-Translator: Nguyen Cong Tuan <mr.nguyencongtuan@gmail.com>\n"
 "Language-Team: a3rev\n"
-"Language: en\n"
+"Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,71 +18,71 @@ msgstr ""
 
 #: admin/admin-interface.php:129
 msgid "Settings successfully saved."
-msgstr ""
+msgstr "Le impostazioni sono state salvate correttamente."
 
 #: admin/admin-interface.php:137
 msgid "Error: Settings can not save."
-msgstr ""
+msgstr "Errore: Impossibile salvare le impostazioni."
 
 #: admin/admin-interface.php:145
 msgid "Settings successfully reseted."
-msgstr ""
+msgstr "Impostazioni ripristinate correttamente."
 
 #: admin/admin-interface.php:166
 msgid "Thin"
-msgstr ""
+msgstr "Sottile"
 
 #: admin/admin-interface.php:167
 msgid "Thin/Italic"
-msgstr ""
+msgstr "Sottile/Corsivo"
 
 #: admin/admin-interface.php:168
 msgid "Normal"
-msgstr ""
+msgstr "Normale"
 
 #: admin/admin-interface.php:169
 msgid "Italic"
-msgstr ""
+msgstr "Corsivo"
 
 #: admin/admin-interface.php:170
 msgid "Bold"
-msgstr ""
+msgstr "Grassetto"
 
 #: admin/admin-interface.php:171
 msgid "Bold/Italic"
-msgstr ""
+msgstr "Grassetto/Corsivo"
 
 #: admin/admin-interface.php:181
 msgid "Solid"
-msgstr ""
+msgstr "Solido"
 
 #: admin/admin-interface.php:182
 msgid "Double"
-msgstr ""
+msgstr "Doppio"
 
 #: admin/admin-interface.php:183
 msgid "Dashed"
-msgstr ""
+msgstr "Tratteggio"
 
 #: admin/admin-interface.php:184
 msgid "Dotted"
-msgstr ""
+msgstr "Punteggio"
 
 #: admin/admin-interface.php:185
 msgid "Groove"
-msgstr ""
+msgstr "Scavato"
 
 #: admin/admin-interface.php:186
 msgid "Ridge"
-msgstr ""
+msgstr "Rilievo"
 
 #: admin/admin-interface.php:187
 msgid "Inset"
-msgstr ""
+msgstr "Interno"
 
 #: admin/admin-interface.php:188
 msgid "Outset"
-msgstr ""
+msgstr "Esterno"
 
 #: admin/admin-interface.php:1354 admin/admin-interface.php:1444
 #: admin/admin-interface.php:1473
@@ -135,7 +135,7 @@ msgstr ""
 #: classes/class-wc-email-inquiry-metabox.php:289
 #: classes/class-wc-email-inquiry-metabox.php:295
 msgid "ON"
-msgstr ""
+msgstr "ON"
 
 #: admin/admin-interface.php:1355 admin/admin-interface.php:1445
 #: admin/admin-interface.php:1474
@@ -180,63 +180,63 @@ msgstr ""
 #: admin/settings/rules-roles-settings.php:613
 #: classes/class-wc-email-inquiry-metabox.php:218
 msgid "OFF"
-msgstr ""
+msgstr "OFF"
 
 #: admin/admin-interface.php:1515
 msgid "Width"
-msgstr ""
+msgstr "Larghezza"
 
 #: admin/admin-interface.php:1517
 msgid "Height"
-msgstr ""
+msgstr "Altezza"
 
 #: admin/admin-interface.php:1519
 msgid "Hard Crop"
-msgstr ""
+msgstr "Forzatura Ritaglio"
 
 #: admin/admin-interface.php:1596
 msgid "-- Default Fonts --"
-msgstr ""
+msgstr "-- Font Predefinite --"
 
 #: admin/admin-interface.php:1607
 msgid "-- Google Fonts --"
-msgstr ""
+msgstr "-- Font Google --"
 
 #: admin/admin-interface.php:1648
 msgid "Preview your customized typography settings"
-msgstr ""
+msgstr "Anteprima delle impostazioni di tipografia"
 
 #: admin/admin-interface.php:1782 admin/admin-interface.php:2041
 msgid "Preview your customized border settings"
-msgstr ""
+msgstr "Anteprima delle impostazioni dei bordi"
 
 #: admin/admin-interface.php:1791 admin/admin-interface.php:2032
 msgid "Rounded"
-msgstr ""
+msgstr "Arrotondato"
 
 #: admin/admin-interface.php:1792 admin/admin-interface.php:2033
 msgid "Square"
-msgstr ""
+msgstr "Squadrato"
 
 #: admin/admin-interface.php:1802 admin/admin-interface.php:2046
 msgid "Top Left Corner"
-msgstr ""
+msgstr "In alto a sinistra"
 
 #: admin/admin-interface.php:1822 admin/admin-interface.php:2066
 msgid "Top Right Corner"
-msgstr ""
+msgstr "In alto a destra"
 
 #: admin/admin-interface.php:1842 admin/admin-interface.php:2086
 msgid "Bottom Right Corner"
-msgstr ""
+msgstr "In basso a destra"
 
 #: admin/admin-interface.php:1862 admin/admin-interface.php:2106
 msgid "Bottom Left Corner"
-msgstr ""
+msgstr "In basso a sinistra"
 
 #: admin/admin-interface.php:1955
 msgid "Preview your customized border styles settings"
-msgstr ""
+msgstr "Anteprima dello stile dei bordi"
 
 #: admin/admin-interface.php:2167
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:313
@@ -258,7 +258,7 @@ msgstr ""
 #: admin/settings/quotes-mode/send-quote-email-settings.php:245
 #: admin/settings/quotes-mode/send-quote-email-settings.php:251
 msgid "YES"
-msgstr ""
+msgstr "SI"
 
 #: admin/admin-interface.php:2168
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:314
@@ -280,59 +280,59 @@ msgstr ""
 #: admin/settings/quotes-mode/send-quote-email-settings.php:246
 #: admin/settings/quotes-mode/send-quote-email-settings.php:252
 msgid "NO"
-msgstr ""
+msgstr "NO"
 
 #: admin/admin-interface.php:2182
 msgid "Horizontal Shadow"
-msgstr ""
+msgstr "Ombra Orizzontale"
 
 #: admin/admin-interface.php:2200
 msgid "Vertical Shadow"
-msgstr ""
+msgstr "Ombra Verticale"
 
 #: admin/admin-interface.php:2218
 msgid "Blur Distance"
-msgstr ""
+msgstr "Distanza Sfocatura"
 
 #: admin/admin-interface.php:2236
 msgid "Spread Size"
-msgstr ""
+msgstr "Dimensioni"
 
 #: admin/admin-interface.php:2254
 msgid "INNER"
-msgstr ""
+msgstr "INTERNA"
 
 #: admin/admin-interface.php:2255
 msgid "OUTER"
-msgstr ""
+msgstr "ESTERNA"
 
 #: admin/admin-interface.php:2273
 msgid "Preview your customized box shadow settings"
-msgstr ""
+msgstr "Anteprima dell'ombreggiatura"
 
 #: admin/admin-interface.php:2509
 msgid "Save changes"
-msgstr ""
+msgstr "Salva cambiamenti"
 
 #: admin/admin-interface.php:2510
 msgid "Reset Settings"
-msgstr ""
+msgstr "Ripristina Impostazioni"
 
 #: admin/admin-pages/admin-email-inquiry-page.php:63
 #: admin/admin-pages/admin-email-inquiry-page.php:64
 #: classes/class-wc-email-inquiry-metabox.php:134
 msgid "Email Inquiry"
-msgstr ""
+msgstr "Richiesta Email"
 
 #: admin/admin-pages/admin-orders-mode-page.php:63
 #: admin/admin-pages/admin-orders-mode-page.php:64
 msgid "Orders Mode"
-msgstr ""
+msgstr "Modalità Ordini"
 
 #: admin/admin-pages/admin-quotes-mode-page.php:63
 #: admin/admin-pages/admin-quotes-mode-page.php:64
 msgid "Quotes Mode"
-msgstr ""
+msgstr "Modalità Preventivi"
 
 #: admin/admin-pages/admin-read-more-page.php:63
 #: admin/admin-pages/admin-read-more-page.php:64
@@ -341,23 +341,23 @@ msgstr ""
 #: admin/settings/read-more/under-image-style-settings.php:299
 #: classes/class-wc-email-inquiry-metabox.php:135
 msgid "Read More"
-msgstr ""
+msgstr "Mostra Altro"
 
 #: admin/admin-pages/admin-rules-roles-page.php:63
 #: admin/admin-pages/admin-rules-roles-page.php:64
 msgid "Email & Cart Options"
-msgstr ""
+msgstr "Opzioni Email & Carrello"
 
 #: admin/admin-pages/admin-rules-roles-page.php:78
 #: admin/admin-pages/admin-rules-roles-page.php:79
 #: admin/tabs/rules-roles-tab.php:78
 msgid "Rules & Roles"
-msgstr ""
+msgstr "Regole & Ruoli"
 
 #: admin/admin-ui.php:139 admin/settings/rules-roles-settings.php:117
 #, php-format
 msgid "Settings inside this yellow border are %s Features."
-msgstr ""
+msgstr "Le impostazioni all'interno dei bordi gialli sono funzionalità di %s"
 
 #: admin/admin-ui.php:141 admin/settings/rules-roles-settings.php:119
 #, php-format
@@ -365,46 +365,51 @@ msgid ""
 "Upgrade to the <a href=\"%s\" target=\"_blank\">%s</a> to activate these "
 "settings."
 msgstr ""
+"Aggiorna a <a href=\"%s\" target=\"_blank\">%s</a> per attivare queste "
+"opzioni."
 
 #: admin/admin-ui.php:143 admin/admin-ui.php:145
+#, fuzzy
 msgid "Quotes & Orders Version"
-msgstr ""
+msgstr "Versione Quotes & Orders"
 
 #: admin/includes/uploader/class-uploader.php:149
 msgid "Upload"
-msgstr ""
+msgstr "Carica"
 
 #: admin/includes/uploader/class-uploader.php:169
 msgid "View File"
-msgstr ""
+msgstr "Visualizza File "
 
 #: admin/includes/uploader/class-uploader.php:188
 msgid "Use this Image"
-msgstr ""
+msgstr "Usa questa Immagine"
 
 #: admin/includes/uploader/class-uploader.php:189
 msgid "Use as"
-msgstr ""
+msgstr "Usa come"
 
 #: admin/includes/uploader/class-uploader.php:199
 msgid "Previously Uploaded"
-msgstr ""
+msgstr "Caricata Precedentemente"
 
 #: admin/settings/colorbox-popup-settings.php:81
 msgid "Colorbox Pop-Up Settings successfully saved."
 msgstr ""
+"Le impostazioni della finestra Pop-up sono state salvate correttamente."
 
 #: admin/settings/colorbox-popup-settings.php:82
 msgid "Error: Colorbox Pop-Up Settings can not save."
-msgstr ""
+msgstr "Errore: Impossibile salvare le impostazioni della finestra Pop-Up."
 
 #: admin/settings/colorbox-popup-settings.php:83
 msgid "Colorbox Pop-Up Settings successfully reseted."
 msgstr ""
+"Le impostazioni della finestra Pop-up sono state ripristinate correttamente."
 
 #: admin/settings/colorbox-popup-settings.php:151
 msgid "Colorbox Pop-Up"
-msgstr ""
+msgstr "Finestra Pop-Up"
 
 #: admin/settings/colorbox-popup-settings.php:189
 #: admin/settings/email-inquiry-button-style-settings.php:202
@@ -413,71 +418,73 @@ msgstr ""
 #: admin/settings/fancybox-popup-settings.php:189
 #: admin/settings/rules-roles-settings.php:121
 #: admin/settings/rules-roles-settings.php:123
+#, fuzzy
 msgid "Email & Cart Pro Version"
-msgstr ""
+msgstr "Opzioni Email & Carrello"
 
 #: admin/settings/colorbox-popup-settings.php:206
 msgid "Colorbox Pop-Up Settings"
-msgstr ""
+msgstr "Impostazioni finestra Pop-Up"
 
 #: admin/settings/colorbox-popup-settings.php:210
 #: admin/settings/fancybox-popup-settings.php:210
 msgid "Fix Position on Scroll"
-msgstr ""
+msgstr "Fissa la posizione durante lo scorrimento"
 
 #: admin/settings/colorbox-popup-settings.php:217
 #: admin/settings/fancybox-popup-settings.php:217
 msgid "Pop-up stays centered in screen while page scrolls behind it."
-msgstr ""
+msgstr "Il Pop-Up rimane centrato mentre la pagina scorre sotto."
 
 #: admin/settings/colorbox-popup-settings.php:224
 #: admin/settings/fancybox-popup-settings.php:224
 msgid "Pop-up scrolls up and down with the page."
-msgstr ""
+msgstr "Il Pop-Up scorre su e giù con il resto della pagina."
 
 #: admin/settings/colorbox-popup-settings.php:231
 msgid "Open & Close Transition Effect"
-msgstr ""
+msgstr "Transizioni Apri & Chiudi"
 
 #: admin/settings/colorbox-popup-settings.php:232
 msgid "Choose a pop-up opening & closing effect. Default - None"
 msgstr ""
+"Scegli un effetto di apertura e chiusura del Pop-up. Predefinito - Nessuno"
 
 #: admin/settings/colorbox-popup-settings.php:238
 #: admin/settings/fancybox-popup-settings.php:238
 #: admin/settings/fancybox-popup-settings.php:251
 msgid "None"
-msgstr ""
+msgstr "Nessuno"
 
 #: admin/settings/colorbox-popup-settings.php:239
 #: admin/settings/fancybox-popup-settings.php:239
 #: admin/settings/fancybox-popup-settings.php:252
 msgid "Fade"
-msgstr ""
+msgstr "Dissolvenza"
 
 #: admin/settings/colorbox-popup-settings.php:240
 #: admin/settings/fancybox-popup-settings.php:240
 #: admin/settings/fancybox-popup-settings.php:253
 msgid "Elastic"
-msgstr ""
+msgstr "Elastica"
 
 #: admin/settings/colorbox-popup-settings.php:244
 msgid "Opening & Closing Speed"
-msgstr ""
+msgstr "Velocità di apertura e chiusura"
 
 #: admin/settings/colorbox-popup-settings.php:245
 msgid "Milliseconds when open and close pop-up"
-msgstr ""
+msgstr "Millisecondi per l'apertura e la chiusura dei pop-up"
 
 #: admin/settings/colorbox-popup-settings.php:252
 #: admin/settings/fancybox-popup-settings.php:273
 msgid "Background Overlay Colour"
-msgstr ""
+msgstr "Colore Copertura Sfondo"
 
 #: admin/settings/colorbox-popup-settings.php:253
 #: admin/settings/fancybox-popup-settings.php:274
 msgid "Select a colour or empty for no colour."
-msgstr ""
+msgstr "Seleziona un colore o lascia vuoto per non sceglierne nessuno."
 
 #: admin/settings/colorbox-popup-settings.php:253
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:231
@@ -499,24 +506,28 @@ msgstr ""
 #: admin/settings/read-more/under-image-style-settings.php:329
 #: admin/settings/read-more/under-image-style-settings.php:337
 msgid "Default"
-msgstr ""
+msgstr "Predefinito"
 
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:81
 msgid "Custom Form Settings successfully saved."
 msgstr ""
+"Le impostazioni del form personalizzato sono state ripristinate "
+"correttamente."
 
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:82
 msgid "Error: Custom Form Settings can not save."
-msgstr ""
+msgstr "Errore: Impossibile salvare le impostazioni del form personalizzato."
 
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:83
 msgid "Custom Form Settings successfully reseted."
 msgstr ""
+"Le impostazioni del form personalizzato sono state ripristinate "
+"correttamente."
 
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:151
 #: admin/tabs/email-inquiry-3rd-contact-form-tab.php:78
 msgid "Custom Form"
-msgstr ""
+msgstr "Form Personalizzato"
 
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:189
 #: admin/settings/email-inquiry-global-settings.php:218
@@ -525,29 +536,33 @@ msgstr ""
 #: admin/settings/read-more/under-image-style-settings.php:191
 #: classes/class-wc-email-inquiry-metabox.php:280
 msgid "Ultimate Version"
-msgstr ""
+msgstr "Versione Ultimate"
 
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:206
 msgid "Contact Form from another Plugin"
-msgstr ""
+msgstr "Form di contatto da un altro plugin"
 
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:207
 msgid ""
 "Create a contact form that applies to all Products by adding a form "
 "shortcode from the Contact Form 7 or Gravity Forms plugins."
 msgstr ""
+"Crea un form di contatto che si applica a tutti i prodotti aggiungento il "
+"codice form dai plugin Contact Form 7 o Gravity Form."
 
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:211
 msgid "Enter Global Form Shortcode"
-msgstr ""
+msgstr "Inserisci Codice Form Globale"
 
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:212
 msgid "Can add unique form shortcode on each product page."
 msgstr ""
+"Puoi aggiungere un codice univoco per il form di contatto in ogni pagina "
+"prodotto."
 
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:219
 msgid "Custom Form Open Options"
-msgstr ""
+msgstr "Opzioni Apri Form Predefinito"
 
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:224
 #: admin/settings/email-inquiry-contact-form-global-settings.php:278
@@ -556,47 +571,49 @@ msgstr ""
 #: admin/tabs/orders-mode/product-page-tab.php:78
 #: admin/tabs/quotes-mode/product-page-tab.php:78
 msgid "Product Page"
-msgstr ""
+msgstr "Pagina Prodotto"
 
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:231
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:237
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:263
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:269
 msgid "Open contact form on new page"
-msgstr ""
+msgstr "Apri il form di contatto in una nuova pagina"
 
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:231
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:263
 msgid "new window"
-msgstr ""
+msgstr "nuova finestra"
 
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:237
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:269
 msgid "same window"
-msgstr ""
+msgstr "stessa finestra"
 
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:243
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:275
 #: admin/settings/email-inquiry-contact-form-global-settings.php:285
 #: admin/settings/email-inquiry-contact-form-global-settings.php:305
 msgid "Open contact form by Pop-up"
-msgstr ""
+msgstr "Apri il form di contatto con un Pop-up"
 
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:249
 #: admin/settings/email-inquiry-contact-form-global-settings.php:291
 msgid ""
 "Open contact form on page (form opens by ajax under the inquiry button)."
 msgstr ""
+"Apri il form di contatto sulla pagina (il form si apre direttamente sotto il "
+"pulsante di richiesta)."
 
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:256
 #: admin/settings/email-inquiry-contact-form-global-settings.php:298
 #: classes/class-wc-email-inquiry-metabox.php:214
 msgid "Product Card"
-msgstr ""
+msgstr "Scheda Prodotto"
 
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:283
 msgid "Page For Displaying shortcode Forms"
-msgstr ""
+msgstr "Pagina per visualizzare il codice dei Form"
 
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:285
 #, php-format
@@ -605,155 +622,165 @@ msgid ""
 "created on install. If not you need to manually create a new page and add "
 "the shortcode. Then set that page below so the plugin knows where to find it."
 msgstr ""
+"Una pagina di 'Richiesta Email' con il codice %s inserito dovrebbe essere "
+"stata creata automaticamente. Altrimenti dovrai creare una nuova pagina e "
+"aggiungere il codice manualmente. Quindi imposta quella pagina di seguito "
+"così che il plugin sappia dove trovarla."
 
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:289
 msgid "Email Inquiry Page"
-msgstr ""
+msgstr "Pagina Richiesta Email"
 
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:290
 msgid "Page contents:"
-msgstr ""
+msgstr "Contenuti Pagina:"
 
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:295
 msgid "Select Page"
-msgstr ""
+msgstr "Seleziona Pagina"
 
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:300
 msgid "Reset Products Contact Form Shortcodes"
-msgstr ""
+msgstr "Ripristina i codici del Form di Contatto dei Prodotti"
 
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:305
 #: admin/settings/email-inquiry-button-style-settings.php:410
 msgid "Global Re-Set"
-msgstr ""
+msgstr "Ripristino Globale"
 
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:306
 msgid ""
 "Set to Yes and Save Changes will reset all products that have a unique "
 "contact form shortcode to the form shortcode set on this page."
 msgstr ""
+"Imposta su Sì e Salva i Cambiamenti per ripristinare tutti i prodotti che "
+"hanno lo stesso codice del form di contatto al codice impostato in questa "
+"pagina."
 
 #: admin/settings/email-inquiry-button-style-settings.php:91
 msgid "Button Style Settings successfully saved."
 msgstr ""
+"Le impostazioni dello stile del pulsante sono state salvate correttamente."
 
 #: admin/settings/email-inquiry-button-style-settings.php:92
 msgid "Error: Button Style Settings can not save."
-msgstr ""
+msgstr "Errore: Impossibile salvare le impostazioni dello stile del pulsante."
 
 #: admin/settings/email-inquiry-button-style-settings.php:93
 msgid "Button Style Settings successfully reseted."
 msgstr ""
+"Le impostazioni dello stile del pulsante sono state ripristinate "
+"correttamente."
 
 #: admin/settings/email-inquiry-button-style-settings.php:164
 msgid "Contact Form"
-msgstr ""
+msgstr "Form di Contatto"
 
 #: admin/settings/email-inquiry-button-style-settings.php:219
 msgid "Email Inquiry Button / Hyperlink"
-msgstr ""
+msgstr "Pulsante / Ipertesto Richiesta Email"
 
 #: admin/settings/email-inquiry-button-style-settings.php:223
 #: classes/class-wc-email-inquiry-metabox.php:238
 msgid "Button or Hyperlink Text"
-msgstr ""
+msgstr "Pulsante o Collegamento Ipertestuale"
 
 #: admin/settings/email-inquiry-button-style-settings.php:231
 #: admin/settings/read-more/under-image-style-settings.php:219
 #: classes/class-wc-email-inquiry-metabox.php:240
 msgid "Button"
-msgstr ""
+msgstr "Pulsante"
 
 #: admin/settings/email-inquiry-button-style-settings.php:232
 #: admin/settings/read-more/under-image-style-settings.php:220
 msgid "Hyperlink"
-msgstr ""
+msgstr "Ipertesto"
 
 #: admin/settings/email-inquiry-button-style-settings.php:235
 #: admin/settings/read-more/under-image-style-settings.php:223
 msgid "Relative Position"
-msgstr ""
+msgstr "Posizione Relativa"
 
 #: admin/settings/email-inquiry-button-style-settings.php:236
 msgid "Position relative to add to cart button location"
-msgstr ""
+msgstr "Posizione relativa alla posizione del pulsante aggiungi al carrello"
 
 #: admin/settings/email-inquiry-button-style-settings.php:243
 #: admin/settings/read-more/under-image-style-settings.php:230
 msgid "Below"
-msgstr ""
+msgstr "Sotto"
 
 #: admin/settings/email-inquiry-button-style-settings.php:244
 #: admin/settings/read-more/under-image-style-settings.php:231
 msgid "Above"
-msgstr ""
+msgstr "Sopra"
 
 #: admin/settings/email-inquiry-button-style-settings.php:247
 msgid "Button or Hyperlink Margin"
-msgstr ""
+msgstr "Margine Pulsante o Ipertesto"
 
 #: admin/settings/email-inquiry-button-style-settings.php:254
 #: admin/settings/read-more/hover-position-style-settings.php:223
 #: admin/settings/read-more/under-image-style-settings.php:240
 msgid "Top"
-msgstr ""
+msgstr "Alto"
 
 #: admin/settings/email-inquiry-button-style-settings.php:259
 #: admin/settings/read-more/hover-position-style-settings.php:225
 #: admin/settings/read-more/under-image-style-settings.php:245
 msgid "Bottom"
-msgstr ""
+msgstr "Basso"
 
 #: admin/settings/email-inquiry-button-style-settings.php:265
 #: admin/settings/read-more/under-image-style-settings.php:251
 msgid "Left"
-msgstr ""
+msgstr "Sinistra"
 
 #: admin/settings/email-inquiry-button-style-settings.php:271
 #: admin/settings/read-more/under-image-style-settings.php:257
 msgid "Right"
-msgstr ""
+msgstr "Destra"
 
 #: admin/settings/email-inquiry-button-style-settings.php:290
 msgid "Email Inquiry Button Style"
-msgstr ""
+msgstr "Stile Pulsante Richiesta Email"
 
 #: admin/settings/email-inquiry-button-style-settings.php:295
 #: classes/class-wc-email-inquiry-metabox.php:270
 msgid "Button Title"
-msgstr ""
+msgstr "Titolo Pulsante"
 
 #: admin/settings/email-inquiry-button-style-settings.php:296
 msgid "&lt;empty&gt; for default 'Product Enquiry' or enter text"
-msgstr ""
+msgstr "&lt;empty&gt; per 'Richiesta Prodotto' o inserisci il testo"
 
 #: admin/settings/email-inquiry-button-style-settings.php:299
 #: classes/class-wc-email-inquiry-hook.php:142
 #: classes/class-wc-email-inquiry-hook.php:227
 msgid "Product Enquiry"
-msgstr ""
+msgstr "Richiesta Prodotto"
 
 #: admin/settings/email-inquiry-button-style-settings.php:302
 #: admin/settings/read-more/hover-position-style-settings.php:229
 #: admin/settings/read-more/under-image-style-settings.php:302
 msgid "Button Padding"
-msgstr ""
+msgstr "Sfumatura Pulsante"
 
 #: admin/settings/email-inquiry-button-style-settings.php:303
 msgid "Padding from Button text to Button border"
-msgstr ""
+msgstr "Sfumatura dal testo del pulsante al bordo del pulsante"
 
 #: admin/settings/email-inquiry-button-style-settings.php:308
 #: admin/settings/read-more/hover-position-style-settings.php:235
 #: admin/settings/read-more/under-image-style-settings.php:308
 msgid "Top/Bottom"
-msgstr ""
+msgstr "Alto/Basso"
 
 #: admin/settings/email-inquiry-button-style-settings.php:313
 #: admin/settings/read-more/hover-position-style-settings.php:241
 #: admin/settings/read-more/under-image-style-settings.php:314
 msgid "Left/Right"
-msgstr ""
+msgstr "Sinistra/Destra"
 
 #: admin/settings/email-inquiry-button-style-settings.php:319
 #: admin/settings/email-inquiry-popup-form-style-settings.php:219
@@ -762,109 +789,116 @@ msgstr ""
 #: admin/settings/read-more/hover-position-style-settings.php:249
 #: admin/settings/read-more/under-image-style-settings.php:321
 msgid "Background Colour"
-msgstr ""
+msgstr "Colore di Sfondo"
 
 #: admin/settings/email-inquiry-button-style-settings.php:326
 #: admin/settings/email-inquiry-popup-form-style-settings.php:346
 #: admin/settings/read-more/hover-position-style-settings.php:256
 #: admin/settings/read-more/under-image-style-settings.php:328
 msgid "Background Colour Gradient From"
-msgstr ""
+msgstr "Sfondo Colore Sfumato da"
 
 #: admin/settings/email-inquiry-button-style-settings.php:333
 #: admin/settings/email-inquiry-popup-form-style-settings.php:353
 #: admin/settings/read-more/hover-position-style-settings.php:263
 #: admin/settings/read-more/under-image-style-settings.php:336
 msgid "Background Colour Gradient To"
-msgstr ""
+msgstr "Sfondo Colore Sfumato verso"
 
 #: admin/settings/email-inquiry-button-style-settings.php:340
 #: admin/settings/email-inquiry-popup-form-style-settings.php:360
 #: admin/settings/read-more/hover-position-style-settings.php:280
 #: admin/settings/read-more/under-image-style-settings.php:343
 msgid "Button Border"
-msgstr ""
+msgstr "Bordo Pulsante"
 
 #: admin/settings/email-inquiry-button-style-settings.php:346
 #: admin/settings/email-inquiry-popup-form-style-settings.php:366
 #: admin/settings/read-more/hover-position-style-settings.php:286
 #: admin/settings/read-more/under-image-style-settings.php:349
 msgid "Button Font"
-msgstr ""
+msgstr "Font Pulsante"
 
 #: admin/settings/email-inquiry-button-style-settings.php:352
 #: admin/settings/email-inquiry-popup-form-style-settings.php:372
 #: admin/settings/read-more/hover-position-style-settings.php:292
 #: admin/settings/read-more/under-image-style-settings.php:355
 msgid "Button Shadow"
-msgstr ""
+msgstr "Ombra Pulsante"
 
 #: admin/settings/email-inquiry-button-style-settings.php:358
 #: admin/settings/read-more/under-image-style-settings.php:361
 msgid "CSS Class"
-msgstr ""
+msgstr "Classe CSS"
 
 #: admin/settings/email-inquiry-button-style-settings.php:359
 #: admin/settings/email-inquiry-popup-form-style-settings.php:392
 #: admin/settings/read-more/under-image-style-settings.php:362
 msgid "Enter your own button CSS class"
-msgstr ""
+msgstr "Inserisci una tua classe CSS per il pulsante"
 
 #: admin/settings/email-inquiry-button-style-settings.php:366
 #: admin/settings/read-more/under-image-style-settings.php:264
 msgid "Hyperlink Styling"
-msgstr ""
+msgstr "Stile Ipertesto"
 
 #: admin/settings/email-inquiry-button-style-settings.php:371
 msgid "Text Before"
-msgstr ""
+msgstr "Testo Precedente"
 
 #: admin/settings/email-inquiry-button-style-settings.php:372
 msgid "&lt;empty&gt; for default 'no text' or add text to prepent link text"
 msgstr ""
+"&lt;empty&gt; per inserire 'nessun testo' oppur aggiungi un testo a tua "
+"scelta"
 
 #: admin/settings/email-inquiry-button-style-settings.php:378
 #: admin/settings/read-more/under-image-style-settings.php:269
 msgid "Hyperlink Text"
-msgstr ""
+msgstr "Collegamento Ipertestuale"
 
 #: admin/settings/email-inquiry-button-style-settings.php:379
 msgid "&lt;empty&gt; for default 'Click Here' or your own text"
-msgstr ""
+msgstr "&lt;empty&gt; per 'Clicca Qui' o aggiungi un testo a tua scelta"
 
 #: admin/settings/email-inquiry-button-style-settings.php:382
 #: classes/class-wc-email-inquiry-hook.php:136
 #: classes/class-wc-email-inquiry-hook.php:232
 msgid "Click Here"
-msgstr ""
+msgstr "Clicca Qui"
 
 #: admin/settings/email-inquiry-button-style-settings.php:385
 msgid "Trailing Text"
-msgstr ""
+msgstr "Testo Traccia"
 
 #: admin/settings/email-inquiry-button-style-settings.php:386
 msgid "&lt;empty&gt; for default 'no text' or add text to trail linked text"
 msgstr ""
+"&lt;empty&gt; per inserire 'nessun testo' o aggiungi un testo per il testo "
+"traccia"
 
 #: admin/settings/email-inquiry-button-style-settings.php:392
 #: admin/settings/read-more/under-image-style-settings.php:276
 msgid "Hyperlink Font"
-msgstr ""
+msgstr "Font Ipertesto"
 
 #: admin/settings/email-inquiry-button-style-settings.php:399
 #: admin/settings/read-more/under-image-style-settings.php:283
 msgid "Hyperlink hover Colour"
-msgstr ""
+msgstr "Colore al Passaggio Ipertesto"
 
 #: admin/settings/email-inquiry-button-style-settings.php:406
 msgid "Reset Products Button Style"
-msgstr ""
+msgstr "Ripristina Stile del Pulsante Prodotti"
 
 #: admin/settings/email-inquiry-button-style-settings.php:411
 msgid ""
 "Set to Yes and Save Changes will reset ALL products that have custom Button "
 "or Hyperlink Text settings to the settings made above."
 msgstr ""
+"Imposta su Sì e Salva i Cambiamenti per ripristinare TUTTI i prodotti che "
+"hanno un pulsante o un collegamento ipertestuale predefinito con le "
+"impostazioni usate sopra."
 
 #: admin/settings/email-inquiry-button-style-settings.php:435
 #: admin/settings/email-inquiry-global-settings.php:404
@@ -873,7 +907,7 @@ msgstr ""
 #: admin/settings/rules-roles-settings.php:832
 #: admin/settings/rules-roles-settings.php:885
 msgid "Tip"
-msgstr ""
+msgstr "Suggerimento"
 
 #: admin/settings/email-inquiry-button-style-settings.php:435
 msgid ""
@@ -881,6 +915,10 @@ msgid ""
 "adding a value here that margin is added by your theme. Increasing the "
 "margin here will add to the themes default button margin."
 msgstr ""
+"Se vedi un margine tra il pulsante aggiungi al carrello e il pulsante email "
+"prima di aggiungere un valore qui, quel margine è aggiunto dal tuo tema. "
+"Incrementando il margine qui aggiungerai al tema un margine predefinito per "
+"il pulsante."
 
 #: admin/settings/email-inquiry-button-style-settings.php:437
 #: admin/settings/email-inquiry-global-settings.php:406
@@ -891,7 +929,7 @@ msgstr ""
 #: admin/settings/rules-roles-settings.php:834
 #: admin/settings/rules-roles-settings.php:887
 msgid "Don't show again"
-msgstr ""
+msgstr "Non mostrare più"
 
 #: admin/settings/email-inquiry-button-style-settings.php:438
 #: admin/settings/email-inquiry-global-settings.php:407
@@ -902,19 +940,20 @@ msgstr ""
 #: admin/settings/rules-roles-settings.php:835
 #: admin/settings/rules-roles-settings.php:888
 msgid "Dismiss"
-msgstr ""
+msgstr "Rimuovi"
 
 #: admin/settings/email-inquiry-contact-form-global-settings.php:81
 msgid "Default Form Settings successfully saved."
-msgstr ""
+msgstr "Le impostazioni di Form predefinito sono state salvate correttamente."
 
 #: admin/settings/email-inquiry-contact-form-global-settings.php:82
 msgid "Error: Default Form Settings can not save."
-msgstr ""
+msgstr "Errore: Impossibile salvare le impostazioni di Form predefinito."
 
 #: admin/settings/email-inquiry-contact-form-global-settings.php:83
 msgid "Default Form Settings successfully reseted."
 msgstr ""
+"Le impostazioni di Form predefinito sono state ripristinate correttamente."
 
 #: admin/settings/email-inquiry-contact-form-global-settings.php:153
 #: admin/settings/email-inquiry-global-settings.php:180
@@ -927,90 +966,99 @@ msgstr ""
 #: admin/tabs/quotes-mode/global-settings-tab.php:78
 #: admin/tabs/read-more/settings-tab.php:78
 msgid "Settings"
-msgstr ""
+msgstr "Impostazioni"
 
 #: admin/settings/email-inquiry-contact-form-global-settings.php:208
 msgid "Built-in Contact Form"
-msgstr ""
+msgstr "Form di Contatto Integrato"
 
 #: admin/settings/email-inquiry-contact-form-global-settings.php:212
 msgid "Email 'From' Settings"
-msgstr ""
+msgstr "Impostazioni 'Form' Email"
 
 #: admin/settings/email-inquiry-contact-form-global-settings.php:213
 msgid ""
 "The following options affect the sender (email address and name) used in "
 "WooCommerce Product Email Inquiries."
 msgstr ""
+"Le seguenti opzioni riguardano il mittente (indirizzo email e nome) usato "
+"nelle Richieste Email del Prodotto in WooCommerce."
 
 #: admin/settings/email-inquiry-contact-form-global-settings.php:219
 msgid "\"From\" Name"
-msgstr ""
+msgstr "\"From\" Nome"
 
 #: admin/settings/email-inquiry-contact-form-global-settings.php:220
 msgid "&lt;empty&gt; defaults to Site Title"
-msgstr ""
+msgstr "&lt;empty&gt; ripristina al Titolo del Sito"
 
 #: admin/settings/email-inquiry-contact-form-global-settings.php:226
 msgid "\"From\" Email Address"
-msgstr ""
+msgstr "\"From\" Indirizzo Email"
 
 #: admin/settings/email-inquiry-contact-form-global-settings.php:227
 #: admin/settings/email-inquiry-contact-form-global-settings.php:256
 msgid "&lt;empty&gt; defaults to WordPress admin email address"
 msgstr ""
+"&lt;empty&gt; ripristina all'indirizzo email dell'amministratore WordPress"
 
 #: admin/settings/email-inquiry-contact-form-global-settings.php:233
 msgid "Sender 'Request A Copy'"
-msgstr ""
+msgstr "Invia 'Richiedi una Copia'"
 
 #: admin/settings/email-inquiry-contact-form-global-settings.php:238
 msgid "Send Copy to Sender"
-msgstr ""
+msgstr "Invia Copia al Mittente"
 
 #: admin/settings/email-inquiry-contact-form-global-settings.php:239
 msgid ""
 "Gives users a checkbox option to send a copy of the Inquiry email to "
 "themselves"
 msgstr ""
+"Fornisce all'utente una casella da spuntare per inviare una copia dell'email "
+"a se stesso."
 
 #: admin/settings/email-inquiry-contact-form-global-settings.php:250
 msgid "Email Delivery"
-msgstr ""
+msgstr "Invia Email"
 
 #: admin/settings/email-inquiry-contact-form-global-settings.php:255
 #: classes/class-wc-email-inquiry-metabox.php:225
 msgid "Inquiry Email goes to"
-msgstr ""
+msgstr "La Richiesta Email va a"
 
 #: admin/settings/email-inquiry-contact-form-global-settings.php:263
 msgid "CC"
-msgstr ""
+msgstr "CC"
 
 #: admin/settings/email-inquiry-contact-form-global-settings.php:264
 msgid "&lt;empty&gt; defaults to 'no copy sent' or add an email address"
 msgstr ""
+"&lt;empty&gt; ripristina a 'nessuna copia inviata' o aggiungi un indirizzo "
+"email"
 
 #: admin/settings/email-inquiry-contact-form-global-settings.php:272
 msgid "Open Default Contact Form Method"
-msgstr ""
+msgstr "Apri il metodo del Form di Contatto Predefinito"
 
 #: admin/settings/email-inquiry-global-settings.php:92
 msgid "Email Inquiry Settings successfully saved."
 msgstr ""
+"Le impostazioni per la Richiesta Email sono state salvate correttamente."
 
 #: admin/settings/email-inquiry-global-settings.php:93
 msgid "Error: Email Inquiry Settings can not save."
-msgstr ""
+msgstr "Errore: Impossibile salvare le impostazioni per la Richiesta Email."
 
 #: admin/settings/email-inquiry-global-settings.php:94
 msgid "Email Inquiry Settings successfully reseted."
 msgstr ""
+"Le impostazioni per la Richiesta Email sono state ripristinate correttamente."
 
 #: admin/settings/email-inquiry-global-settings.php:240
 #: classes/class-wc-email-inquiry-metabox.php:192
 msgid "Product Page Rule: Show Email Inquiry Button"
-msgstr ""
+msgstr "Regola Pagina Prodotto: Mostra il Pulsante di Richiesta Email"
 
 #: admin/settings/email-inquiry-global-settings.php:244
 #: admin/settings/read-more/global-settings.php:228
@@ -1025,7 +1073,7 @@ msgstr ""
 #: classes/class-wc-email-inquiry-metabox.php:195
 #: classes/class-wc-email-inquiry-metabox.php:287
 msgid "Apply for all users before log in"
-msgstr ""
+msgstr "Applica a tutti gli utenti dopo l'accesso"
 
 #: admin/settings/email-inquiry-global-settings.php:256
 #: admin/settings/read-more/global-settings.php:239
@@ -1037,7 +1085,7 @@ msgstr ""
 #: admin/settings/rules-roles-settings.php:605
 #: classes/class-wc-email-inquiry-metabox.php:150
 msgid "Apply by user role after log in"
-msgstr ""
+msgstr "Applica dal ruolo utente dopo l'accesso"
 
 #: admin/settings/email-inquiry-global-settings.php:276
 #: admin/settings/read-more/global-settings.php:257
@@ -1051,48 +1099,50 @@ msgstr ""
 #: classes/class-wc-email-inquiry-metabox.php:205
 #: classes/class-wc-email-inquiry-metabox.php:297
 msgid "Choose Roles"
-msgstr ""
+msgstr "Scegli Ruoli"
 
 #: admin/settings/email-inquiry-global-settings.php:289
 msgid "Product Cards"
-msgstr ""
+msgstr "Schede Prodotti"
 
 #: admin/settings/email-inquiry-global-settings.php:293
 #: classes/class-wc-email-inquiry-metabox.php:217
 msgid "Email Inquiry Feature"
-msgstr ""
+msgstr "Funzionalità Richiesta Email"
 
 #: admin/settings/email-inquiry-global-settings.php:294
 msgid "ON to show Button / Link Text on Product Cards (grid view) display."
 msgstr ""
+"ON per mostrare il Pulsante / Testo del link sulla Scheda Prodotto (vista "
+"con griglia)."
 
 #: admin/settings/email-inquiry-global-settings.php:306
 msgid "Contact Form Type"
-msgstr ""
+msgstr "Tipo Form di Contatto"
 
 #: admin/settings/email-inquiry-global-settings.php:311
 msgid "Plugins Default Contact Form"
-msgstr ""
+msgstr "Plugin Form di Contatto Predefinito"
 
 #: admin/settings/email-inquiry-global-settings.php:327
 msgid "Create form by Shortcode"
-msgstr ""
+msgstr "Crea form da codice"
 
 #: admin/settings/email-inquiry-global-settings.php:335
 msgid "Only Contact Form 7 or Gravity Forms shortcode will work here"
-msgstr ""
+msgstr "Solo il codice da Contact Form 7 o Gravity Forms funzionerà qui"
 
 #: admin/settings/email-inquiry-global-settings.php:344
 #: admin/settings/read-more/global-settings.php:270
 #: admin/settings/rules-roles-settings.php:406
 msgid "Product Page Rules Reset:"
-msgstr ""
+msgstr "Ripristina Regole della Pagina Prodotto:"
 
 #: admin/settings/email-inquiry-global-settings.php:349
 #: admin/settings/read-more/global-settings.php:274
 #: admin/settings/rules-roles-settings.php:411
 msgid "Reset All Products"
-msgstr ""
+msgstr "Ripristina Tutti i Prodotti"
 
 #: admin/settings/email-inquiry-global-settings.php:350
 #: admin/settings/read-more/global-settings.php:275
@@ -1102,36 +1152,41 @@ msgid ""
 "Product Page and Product Card Rules and Roles on ALL products back to the "
 "admin panels Global settings."
 msgstr ""
+"<strong>Avviso:</strong>Imposta su Sì e Salva i Cambiamenti per ripristinare "
+"TUTTE le Pagine e le Regole personalizzate dei prodotti e ritornare alle "
+"impostazioni Globali predefinite."
 
 #: admin/settings/email-inquiry-global-settings.php:361
 msgid "Select a Pop-Up Tool"
-msgstr ""
+msgstr "Seleziona uno strumento Pop-Up"
 
 #: admin/settings/email-inquiry-global-settings.php:365
 msgid "Pop-Up Tool"
-msgstr ""
+msgstr "Strumento Pop-Up"
 
 #: admin/settings/email-inquiry-global-settings.php:372
 msgid "FANCYBOX"
-msgstr ""
+msgstr "FANCYBOX"
 
 #: admin/settings/email-inquiry-global-settings.php:373
 msgid "COLORBOX"
-msgstr ""
+msgstr "COLORBOX"
 
 #: admin/settings/email-inquiry-global-settings.php:377
 msgid "House Keeping :"
-msgstr ""
+msgstr "Manutenzione:"
 
 #: admin/settings/email-inquiry-global-settings.php:381
 msgid "Clean up on Deletion"
-msgstr ""
+msgstr "Pulisci all'Eliminazione"
 
 #: admin/settings/email-inquiry-global-settings.php:382
 msgid ""
 "On deletion (not deactivate) the plugin will completely remove all tables "
 "and data it created, leaving no trace it was ever here."
 msgstr ""
+"Una volta eliminato (non disattivato) il plugin, verranno rimosse tutte le "
+"tabelle e i dati creati, senza lasciare alcuna traccia."
 
 #: admin/settings/email-inquiry-global-settings.php:404
 msgid ""
@@ -1142,132 +1197,148 @@ msgid ""
 "to cart template and replaced it with a custom template the button cannot "
 "show on any products."
 msgstr ""
+"Se un prodotto non ha alcun prezzo (anche 0) WooCommerce rimuoverà la "
+"funzione di aggiunta al carrello. Il pulsante di Richiesta Email fa "
+"riferimento a quella funzione e se non è presente non verrà mostrato alcun "
+"pulsante. Anche se un tema personalizzato dovesse rimuovere o modificare la "
+"funzione aggiungi al carrello di WooCommerce il pulsante non potrà essere "
+"mostrato per nessun prodotto."
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:81
 msgid "Default Form Style Settings successfully saved."
 msgstr ""
+"Le impostazioni dello stile del form predefinito sono state salvate "
+"correttamente."
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:82
 msgid "Error: Default Form Style Settings can not save."
 msgstr ""
+"Errore: Impossibile salvare le impostazioni dello stile del form predefinito."
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:83
 msgid "Default Form Style Settings successfully reseted."
 msgstr ""
+"Le impostazioni dello stile del form predefinito sono state ripristinate "
+"correttamente."
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:159
 msgid "Default Form Style"
-msgstr ""
+msgstr "Stile del Form Predefinito"
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:214
 msgid "Form Background Colour"
-msgstr ""
+msgstr "Colore di Sfondo del Form"
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:227
 msgid "Form Title"
-msgstr ""
+msgstr "Titolo del Form"
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:231
 msgid "Header Title"
-msgstr ""
+msgstr "Titolo Intestazione"
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:232
 msgid "&lt;empty&gt; and the form title will be the Button title"
-msgstr ""
+msgstr "&lt;empty&gt; e il titolo del form sarà il titolo del Pulsante"
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:243
 msgid "Title Font"
-msgstr ""
+msgstr "Font del Titolo"
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:250
 #: classes/class-wc-email-inquiry-functions.php:175
 msgid "Product Name"
-msgstr ""
+msgstr "Nome Prodotto"
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:254
 msgid "Product Name Font"
-msgstr ""
+msgstr "Font del Nome Prodotto"
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:261
 msgid "Product URL"
-msgstr ""
+msgstr "URL Prodotto"
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:266
 msgid "Product URL Font"
-msgstr ""
+msgstr "Font dell'URL del Prodotto"
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:273
 msgid "Form Content Font"
-msgstr ""
+msgstr "Font del Contenuto del Form"
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:277
 msgid "Content Font"
-msgstr ""
+msgstr "Font del Contenuto"
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:285
 msgid "Email Subject Name"
-msgstr ""
+msgstr "Nome Oggetto Email"
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:290
 msgid "Subject Name Font"
-msgstr ""
+msgstr "Font del Nome Oggetto"
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:297
 msgid "Form Input Field Style"
-msgstr ""
+msgstr "Stile del campo di Input del form"
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:309
 msgid "Font Colour"
-msgstr ""
+msgstr "Colore Font"
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:316
 msgid "Input Field Borders"
-msgstr ""
+msgstr "Bordi dei campi di Input"
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:323
 msgid "Form Send / Submit Button"
-msgstr ""
+msgstr "Form Pulsante Invia / Spedisci"
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:327
 msgid "Send Button Title"
-msgstr ""
+msgstr "Titolo Pulsante Invio"
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:328
 msgid "&lt;empty&gt; for default SEND"
-msgstr ""
+msgstr "&lt;empty&gt; per l'INVIO predefinito"
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:332
 #: classes/class-wc-email-inquiry-hook.php:246
 msgid "SEND"
-msgstr ""
+msgstr "INVIA"
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:379
 msgid "Style Form With Theme CSS"
-msgstr ""
+msgstr "Stile Form con Tema CSS"
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:384
 msgid "Form CSS Class"
-msgstr ""
+msgstr "Classe CSS Form"
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:385
 msgid "&lt;empty&gt; for default or enter custom form CSS"
-msgstr ""
+msgstr "&lt;empty&gt; per ripristinare o inserisci un form CSS personalizzato"
 
 #: admin/settings/email-inquiry-popup-form-style-settings.php:391
 msgid "Button CSS Class"
-msgstr ""
+msgstr "Classe CSS Pulsante"
 
 #: admin/settings/email-inquiry-success-message-settings.php:81
 msgid "Success Message successfully saved."
 msgstr ""
+"Le impostazioni per il messaggio di riuscita sono state salvate "
+"correttamente."
 
 #: admin/settings/email-inquiry-success-message-settings.php:82
 msgid "Error: Success Message can not save."
 msgstr ""
+"Errore: Impossibile salvare le impostazioni per il messaggio di riuscita."
 
 #: admin/settings/email-inquiry-success-message-settings.php:83
 msgid "Success Message successfully reseted."
 msgstr ""
+"Le impostazioni per il messaggio di riuscita sono state ripristinate "
+"correttamente."
 
 #: admin/settings/email-inquiry-success-message-settings.php:137
 #: admin/settings/email-inquiry-success-message-settings.php:185
@@ -1276,155 +1347,162 @@ msgstr ""
 #: admin/settings/quotes-mode/product-page-settings.php:221
 #: admin/settings/quotes-mode/product-page-settings.php:225
 msgid "Success Message"
-msgstr ""
+msgstr "Messaggio Riuscita"
 
 #: admin/settings/email-inquiry-success-message-settings.php:181
 msgid "Success Message Setup"
-msgstr ""
+msgstr "Configurazione Messaggio Riuscita"
 
 #: admin/settings/email-inquiry-success-message-settings.php:186
 msgid "Message that user will see after their Inquiry is sent."
-msgstr ""
+msgstr "Messaggio che l'utente vedrà dopo l'invio della Richiesta."
 
 #: admin/settings/email-inquiry-success-message-settings.php:190
 #: classes/class-wc-email-inquiry-functions.php:112
 msgid ""
 "Thanks for your inquiry - we'll be in touch with you as soon as possible!"
-msgstr ""
+msgstr "Grazie per la tua richiesta - ti ricontatteremo il prima possibile!"
 
 #: admin/settings/fancybox-popup-settings.php:81
 msgid "Fancybox Pop-Up Settings successfully saved."
 msgstr ""
+"Le impostazioni per il Pop-Up Fancybox sono state salvate correttamente."
 
 #: admin/settings/fancybox-popup-settings.php:82
 msgid "Error: Fancybox Pop-Up Settings can not save."
-msgstr ""
+msgstr "Errore: Impossibile salvare le impostazioni per il Pop-Up Fancybox."
 
 #: admin/settings/fancybox-popup-settings.php:83
 msgid "Fancybox Pop-Up Settings successfully reseted."
 msgstr ""
+"Le impostazioni per il Pop-Up Fancybox sono state ripristinate correttamente."
 
 #: admin/settings/fancybox-popup-settings.php:151
 msgid "Fancybox Pop-Up"
-msgstr ""
+msgstr "Pop-Up Fancybox"
 
 #: admin/settings/fancybox-popup-settings.php:206
 msgid "Fancybox Pop-Up Settings"
-msgstr ""
+msgstr "Impostazioni Pop-Up Fancybox"
 
 #: admin/settings/fancybox-popup-settings.php:231
 msgid "Open Transition Effect"
-msgstr ""
+msgstr "Apri Effetto Transizione"
 
 #: admin/settings/fancybox-popup-settings.php:232
 msgid "Choose a pop-up opening effect. Default - None."
-msgstr ""
+msgstr "Scegli un effetto in apertura del pop-up. Predefinito - Nessuno"
 
 #: admin/settings/fancybox-popup-settings.php:244
 msgid "Close Transistion Effect"
-msgstr ""
+msgstr "Chiudi Effetto Transizione"
 
 #: admin/settings/fancybox-popup-settings.php:245
 msgid "Choose a pop-up closing effect. Default - None."
-msgstr ""
+msgstr "Scegli un effetto in chiusura del pop-up. Predefinito - Nessuno."
 
 #: admin/settings/fancybox-popup-settings.php:257
 msgid "Opening Speed"
-msgstr ""
+msgstr "Velocità di apertura"
 
 #: admin/settings/fancybox-popup-settings.php:258
 msgid "Milliseconds when open pop-up"
-msgstr ""
+msgstr "Millisecondi per l'apertura del pop-up"
 
 #: admin/settings/fancybox-popup-settings.php:265
 msgid "Closing Speed"
-msgstr ""
+msgstr "Velocità di chiusura"
 
 #: admin/settings/fancybox-popup-settings.php:266
 msgid "Milliseconds when close pop-up"
-msgstr ""
+msgstr "Millisecondi per la chiusura del pop-up"
 
 #: admin/settings/orders-mode/cart-page-settings.php:81
 #: admin/settings/quotes-mode/cart-page-settings.php:81
 msgid "Cart Page Settings successfully saved."
 msgstr ""
+"Le impostazioni per la pagina carrello sono state salvate correttamente."
 
 #: admin/settings/orders-mode/cart-page-settings.php:82
 #: admin/settings/quotes-mode/cart-page-settings.php:82
 msgid "Error: Cart Page Settings can not save."
-msgstr ""
+msgstr "Errore: Impossibile salvare le impostazioni per la pagina carrello."
 
 #: admin/settings/orders-mode/cart-page-settings.php:83
 #: admin/settings/quotes-mode/cart-page-settings.php:83
 msgid "Cart Page Settings successfully reseted."
 msgstr ""
+"Le impostazioni per la pagina carrello sono state ripristinate correttamente."
 
 #: admin/settings/orders-mode/cart-page-settings.php:151
 #: admin/settings/quotes-mode/cart-page-settings.php:151
 #: admin/tabs/orders-mode/cart-page-tab.php:78
 #: admin/tabs/quotes-mode/cart-page-tab.php:78
 msgid "Cart Page"
-msgstr ""
+msgstr "Pagina Carrello"
 
 #: admin/settings/orders-mode/cart-page-settings.php:195
 msgid "Customize the Order (Cart) Page"
-msgstr ""
+msgstr "Personalizza la pagina Ordine (Carrello)"
 
 #: admin/settings/orders-mode/cart-page-settings.php:196
 msgid ""
 "Order Mode creates its own template that replaces the WooCommerce Cart page."
 msgstr ""
+"La Modalità Ordine crea un suo modello che sostituisce la pagina Carrello di "
+"WooCommerce."
 
 #: admin/settings/orders-mode/cart-page-settings.php:200
 msgid "Order Page Title"
-msgstr ""
+msgstr "Titolo della pagina Ordine"
 
 #: admin/settings/orders-mode/cart-page-settings.php:201
 #: admin/settings/quotes-mode/cart-page-settings.php:201
 msgid "Replace Cart page name"
-msgstr ""
+msgstr "Sostituisci il nome della pagina Carrello"
 
 #: admin/settings/orders-mode/cart-page-settings.php:204
 msgid "Order"
-msgstr ""
+msgstr "Ordine"
 
 #: admin/settings/orders-mode/cart-page-settings.php:207
 msgid "Update Order Button"
-msgstr ""
+msgstr "Pulsante Aggiorna Ordine"
 
 #: admin/settings/orders-mode/cart-page-settings.php:208
 #: admin/settings/quotes-mode/cart-page-settings.php:208
 msgid "Text that displays instead of ' Update Cart' on the button."
-msgstr ""
+msgstr "Testo da mostrare al posto di 'Aggiorna Carrello' sul pulsante."
 
 #: admin/settings/orders-mode/cart-page-settings.php:211
 msgid "Update Order"
-msgstr ""
+msgstr "Aggiorna Ordine"
 
 #: admin/settings/orders-mode/cart-page-settings.php:214
 #: admin/settings/quotes-mode/cart-page-settings.php:214
 msgid "Details and Send Button"
-msgstr ""
+msgstr "Pulsante Dettagli e Invia"
 
 #: admin/settings/orders-mode/cart-page-settings.php:215
 #: admin/settings/quotes-mode/cart-page-settings.php:215
 msgid ""
 "Text that displays instead of 'Proceed to Checkout &rarr;' on the button"
 msgstr ""
+"Testo da mostrare al posto di 'Procedi al Checkout &rarr;' sul pulsante"
 
 #: admin/settings/orders-mode/cart-page-settings.php:218
 #: admin/settings/quotes-mode/cart-page-settings.php:218
 msgid "Add Details and Send &rarr;"
-msgstr ""
+msgstr "Aggiungi Dettagli e Invia &rarr;"
 
 #: admin/settings/orders-mode/cart-page-settings.php:221
 msgid "Order Note"
-msgstr ""
+msgstr "Nota Ordine"
 
 #: admin/settings/orders-mode/cart-page-settings.php:222
 #: admin/settings/quotes-mode/cart-page-settings.php:222
 msgid "Message that shows above the table on the cart page."
-msgstr ""
+msgstr "Messaggio da mostrare sopra la tabella sulla pagina del carrello."
 
 #: admin/settings/orders-mode/cart-page-settings.php:225
 #: admin/settings/quotes-mode/cart-page-settings.php:225
@@ -1432,89 +1510,95 @@ msgid ""
 "Note: Shipping and taxes are estimated and will be updated during checkout "
 "based on your billing and shipping information."
 msgstr ""
+"Nota: La spedizione e le tasse sono stimate e verranno aggiornate durante il "
+"checkout basato sulle tue informazioni di imposte e spedizione."
 
 #: admin/settings/orders-mode/cart-page-settings.php:229
 #: admin/settings/quotes-mode/cart-page-settings.php:229
 msgid "Empty Cart Message"
-msgstr ""
+msgstr "Messaggio Carrello Vuoto"
 
 #: admin/settings/orders-mode/cart-page-settings.php:230
 #: admin/settings/quotes-mode/cart-page-settings.php:230
 msgid "Text that shows instead of 'Your cart is currently empty.'."
-msgstr ""
+msgstr "Testo da mostrare al posto di 'Il tuo carrello è vuoto.'."
 
 #: admin/settings/orders-mode/cart-page-settings.php:233
 msgid "Your order is currently empty."
-msgstr ""
+msgstr "Il tuo ordine è vuoto."
 
 #: admin/settings/orders-mode/checkout-page-settings.php:81
 #: admin/settings/quotes-mode/checkout-page-settings.php:81
 msgid "Checkout Page Settings successfully saved."
 msgstr ""
+"Le impostazioni per la pagina Checkout sono state salvate correttamente."
 
 #: admin/settings/orders-mode/checkout-page-settings.php:82
 #: admin/settings/quotes-mode/checkout-page-settings.php:82
 msgid "Error: Checkout Page Settings can not save."
-msgstr ""
+msgstr "Errore: Impossibile salvare le impostazioni per la pagina Checkout."
 
 #: admin/settings/orders-mode/checkout-page-settings.php:83
 #: admin/settings/quotes-mode/checkout-page-settings.php:83
 msgid "Checkout Page Settings successfully reseted."
 msgstr ""
+"Le impostazioni per la pagina Checkout sono state ripristinate correttamente."
 
 #: admin/settings/orders-mode/checkout-page-settings.php:151
 #: admin/settings/quotes-mode/checkout-page-settings.php:151
 #: admin/tabs/orders-mode/checkout-page-tab.php:78
 #: admin/tabs/quotes-mode/checkout-page-tab.php:78
 msgid "Checkout Page"
-msgstr ""
+msgstr "Pagina Checkout"
 
 #: admin/settings/orders-mode/checkout-page-settings.php:195
 #: admin/settings/quotes-mode/checkout-page-settings.php:195
 msgid "Customize the Add Details and Send (Checkout) Page"
-msgstr ""
+msgstr "Personalizza la pagina Aggiungi Dettagli e Invia (Checkout)"
 
 #: admin/settings/orders-mode/checkout-page-settings.php:196
 msgid ""
 "Orders Mode creates its own template that replaces the WooCommerce Checkout "
 "page."
 msgstr ""
+"La Modalità Ordini crea un suo modello che sostituisce la pagina Checkout di "
+"WooCommerce."
 
 #: admin/settings/orders-mode/checkout-page-settings.php:200
 msgid "Order Checkout Page Title"
-msgstr ""
+msgstr "Titolo della pagina Checkout Ordine"
 
 #: admin/settings/orders-mode/checkout-page-settings.php:201
 #: admin/settings/quotes-mode/checkout-page-settings.php:201
 msgid "Replace Checkout page name"
-msgstr ""
+msgstr "Sostituisci il nome della pagina Checkout"
 
 #: admin/settings/orders-mode/checkout-page-settings.php:204
 #: admin/settings/orders-mode/widget-cart-settings.php:213
 msgid "Send Order"
-msgstr ""
+msgstr "Invia Ordine"
 
 #: admin/settings/orders-mode/checkout-page-settings.php:207
 #: admin/settings/orders-mode/checkout-page-settings.php:211
 msgid "Send Order Request"
-msgstr ""
+msgstr "Richiesta di invio Ordine"
 
 #: admin/settings/orders-mode/checkout-page-settings.php:208
 #: admin/settings/quotes-mode/checkout-page-settings.php:208
 msgid "Text that displays instead of 'Place order' on the button."
-msgstr ""
+msgstr "Testo da mostrare al posto di 'Invia Ordine' sul pulsante."
 
 #: admin/settings/orders-mode/checkout-page-settings.php:214
 #: admin/settings/orders-mode/order-received-settings.php:207
 #: admin/settings/quotes-mode/checkout-page-settings.php:214
 #: admin/settings/quotes-mode/order-received-settings.php:207
 msgid "Top of page Message"
-msgstr ""
+msgstr "Cima della pagina Messaggio"
 
 #: admin/settings/orders-mode/checkout-page-settings.php:215
 #: admin/settings/quotes-mode/checkout-page-settings.php:215
 msgid "Message that user sees on top of checkout page"
-msgstr ""
+msgstr "Messaggio che l'utente vede in cima alla pagina del checkout"
 
 #: admin/settings/orders-mode/checkout-page-settings.php:223
 #: admin/settings/orders-mode/checkout-page-settings.php:226
@@ -1525,8 +1609,9 @@ msgstr ""
 
 #: admin/settings/orders-mode/checkout-page-settings.php:229
 #: admin/settings/quotes-mode/checkout-page-settings.php:229
+#, fuzzy
 msgid "Shipping help text"
-msgstr ""
+msgstr "Spedizione"
 
 #: admin/settings/orders-mode/checkout-page-settings.php:230
 #: admin/settings/quotes-mode/checkout-page-settings.php:230
@@ -1535,8 +1620,9 @@ msgstr ""
 
 #: admin/settings/orders-mode/checkout-page-settings.php:237
 #: admin/settings/quotes-mode/checkout-page-settings.php:237
+#, fuzzy
 msgid "Shipping Options Title"
-msgstr ""
+msgstr "Titolo Pulsante Invio"
 
 #: admin/settings/orders-mode/checkout-page-settings.php:238
 #: admin/settings/quotes-mode/checkout-page-settings.php:238
@@ -1553,28 +1639,30 @@ msgstr ""
 #: admin/settings/quotes-mode/checkout-page-settings.php:244
 #: admin/settings/quotes-mode/order-received-settings.php:216
 msgid "Bottom of page Message"
-msgstr ""
+msgstr "Fondo della pagina Messaggio"
 
 #: admin/settings/orders-mode/checkout-page-settings.php:245
 #: admin/settings/quotes-mode/checkout-page-settings.php:245
 msgid "Message that user sees on bottom of checkout page"
-msgstr ""
+msgstr "Messaggio che l'utente vede in fondo alla pagina del checkout"
 
 #: admin/settings/orders-mode/global-settings.php:81
 msgid "Orders Mode Settings successfully saved."
 msgstr ""
+"Le impostazioni per la modalità ordini sono state salvate correttamente."
 
 #: admin/settings/orders-mode/global-settings.php:82
 msgid "Error: Orders Mode Settings can not save."
-msgstr ""
+msgstr "Errore: Impossibile salvare le impostazioni per la modalità ordini."
 
 #: admin/settings/orders-mode/global-settings.php:83
 msgid "Orders Mode Settings successfully reseted."
 msgstr ""
+"Le impostazioni per la modalità ordini sono state ripristinate correttamente."
 
 #: admin/settings/orders-mode/global-settings.php:198
 msgid "Order Mode Payment Gateway"
-msgstr ""
+msgstr "Gateway di pagamento per la Modalità Ordini"
 
 #: admin/settings/orders-mode/global-settings.php:199
 #, php-format
@@ -1583,6 +1671,9 @@ msgid ""
 "activated. Go to <a href=\"%s\">WooCommerce Payment Gateways</a> to "
 "customize."
 msgstr ""
+"Il gateway di pagamento per la Modalità Ordini è automaticamente attivato "
+"quando la funzione è attiva. Vai a <a href=\"%s\">WooCommerce Payment "
+"Gateways</a> per personalizzarla."
 
 #: admin/settings/orders-mode/global-settings.php:199
 #, php-format
@@ -1590,22 +1681,29 @@ msgid ""
 "Orders Mode payment gateway is automatically activated when the feature is "
 "activated. Go to <a href=\"%s\">WooCommerce Checkout</a> to customize."
 msgstr ""
+"Il gateway di pagamento per la Modalità Ordini è automaticamente attivato "
+"quando la funzione è attiva. Vai a <a href=\"%s\">WooCommerce Checkout</a> "
+"per personalizzarla."
 
 #: admin/settings/orders-mode/global-settings.php:204
 #: admin/settings/quotes-mode/global-settings.php:204
+#, fuzzy
 msgid "Shipping Options"
-msgstr ""
+msgstr "Spedizione"
 
 #: admin/settings/orders-mode/global-settings.php:205
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "Configure store Shipping Options at <a href=\"%s\">WooCommerce Shipping</a> "
 "and set Orders mode Shipping visibility options below."
 msgstr ""
+"Le opzioni di spedizione impostate in <a href=\"%s\">WooCommerce Shipping</"
+"a> si applicano a tutti i modelli della Modalità Preventivo."
 
 #: admin/settings/orders-mode/global-settings.php:210
+#, fuzzy
 msgid "Order Shipping"
-msgstr ""
+msgstr "Spedizione"
 
 #: admin/settings/orders-mode/global-settings.php:211
 msgid ""
@@ -1628,36 +1726,41 @@ msgstr ""
 #: admin/settings/orders-mode/new-account-email-settings.php:84
 msgid "New Account Email Settings successfully saved."
 msgstr ""
+"Le impostazioni per l'email del nuovo account sono state salvate "
+"correttamente."
 
 #: admin/settings/orders-mode/new-account-email-settings.php:85
 msgid "Error: New Account Email Settings can not save."
 msgstr ""
+"Errore: Impossibile salvare le impostazioni per l'email del nuovo account."
 
 #: admin/settings/orders-mode/new-account-email-settings.php:86
 msgid "New Account Email Settings successfully reseted."
 msgstr ""
+"Le impostazioni per l'email del nuovo account sono state ripristinate "
+"correttamente."
 
 #: admin/settings/orders-mode/new-account-email-settings.php:156
 #: admin/settings/quotes-mode/new-account-email-settings.php:156
 msgid "New Account"
-msgstr ""
+msgstr "Nuovo Account"
 
 #: admin/settings/orders-mode/new-account-email-settings.php:208
 #: admin/settings/orders-mode/orders-emails-settings.php:215
 msgid "New Account Role"
-msgstr ""
+msgstr "Nuovo Ruolo dell'Account"
 
 #: admin/settings/orders-mode/new-account-email-settings.php:212
 #: admin/settings/orders-mode/orders-emails-settings.php:219
 msgid "Set Role for New Acccount"
-msgstr ""
+msgstr "Imposta Ruolo per il Nuovo Account"
 
 #: admin/settings/orders-mode/new-account-email-settings.php:221
 #: admin/settings/orders-mode/orders-emails-settings.php:228
 #: admin/settings/quotes-mode/new-account-email-settings.php:200
 #: admin/settings/quotes-mode/quotes-emails-settings.php:206
 msgid "New User Account Email"
-msgstr ""
+msgstr "Nuovo Account Email Utente"
 
 #: admin/settings/orders-mode/new-account-email-settings.php:222
 #: admin/settings/orders-mode/orders-emails-settings.php:229
@@ -1666,6 +1769,9 @@ msgid ""
 "submitted. Customize the New user account notification email that is auto "
 "sent to the user."
 msgstr ""
+"Un nuovo account utente viene creato (se non esiste) quando la richiesta di "
+"ordine è inviata. Personalizza la notifica email che riceverà l'utente per "
+"la creazione del nuovo account."
 
 #: admin/settings/orders-mode/new-account-email-settings.php:227
 #: admin/settings/orders-mode/orders-emails-settings.php:234
@@ -1673,21 +1779,21 @@ msgstr ""
 #: admin/settings/quotes-mode/quotes-emails-settings.php:212
 #: admin/settings/quotes-mode/send-quote-email-settings.php:206
 msgid "Email Subject"
-msgstr ""
+msgstr "Oggetto Email"
 
 #: admin/settings/orders-mode/new-account-email-settings.php:228
 #: admin/settings/orders-mode/orders-emails-settings.php:235
 #: admin/settings/quotes-mode/new-account-email-settings.php:207
 #: admin/settings/quotes-mode/quotes-emails-settings.php:213
 msgid "Defaults to <code>Your account on {blogname}</code>."
-msgstr ""
+msgstr "Predefiniti a <code>Il tuo account su {blogname}</code>."
 
 #: admin/settings/orders-mode/new-account-email-settings.php:231
 #: admin/settings/orders-mode/orders-emails-settings.php:238
 #: admin/settings/quotes-mode/new-account-email-settings.php:210
 #: admin/settings/quotes-mode/quotes-emails-settings.php:216
 msgid "Your account on {blogname}"
-msgstr ""
+msgstr "Il tuo account su {blogname}"
 
 #: admin/settings/orders-mode/new-account-email-settings.php:234
 #: admin/settings/orders-mode/orders-emails-settings.php:241
@@ -1695,28 +1801,28 @@ msgstr ""
 #: admin/settings/quotes-mode/quotes-emails-settings.php:219
 #: admin/settings/quotes-mode/send-quote-email-settings.php:213
 msgid "Email Heading"
-msgstr ""
+msgstr "Intestazione Email"
 
 #: admin/settings/orders-mode/new-account-email-settings.php:235
 #: admin/settings/orders-mode/orders-emails-settings.php:242
 #: admin/settings/quotes-mode/new-account-email-settings.php:214
 #: admin/settings/quotes-mode/quotes-emails-settings.php:220
 msgid "Defaults to <code>Welcome to {blogname}</code>."
-msgstr ""
+msgstr "Predefiniti a <code>Benvenuto in {blogname}</code>."
 
 #: admin/settings/orders-mode/new-account-email-settings.php:238
 #: admin/settings/orders-mode/orders-emails-settings.php:245
 #: admin/settings/quotes-mode/new-account-email-settings.php:217
 #: admin/settings/quotes-mode/quotes-emails-settings.php:223
 msgid "Welcome to {blogname}"
-msgstr ""
+msgstr "Benvenuto in {blogname}"
 
 #: admin/settings/orders-mode/new-account-email-settings.php:241
 #: admin/settings/orders-mode/orders-emails-settings.php:248
 #: admin/settings/quotes-mode/new-account-email-settings.php:220
 #: admin/settings/quotes-mode/quotes-emails-settings.php:226
 msgid "Email Content"
-msgstr ""
+msgstr "Contenuto Email"
 
 #: admin/settings/orders-mode/new-account-email-settings.php:245
 #: admin/settings/orders-mode/orders-emails-settings.php:252
@@ -1728,6 +1834,10 @@ msgid ""
 "p><p>Please login and change the WordPress generated password to something "
 "you can remember.</p>"
 msgstr ""
+"<p>Ciao {first_name},</p><p>Il link e le credenziali di accesso sono:</"
+"p><p>{account_url}</p><p>Username: {username}<br />Password: {password}</"
+"p><p>Puoi eseguire l'accesso e modificare la password generata da WordPress "
+"in una personalizzata.</p>"
 
 #: admin/settings/orders-mode/new-account-email-settings.php:249
 #: admin/settings/orders-mode/orders-emails-settings.php:256
@@ -1735,7 +1845,7 @@ msgstr ""
 #: admin/settings/quotes-mode/quotes-emails-settings.php:234
 #: admin/settings/quotes-mode/send-quote-email-settings.php:229
 msgid "Email Type"
-msgstr ""
+msgstr "Tipo Email"
 
 #: admin/settings/orders-mode/new-account-email-settings.php:250
 #: admin/settings/orders-mode/orders-emails-settings.php:257
@@ -1743,7 +1853,7 @@ msgstr ""
 #: admin/settings/quotes-mode/quotes-emails-settings.php:235
 #: admin/settings/quotes-mode/send-quote-email-settings.php:230
 msgid "Choose which format of email to send"
-msgstr ""
+msgstr "Scegli il formato dell'email da inviare"
 
 #: admin/settings/orders-mode/new-account-email-settings.php:258
 #: admin/settings/orders-mode/orders-emails-settings.php:265
@@ -1751,7 +1861,7 @@ msgstr ""
 #: admin/settings/quotes-mode/quotes-emails-settings.php:243
 #: admin/settings/quotes-mode/send-quote-email-settings.php:238
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #: admin/settings/orders-mode/new-account-email-settings.php:264
 #: admin/settings/orders-mode/orders-emails-settings.php:271
@@ -1759,7 +1869,7 @@ msgstr ""
 #: admin/settings/quotes-mode/quotes-emails-settings.php:249
 #: admin/settings/quotes-mode/send-quote-email-settings.php:244
 msgid "Plain text"
-msgstr ""
+msgstr "Solo testo"
 
 #: admin/settings/orders-mode/new-account-email-settings.php:270
 #: admin/settings/orders-mode/orders-emails-settings.php:277
@@ -1767,7 +1877,7 @@ msgstr ""
 #: admin/settings/quotes-mode/quotes-emails-settings.php:255
 #: admin/settings/quotes-mode/send-quote-email-settings.php:250
 msgid "Multipart"
-msgstr ""
+msgstr "Multiparte"
 
 #: admin/settings/orders-mode/new-account-email-settings.php:306
 #: admin/settings/orders-mode/orders-emails-settings.php:313
@@ -1775,7 +1885,7 @@ msgstr ""
 #: admin/settings/quotes-mode/quotes-emails-settings.php:291
 #: admin/settings/quotes-mode/send-quote-email-settings.php:286
 msgid "HTML template"
-msgstr ""
+msgstr "Modello HTML"
 
 #: admin/settings/orders-mode/new-account-email-settings.php:307
 #: admin/settings/orders-mode/orders-emails-settings.php:314
@@ -1783,7 +1893,7 @@ msgstr ""
 #: admin/settings/quotes-mode/quotes-emails-settings.php:292
 #: admin/settings/quotes-mode/send-quote-email-settings.php:287
 msgid "Plain text template"
-msgstr ""
+msgstr "Modello solo testo"
 
 #: admin/settings/orders-mode/new-account-email-settings.php:326
 #: admin/settings/orders-mode/orders-emails-settings.php:333
@@ -1791,7 +1901,7 @@ msgstr ""
 #: admin/settings/quotes-mode/quotes-emails-settings.php:311
 #: admin/settings/quotes-mode/send-quote-email-settings.php:306
 msgid "Delete template file"
-msgstr ""
+msgstr "Elimina il file modello"
 
 #: admin/settings/orders-mode/new-account-email-settings.php:329
 #: admin/settings/orders-mode/orders-emails-settings.php:336
@@ -1803,6 +1913,8 @@ msgid ""
 "This template has been overridden by your theme and can be found in: <code>"
 "%s</code>."
 msgstr ""
+"Questo modello è stato sovrascritto dal tuo tema e si trova in: <code>%s</"
+"code>."
 
 #: admin/settings/orders-mode/new-account-email-settings.php:344
 #: admin/settings/orders-mode/orders-emails-settings.php:351
@@ -1810,7 +1922,7 @@ msgstr ""
 #: admin/settings/quotes-mode/quotes-emails-settings.php:329
 #: admin/settings/quotes-mode/send-quote-email-settings.php:324
 msgid "Copy file to theme"
-msgstr ""
+msgstr "Copia file nel tema"
 
 #: admin/settings/orders-mode/new-account-email-settings.php:347
 #: admin/settings/orders-mode/orders-emails-settings.php:354
@@ -1822,6 +1934,8 @@ msgid ""
 "To override and edit this email template copy <code>%s</code> to your theme "
 "folder: <code>%s</code>."
 msgstr ""
+"Per sovrascrivere ed editare questo modello email copia <code>%s</code> "
+"nella tua cartella dei temi: <code>%s</code>."
 
 #: admin/settings/orders-mode/new-account-email-settings.php:358
 #: admin/settings/orders-mode/orders-emails-settings.php:365
@@ -1829,7 +1943,7 @@ msgstr ""
 #: admin/settings/quotes-mode/quotes-emails-settings.php:343
 #: admin/settings/quotes-mode/send-quote-email-settings.php:338
 msgid "File was not found."
-msgstr ""
+msgstr "Il file non è stato trovato."
 
 #: admin/settings/orders-mode/new-account-email-settings.php:391
 #: admin/settings/orders-mode/orders-emails-settings.php:398
@@ -1837,7 +1951,7 @@ msgstr ""
 #: admin/settings/quotes-mode/quotes-emails-settings.php:376
 #: admin/settings/quotes-mode/send-quote-email-settings.php:371
 msgid "View template"
-msgstr ""
+msgstr "Visualizza modello"
 
 #: admin/settings/orders-mode/new-account-email-settings.php:392
 #: admin/settings/orders-mode/orders-emails-settings.php:399
@@ -1845,7 +1959,7 @@ msgstr ""
 #: admin/settings/quotes-mode/quotes-emails-settings.php:377
 #: admin/settings/quotes-mode/send-quote-email-settings.php:372
 msgid "Hide template"
-msgstr ""
+msgstr "Nascondi modello"
 
 #: admin/settings/orders-mode/new-account-email-settings.php:403
 #: admin/settings/orders-mode/orders-emails-settings.php:410
@@ -1853,33 +1967,35 @@ msgstr ""
 #: admin/settings/quotes-mode/quotes-emails-settings.php:388
 #: admin/settings/quotes-mode/send-quote-email-settings.php:383
 msgid "Are you sure you want to delete this template file?"
-msgstr ""
+msgstr "Vuoi davvero eliminare questo file modello?"
 
 #: admin/settings/orders-mode/order-received-settings.php:81
 #: admin/settings/quotes-mode/order-received-settings.php:81
 msgid "Order Received Settings successfully saved."
 msgstr ""
+"Le impostazioni per l'ordine ricevuto sono state salvate correttamente."
 
 #: admin/settings/orders-mode/order-received-settings.php:82
 #: admin/settings/quotes-mode/order-received-settings.php:82
 msgid "Error: Order Received Settings can not save."
-msgstr ""
+msgstr "Errore: Impossibile salvare le impostazioni per l'ordine ricevuto."
 
 #: admin/settings/orders-mode/order-received-settings.php:83
 #: admin/settings/quotes-mode/order-received-settings.php:83
 msgid "Order Received Settings successfully reseted."
 msgstr ""
+"Le impostazioni per l'ordine ricevuto sono state ripristinate correttamente."
 
 #: admin/settings/orders-mode/order-received-settings.php:151
 #: admin/settings/quotes-mode/order-received-settings.php:151
 #: admin/tabs/orders-mode/order-received-tab.php:78
 #: admin/tabs/quotes-mode/order-received-tab.php:78
 msgid "Order Received"
-msgstr ""
+msgstr "Ordine Ricevuto"
 
 #: admin/settings/orders-mode/order-received-settings.php:195
 msgid "Customize Order Request Received (Order Received) Page"
-msgstr ""
+msgstr "Personalizza la pagina di Richiesta Ordine Ricevuta (Ordine Ricevuto)"
 
 #: admin/settings/orders-mode/order-received-settings.php:196
 msgid ""
@@ -1887,53 +2003,62 @@ msgid ""
 "item is visible. Add text to the top and bottom of the table of items to "
 "tell your customers what to expect next."
 msgstr ""
+"La pagina di destinazione dopo che l'ordine viene inviato. Nella Modalità "
+"Ordine i prezzi di sistema per ogni prodotto sono visibili. Aggiungi il "
+"testo in cima e in fondo alla tabella degli elementi per dire ai clienti "
+"cosa si dovranno aspettare."
 
 #: admin/settings/orders-mode/order-received-settings.php:200
 #: admin/settings/quotes-mode/order-received-settings.php:200
 msgid "Request Received Page Title"
-msgstr ""
+msgstr "Titolo della pagina di Richiesta Ricevuta"
 
 #: admin/settings/orders-mode/order-received-settings.php:201
 #: admin/settings/quotes-mode/order-received-settings.php:201
 msgid "Replace Order Received page name"
-msgstr ""
+msgstr "Sosituisci il nome della pagina degli Ordini Ricevuti"
 
 #: admin/settings/orders-mode/order-received-settings.php:204
 #: admin/settings/quotes-mode/order-received-settings.php:204
 msgid "Request Received"
-msgstr ""
+msgstr "Richiesta Ricevuta"
 
 #: admin/settings/orders-mode/order-received-settings.php:208
 #: admin/settings/quotes-mode/order-received-settings.php:208
 msgid "Message that user sees on top of Request Received page"
 msgstr ""
+"Il messaggio che l'utente vede in cima alla pagina di Richiesta Ricevuta"
 
 #: admin/settings/orders-mode/order-received-settings.php:217
 #: admin/settings/quotes-mode/order-received-settings.php:217
 msgid "Message that user sees on bottom of Request Received page"
 msgstr ""
+"Il messaggio che l'utente vede in fondo alla pagina di Richiesta Ricevuta"
 
 #: admin/settings/orders-mode/orders-emails-settings.php:84
 msgid "Orders Emails Settings successfully saved."
 msgstr ""
+"Le impostazioni per le email degli ordini sono state salvate correttamente."
 
 #: admin/settings/orders-mode/orders-emails-settings.php:85
 msgid "Error: Orders Emails Settings can not save."
-msgstr ""
+msgstr "Errore: Impossibile salvare le impostazioni per le email degli ordini."
 
 #: admin/settings/orders-mode/orders-emails-settings.php:86
 msgid "Orders Emails Settings successfully reseted."
 msgstr ""
+"Le impostazioni per le email degli ordini sono state ripristinate "
+"correttamente."
 
 #: admin/settings/orders-mode/orders-emails-settings.php:156
 #: admin/tabs/orders-mode/orders-emails-tab.php:78
 msgid "Orders Emails"
-msgstr ""
+msgstr "Email Ordini"
 
 #: admin/settings/orders-mode/orders-emails-settings.php:209
 #: admin/settings/orders-mode/pending-order-email-settings.php:184
 msgid "'Pending Order' Email"
-msgstr ""
+msgstr "Email 'Ordine in attesa'"
 
 #: admin/settings/orders-mode/orders-emails-settings.php:210
 #: admin/settings/orders-mode/pending-order-email-settings.php:185
@@ -1943,75 +2068,90 @@ msgid ""
 "to the customer. Customize that template on <a href='%s'>WooCommerce Emails</"
 "a>."
 msgstr ""
+"Quando l'ordine è inviato a WooCommerce un'email 'Ordine in attesa' viene "
+"inviata automaticamente al cliente. Personalizza questo modello in <a "
+"href='%s'>WooCommerce Emails</a>."
 
 #: admin/settings/orders-mode/pending-order-email-settings.php:81
 msgid "Pending Order Email Settings successfully saved."
 msgstr ""
+"Le impostazioni per l'email dell'ordine in attesa sono state salvate "
+"correttamente."
 
 #: admin/settings/orders-mode/pending-order-email-settings.php:82
 msgid "Error: Pending Order Email Settings can not save."
 msgstr ""
+"Errore: Impossibile salvare le impostazioni per l'email dell'ordine in "
+"attesa."
 
 #: admin/settings/orders-mode/pending-order-email-settings.php:83
 msgid "Pending Order Email Settings successfully reseted."
 msgstr ""
+"Le impostazioni per l'email dell'ordine in attesa sono state ripristinate "
+"correttamente."
 
 #: admin/settings/orders-mode/pending-order-email-settings.php:139
 msgid "Pending Order"
-msgstr ""
+msgstr "Ordine in attesa"
 
 #: admin/settings/orders-mode/product-page-settings.php:81
 #: admin/settings/quotes-mode/product-page-settings.php:81
 msgid "Product Page Settings successfully saved."
 msgstr ""
+"Le impostazioni per la pagina prodotto sono state salvate correttamente."
 
 #: admin/settings/orders-mode/product-page-settings.php:82
 #: admin/settings/quotes-mode/product-page-settings.php:82
 msgid "Error: Product Page Settings can not save."
-msgstr ""
+msgstr "Errore: Impossibile salvare le impostazioni per la pagina prodotto."
 
 #: admin/settings/orders-mode/product-page-settings.php:83
 #: admin/settings/quotes-mode/product-page-settings.php:83
 msgid "Product Page Settings successfully reseted."
 msgstr ""
+"Le impostazioni per la pagina prodotto sono state ripristinate correttamente."
 
 #: admin/settings/orders-mode/product-page-settings.php:195
 msgid "Order Feature on Product Page"
-msgstr ""
+msgstr "Funzione Ordine nella Pagina Prodotto"
 
 #: admin/settings/orders-mode/product-page-settings.php:199
 #: admin/settings/quotes-mode/product-page-settings.php:199
 #: admin/settings/read-more/hover-position-style-settings.php:210
 #: admin/settings/read-more/under-image-style-settings.php:295
 msgid "Button Text"
-msgstr ""
+msgstr "Testo Pulsante"
 
 #: admin/settings/orders-mode/product-page-settings.php:200
 msgid "Text that shows instead of 'Add to Cart'. Default 'Add to Order'"
 msgstr ""
+"Testo da mostrare al posto di 'Aggiungi al Carrello'. Predefinito 'Aggiungi "
+"all'Ordine'"
 
 #: admin/settings/orders-mode/product-page-settings.php:203
 msgid "Add to Order"
-msgstr ""
+msgstr "Aggiungi all'Ordine"
 
 #: admin/settings/orders-mode/product-page-settings.php:206
 msgid "View Order Button Text"
-msgstr ""
+msgstr "Testo per il pulsante Visualizza Ordine"
 
 #: admin/settings/orders-mode/product-page-settings.php:207
 msgid ""
 "Text that shows instead of 'View Cart &rarr;'. Default 'View Order &rarr;'"
 msgstr ""
+"Testo da mostrare al posto di 'Vai al Carrello &rarr;'. Predefinito "
+"'Visualizza Ordine &rarr;'"
 
 #: admin/settings/orders-mode/product-page-settings.php:210
 #: admin/settings/orders-mode/widget-cart-settings.php:210
 msgid "View Order &rarr;"
-msgstr ""
+msgstr "Visualizza Ordine &rarr;"
 
 #: admin/settings/orders-mode/product-page-settings.php:213
 #: admin/settings/quotes-mode/product-page-settings.php:213
 msgid "Continue Request Button Text"
-msgstr ""
+msgstr "Testo per il pulsante Continua Richiesta"
 
 #: admin/settings/orders-mode/product-page-settings.php:214
 #: admin/settings/quotes-mode/product-page-settings.php:214
@@ -2019,11 +2159,13 @@ msgid ""
 "Text that shows instead of 'Continue Shopping &rarr;'. Default 'Continue "
 "Request &rarr;'"
 msgstr ""
+"Testo da mostrare al posto di 'Continua lo Shopping &rarr;'. Predefinito "
+"'Continua Richiesta &rarr;'"
 
 #: admin/settings/orders-mode/product-page-settings.php:217
 #: admin/settings/quotes-mode/product-page-settings.php:217
 msgid "Continue Request &rarr;"
-msgstr ""
+msgstr "Continua Richiesta &rarr;"
 
 #: admin/settings/orders-mode/product-page-settings.php:226
 #: admin/settings/orders-mode/product-page-settings.php:233
@@ -2032,32 +2174,32 @@ msgstr ""
 #: admin/settings/quotes-mode/product-page-settings.php:233
 #: admin/settings/quotes-mode/product-page-settings.php:261
 msgid "Replace by Product name"
-msgstr ""
+msgstr "Sostituisci dal nome del prodotto"
 
 #: admin/settings/orders-mode/product-page-settings.php:229
 #, php-format
 msgid "&quot;%s&quot; was successfully added to your order."
-msgstr ""
+msgstr "&quot;%s&quot; è stato aggiunto con successo al tuo ordine."
 
 #: admin/settings/orders-mode/product-page-settings.php:232
 #: admin/settings/quotes-mode/product-page-settings.php:232
 msgid "Group Added Success Message"
-msgstr ""
+msgstr "Messaggio per gruppo aggiunto correttamente"
 
 #: admin/settings/orders-mode/product-page-settings.php:236
 #, php-format
 msgid "Added &quot;%s&quot; to your order."
-msgstr ""
+msgstr "Aggiunto &quot;%s&quot; al tuo ordine."
 
 #: admin/settings/orders-mode/product-page-settings.php:240
 #: admin/settings/quotes-mode/product-page-settings.php:240
 msgid "Error Message"
-msgstr ""
+msgstr "Messaggio di Errore"
 
 #: admin/settings/orders-mode/product-page-settings.php:244
 #: admin/settings/quotes-mode/product-page-settings.php:244
 msgid "Quantity Error"
-msgstr ""
+msgstr "Errore Quantitativo"
 
 #: admin/settings/orders-mode/product-page-settings.php:245
 #: admin/settings/orders-mode/product-page-settings.php:253
@@ -2066,37 +2208,39 @@ msgstr ""
 #: admin/settings/quotes-mode/product-page-settings.php:253
 #: admin/settings/quotes-mode/product-page-settings.php:269
 msgid "Replace for :"
-msgstr ""
+msgstr "Sostituisci per :"
 
 #: admin/settings/orders-mode/product-page-settings.php:245
 #: admin/settings/quotes-mode/product-page-settings.php:245
 msgid ""
 "Please choose the quantity of items you wish to add to your cart&hellip;"
 msgstr ""
+"Scegli la quantità di prodotti che desideri aggiungere al carrello&hellip;"
 
 #: admin/settings/orders-mode/product-page-settings.php:248
 msgid ""
 "Please choose the quantity of items you wish to add to your order&hellip;"
 msgstr ""
+"Scegli la quantità di prodotti che desideri aggiungere all'ordine&hellip;"
 
 #: admin/settings/orders-mode/product-page-settings.php:252
 #: admin/settings/quotes-mode/product-page-settings.php:252
 msgid "No Product Added Error"
-msgstr ""
+msgstr "Errore per nessun prodotto aggiunto"
 
 #: admin/settings/orders-mode/product-page-settings.php:253
 #: admin/settings/quotes-mode/product-page-settings.php:253
 msgid "Please choose a product to add to your cart&hellip;"
-msgstr ""
+msgstr "Scegli un prodotto da aggiungere al tuo carrello&hellip;"
 
 #: admin/settings/orders-mode/product-page-settings.php:256
 msgid "Please choose a product to add to your order&hellip;"
-msgstr ""
+msgstr "Scegli un prodotto da aggiungere al tuo ordine&hellip;"
 
 #: admin/settings/orders-mode/product-page-settings.php:260
 #: admin/settings/quotes-mode/product-page-settings.php:260
 msgid "Product Is Out of Stock Error"
-msgstr ""
+msgstr "Errore per il prodotto non più disponibile"
 
 #: admin/settings/orders-mode/product-page-settings.php:264
 #, php-format
@@ -2104,34 +2248,36 @@ msgid ""
 "You cannot add &quot;%s&quot; to the order because the product is out of "
 "stock."
 msgstr ""
+"Non puoi aggiungere il prodotto &quot;%s&quot; perché non è più disponibile."
 
 #: admin/settings/orders-mode/product-page-settings.php:268
 msgid "Product Existed In Order"
-msgstr ""
+msgstr "Il prodotto era presente nell'ordine."
 
 #: admin/settings/orders-mode/product-page-settings.php:269
 #: admin/settings/quotes-mode/product-page-settings.php:269
 msgid "You already have this item in your cart."
-msgstr ""
+msgstr "Questo prodotto è già presente nel tuo carrello."
 
 #: admin/settings/orders-mode/product-page-settings.php:272
 msgid "You already have this item in your order."
-msgstr ""
+msgstr "Questo prodotto è già presente nel tuo ordine."
 
 #: admin/settings/orders-mode/widget-cart-settings.php:81
 #: admin/settings/quotes-mode/widget-cart-settings.php:81
 msgid "Widget Cart Settings successfully saved."
-msgstr ""
+msgstr "Le impostazioni del Widget Carrello sono state salvate correttamente."
 
 #: admin/settings/orders-mode/widget-cart-settings.php:82
 #: admin/settings/quotes-mode/widget-cart-settings.php:82
 msgid "Error: Widget Cart Settings can not save."
-msgstr ""
+msgstr "Errore: Impossibile salvare le impostazioni del Widget Carrello."
 
 #: admin/settings/orders-mode/widget-cart-settings.php:83
 #: admin/settings/quotes-mode/widget-cart-settings.php:83
 msgid "Widget Cart Settings successfully reseted."
 msgstr ""
+"Le impostazioni del Widget Carrello sono state ripristinate correttamente."
 
 #: admin/settings/orders-mode/widget-cart-settings.php:151
 #: admin/settings/orders-mode/widget-cart-settings.php:195
@@ -2140,98 +2286,104 @@ msgstr ""
 #: admin/tabs/orders-mode/widget-cart-tab.php:78
 #: admin/tabs/quotes-mode/widget-cart-tab.php:78
 msgid "Widget Cart"
-msgstr ""
+msgstr "Widget Carrello"
 
 #: admin/settings/orders-mode/widget-cart-settings.php:199
 #: admin/settings/quotes-mode/widget-cart-settings.php:199
 msgid "Widget Cart Title"
-msgstr ""
+msgstr "Titolo Widget Carrello"
 
 #: admin/settings/orders-mode/widget-cart-settings.php:200
 #: admin/settings/quotes-mode/widget-cart-settings.php:200
 msgid "Text that shows at top of widget"
-msgstr ""
+msgstr "Testo da mostrare in cima al widget"
 
 #: admin/settings/orders-mode/widget-cart-settings.php:203
 msgid "Your Order Content"
-msgstr ""
+msgstr "Contenuto del tuo ordine"
 
 #: admin/settings/orders-mode/widget-cart-settings.php:206
 msgid "View Order Button"
-msgstr ""
+msgstr "Visualizza Pulsante Ordina"
 
 #: admin/settings/orders-mode/widget-cart-settings.php:207
 #: admin/settings/quotes-mode/widget-cart-settings.php:207
 msgid "Text that shows instead of 'View Cart &rarr;' on the button."
-msgstr ""
+msgstr "Testo da mostrare al posto di 'Vai al Carrello &rarr;' sul pulsante."
 
 #: admin/settings/orders-mode/widget-cart-settings.php:214
 #: admin/settings/quotes-mode/widget-cart-settings.php:214
 msgid "Text that displays instead of 'Checkout &rarr;' on the button"
-msgstr ""
+msgstr "Testo da mostrare al posto di 'Checkout &rarr;' sul pulsante."
 
 #: admin/settings/orders-mode/widget-cart-settings.php:217
 msgid "Send Order &rarr;"
-msgstr ""
+msgstr "Invia Ordine &rarr;"
 
 #: admin/settings/orders-mode/widget-cart-settings.php:220
 #: admin/settings/quotes-mode/widget-cart-settings.php:220
 msgid "No Product Text"
-msgstr ""
+msgstr "Testo nessun prodotto"
 
 #: admin/settings/orders-mode/widget-cart-settings.php:221
 #: admin/settings/quotes-mode/widget-cart-settings.php:221
 msgid "Text that shows instead of 'No products in the cart.'."
-msgstr ""
+msgstr "Testo da mostrare al posto di 'Nessun prodotto nel carrello.'."
 
 #: admin/settings/orders-mode/widget-cart-settings.php:224
 msgid "No products in the order."
-msgstr ""
+msgstr "Non ci sono prodotti nell'ordine."
 
 #: admin/settings/quotes-mode/cart-page-settings.php:195
 msgid "Customize the Quote (Cart) Page"
-msgstr ""
+msgstr "Personalizza la pagina Preventivo (Carrello)"
 
 #: admin/settings/quotes-mode/cart-page-settings.php:196
 msgid ""
 "Quote Mode creates its own template that replaces the WooCommerce Cart page."
 msgstr ""
+"La Modalità Preventivo crea un suo modello che sostituisce la pagina "
+"Carrello di WooCommerce."
 
 #: admin/settings/quotes-mode/cart-page-settings.php:196
 msgid ""
 "<strong>Note</strong>: The Shipping Options set in WooCommerce settings "
 "apply to this template."
 msgstr ""
+"<strong>Nota</strong>: Le opzioni di spedizioni impostate in WooCommerce si "
+"applicano a questo modello."
 
 #: admin/settings/quotes-mode/cart-page-settings.php:200
 msgid "Quote Page Title"
-msgstr ""
+msgstr "Titolo Pagina Preventivo"
 
 #: admin/settings/quotes-mode/cart-page-settings.php:204
 msgid "Quote"
-msgstr ""
+msgstr "Preventivo"
 
 #: admin/settings/quotes-mode/cart-page-settings.php:207
 msgid "Update Quote Button"
-msgstr ""
+msgstr "Pulsante Aggiorna Preventivo"
 
 #: admin/settings/quotes-mode/cart-page-settings.php:211
 msgid "Update Quote"
-msgstr ""
+msgstr "Aggiorna Preventivo"
 
 #: admin/settings/quotes-mode/cart-page-settings.php:221
 msgid "Quote Note"
-msgstr ""
+msgstr "Nota Preventiv"
 
 #: admin/settings/quotes-mode/cart-page-settings.php:233
 msgid "Your quote is currently empty."
-msgstr ""
+msgstr "La tua selezione per il preventivo è vuota."
 
 #: admin/settings/quotes-mode/checkout-page-settings.php:196
 msgid ""
 "Quote Mode creates its own template that replaces the WooCommerce Checkout "
 "page."
 msgstr ""
+"La modalità preventivo crea un suo modello che sostituisce la pagina Cassa "
+"di WooCommerce"
 
 #: admin/settings/quotes-mode/checkout-page-settings.php:196
 msgid ""
@@ -2239,37 +2391,43 @@ msgid ""
 "settings apply to this template. Go to WooCommerce > Settings > Shipping & "
 "Payment Gateways."
 msgstr ""
+"<strong>Nota</strong>: Le impostazioni delle opzioni di spedizione e della "
+"porta per la modalità preventivo vengono applicate a questo modello. Vai in "
+"WooCommerce > Impostazioni > Gateway Spedizione & Pagamento"
 
 #: admin/settings/quotes-mode/checkout-page-settings.php:200
 msgid "Quote Checkout Page Title"
-msgstr ""
+msgstr "Titolo Pagina Cassa Preventivo"
 
 #: admin/settings/quotes-mode/checkout-page-settings.php:204
 #: admin/settings/quotes-mode/send-quote-email-settings.php:156
 #: admin/settings/quotes-mode/widget-cart-settings.php:213
 msgid "Send Quote"
-msgstr ""
+msgstr "Invia Preventivo"
 
 #: admin/settings/quotes-mode/checkout-page-settings.php:207
 #: admin/settings/quotes-mode/checkout-page-settings.php:211
 msgid "Send Quote Request"
-msgstr ""
+msgstr "Richiesta Invio Preventivo"
 
 #: admin/settings/quotes-mode/global-settings.php:81
 msgid "Quotes Mode Settings successfully saved."
 msgstr ""
+"Le impostazioni della modalità preventivi sono state salvate correttamente."
 
 #: admin/settings/quotes-mode/global-settings.php:82
 msgid "Error: Quotes Mode Settings can not save."
-msgstr ""
+msgstr "Errore: Impossibile salvare le impostazioni della modalità preventivi."
 
 #: admin/settings/quotes-mode/global-settings.php:83
 msgid "Quotes Mode Settings successfully reseted."
 msgstr ""
+"Le impostazioni della modalità preventivi sono state ripristinate "
+"correttamente."
 
 #: admin/settings/quotes-mode/global-settings.php:198
 msgid "Quote Mode Payment Gateway"
-msgstr ""
+msgstr "Gateway di pagamento per la Modalità Preventivo"
 
 #: admin/settings/quotes-mode/global-settings.php:199
 #, php-format
@@ -2278,6 +2436,9 @@ msgid ""
 "activated. Go to <a href=\"%s\">WooCommerce Payment Gateways</a> to "
 "customize."
 msgstr ""
+"Il gateway di pagamento per la Modalità Preventivo è automaticamente "
+"attivato quando la funzione è attiva. Vai a <a href=\"%s\">WooCommerce "
+"Payment Gateways</a> per personalizzarla."
 
 #: admin/settings/quotes-mode/global-settings.php:199
 #, php-format
@@ -2285,17 +2446,23 @@ msgid ""
 "Quotes Mode payment gateway is automatically activated when the feature is "
 "activated. Go to <a href=\"%s\">WooCommerce Checkout</a> to customize."
 msgstr ""
+"Il gateway di pagamento per la Modalità Preventivo è automaticamente "
+"attivato quando la funzione è attiva. Vai a <a href=\"%s\">WooCommerce "
+"Checkout</a> per personalizzarla."
 
 #: admin/settings/quotes-mode/global-settings.php:205
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "Configure store Shipping Options at <a href=\"%s\">WooCommerce Shipping</a> "
 "and set Quotes mode Shipping visibility options below."
 msgstr ""
+"Le opzioni di spedizione impostate in <a href=\"%s\">WooCommerce Shipping</"
+"a> si applicano a tutti i modelli della Modalità Preventivo."
 
 #: admin/settings/quotes-mode/global-settings.php:210
+#, fuzzy
 msgid "Manual Quotes Shipping"
-msgstr ""
+msgstr "Preventivo Manuale"
 
 #: admin/settings/quotes-mode/global-settings.php:211
 msgid ""
@@ -2304,8 +2471,9 @@ msgid ""
 msgstr ""
 
 #: admin/settings/quotes-mode/global-settings.php:243
+#, fuzzy
 msgid "Auto Quotes Shipping"
-msgstr ""
+msgstr "Preventivo Automatico"
 
 #: admin/settings/quotes-mode/global-settings.php:244
 msgid "Settings apply to Checkout page. Shipping is not shown the Cart Page."
@@ -2314,14 +2482,19 @@ msgstr ""
 #: admin/settings/quotes-mode/new-account-email-settings.php:84
 msgid "Quotes New Account Email Settings successfully saved."
 msgstr ""
+"Le impostazioni per l'email del nuovo account sono state salvate "
+"correttamente."
 
 #: admin/settings/quotes-mode/new-account-email-settings.php:85
 msgid "Error: Quotes New Account Email Settings can not save."
 msgstr ""
+"Errore: Impossibile salvare le impostazioni per l'email del nuovo account."
 
 #: admin/settings/quotes-mode/new-account-email-settings.php:86
 msgid "Quotes New Account Email Settings successfully reseted."
 msgstr ""
+"Le impostazioni per l'email del nuovo account sono state ripristinate "
+"correttamente."
 
 #: admin/settings/quotes-mode/new-account-email-settings.php:201
 #: admin/settings/quotes-mode/quotes-emails-settings.php:207
@@ -2330,10 +2503,14 @@ msgid ""
 "submitted. Customize the New user account notification email that is auto "
 "sent to the user."
 msgstr ""
+"Un nuovo account utente viene creato (se non esiste) quando la richiesta di "
+"preventivo è inviata. Personalizza la notifica email che riceverà l'utente "
+"per la creazione del nuovo account."
 
 #: admin/settings/quotes-mode/order-received-settings.php:195
 msgid "Customize Quote Request Received (Order Received) Page"
 msgstr ""
+"Personalizza la pagina di Richiesta Preventivo Ricevuta (Ordine Ricevuto)"
 
 #: admin/settings/quotes-mode/order-received-settings.php:196
 msgid ""
@@ -2342,27 +2519,38 @@ msgid ""
 "item is visible. Add text to the top and bottom of the table of items to "
 "tell your customers what to expect next."
 msgstr ""
+"La pagina di destinazione dopo che il preventivo è stato inviato. In moalità "
+"Preventivo Manuale il cliente non può vedere i prezzi. In modalità "
+"Preventivo Automatico i prezzi di ogni prodotto sono visibili. Aggiungi il "
+"testo in cima e in fondo alla tabella degli elementi per dire ai clienti "
+"cosa si dovranno aspettare."
 
 #: admin/settings/quotes-mode/processing-quote-email-settings.php:82
 msgid "Processing Quote Email Settings successfully saved."
 msgstr ""
+"Le impostazioni delle email per i Preventivi in corso sono state salvate "
+"correttamente."
 
 #: admin/settings/quotes-mode/processing-quote-email-settings.php:83
 msgid "Error: Processing Quote Email Settings can not save."
 msgstr ""
+"Errore: Impossibile salvare le impostazioni delle email per i Preventivi in "
+"corso."
 
 #: admin/settings/quotes-mode/processing-quote-email-settings.php:84
 msgid "Processing Quote Email Settings successfully reseted."
 msgstr ""
+"Le impostazioni delle email per i Preventivi in corso sono state "
+"ripristinate correttamente."
 
 #: admin/settings/quotes-mode/processing-quote-email-settings.php:141
 msgid "Quote Request Recieved"
-msgstr ""
+msgstr "Richiesta di Preventivo ricevuta"
 
 #: admin/settings/quotes-mode/processing-quote-email-settings.php:186
 #: admin/settings/quotes-mode/quotes-emails-settings.php:200
 msgid "'Processing Quote' Email"
-msgstr ""
+msgstr "Email 'Preventivi in Corso'"
 
 #: admin/settings/quotes-mode/processing-quote-email-settings.php:187
 #: admin/settings/quotes-mode/quotes-emails-settings.php:201
@@ -2372,51 +2560,59 @@ msgid ""
 "sent to the customer. Customize that template on <a href='%s'>WooCommerce "
 "Emails</a>."
 msgstr ""
+"Quando il preventivo è inviato ai 'Preventivi in corso' di WooCommerce, "
+"viene inviata un'email al cliente. Personalizza questo modello in <a "
+"href='%s'>WooCommerce Emails</a>."
 
 #: admin/settings/quotes-mode/product-page-settings.php:195
 msgid "Quote Feature on Product Page"
-msgstr ""
+msgstr "Funzione Preventivo nella Pagina Prodotti"
 
 #: admin/settings/quotes-mode/product-page-settings.php:200
 msgid "Text that shows instead of 'Add to Cart'. Default 'Add to Quote'"
 msgstr ""
+"Testo da visualizzare al posto di 'Aggiungi al carrello'. Il predefinito è "
+"'Aggiungi al preventivo'"
 
 #: admin/settings/quotes-mode/product-page-settings.php:203
 msgid "Add to Quote"
-msgstr ""
+msgstr "Aggiungi al Preventivo"
 
 #: admin/settings/quotes-mode/product-page-settings.php:206
 msgid "View Quote Button Text"
-msgstr ""
+msgstr "Visualizza il testo del pulsante Preventivo"
 
 #: admin/settings/quotes-mode/product-page-settings.php:207
 msgid ""
 "Text that shows instead of 'View Cart &rarr;'. Default 'View Quote &rarr;'"
 msgstr ""
+"Testo da visualizzare al posto di 'Vai al carrello &rarr;'. Il predefinito è "
+"'Visualizza Preventivo &rarr;'"
 
 #: admin/settings/quotes-mode/product-page-settings.php:210
 #: admin/settings/quotes-mode/widget-cart-settings.php:210
 msgid "View Quote &rarr;"
-msgstr ""
+msgstr "Visualizza Preventivo &rarr;"
 
 #: admin/settings/quotes-mode/product-page-settings.php:229
 #, php-format
 msgid "&quot;%s&quot; was successfully added to your quote."
-msgstr ""
+msgstr "&quot;%s&quot; è stato correttamente aggiunto al preventivo."
 
 #: admin/settings/quotes-mode/product-page-settings.php:236
 #, php-format
 msgid "Added &quot;%s&quot; to your quote."
-msgstr ""
+msgstr "Aggiungo &quot;%s&quot; al preventivo."
 
 #: admin/settings/quotes-mode/product-page-settings.php:248
 msgid ""
 "Please choose the quantity of items you wish to add to your quote&hellip;"
 msgstr ""
+"Scegli la quantità di prodotti che desideri aggiungere al preventivo&hellip;"
 
 #: admin/settings/quotes-mode/product-page-settings.php:256
 msgid "Please choose a product to add to your quote&hellip;"
-msgstr ""
+msgstr "Scegli un prodotto da aggiungere al preventivo&hellip;"
 
 #: admin/settings/quotes-mode/product-page-settings.php:264
 #, php-format
@@ -2424,47 +2620,61 @@ msgid ""
 "You cannot add &quot;%s&quot; to the quote because the product is out of "
 "stock."
 msgstr ""
+"Non puoi aggiungere &quot;%s&quot; al preventivo perché il prodotto non è "
+"disponibile."
 
 #: admin/settings/quotes-mode/product-page-settings.php:268
 msgid "Product Existed In Quote"
-msgstr ""
+msgstr "Il prodotto era presente nel preventivo"
 
 #: admin/settings/quotes-mode/product-page-settings.php:272
 msgid "You already have this item in your quote."
-msgstr ""
+msgstr "Questo elemento è già in elenco per il preventivo."
 
 #: admin/settings/quotes-mode/quotes-emails-settings.php:84
 msgid "Quotes Emails Settings successfully saved."
 msgstr ""
+"Le impostazioni di invio dei preventivi via email sono state salvate "
+"correttamente."
 
 #: admin/settings/quotes-mode/quotes-emails-settings.php:85
 msgid "Error: Quotes Emails Settings can not save."
 msgstr ""
+"Errore: Le impostazioni di invio dei preventivi via email non possono essere "
+"salvate."
 
 #: admin/settings/quotes-mode/quotes-emails-settings.php:86
 msgid "Quotes Emails Settings successfully reseted."
 msgstr ""
+"Le impostazioni di invio dei preventivi via email sono state ripristinate "
+"correttamente."
 
 #: admin/settings/quotes-mode/quotes-emails-settings.php:156
 #: admin/tabs/quotes-mode/quotes-emails-tab.php:78
 msgid "Quotes Emails"
-msgstr ""
+msgstr "Email Preventivi"
 
 #: admin/settings/quotes-mode/send-quote-email-settings.php:84
 msgid "Send Quote Email Settings successfully saved."
 msgstr ""
+"Le impostazioni di invio del preventivo via email sono state salvate "
+"correttamente."
 
 #: admin/settings/quotes-mode/send-quote-email-settings.php:85
 msgid "Error: Send Quote Email Settings can not save."
 msgstr ""
+"Errore: Le impostazioni di invio del preventivo via email non possono essere "
+"salvate."
 
 #: admin/settings/quotes-mode/send-quote-email-settings.php:86
 msgid "Send Quote Email Settings successfully reseted."
 msgstr ""
+"Le impostazioni di invio del preventivo via email sono state ripristinate "
+"correttamente."
 
 #: admin/settings/quotes-mode/send-quote-email-settings.php:200
 msgid "Send Quote Email"
-msgstr ""
+msgstr "Invia Email Preventivo"
 
 #: admin/settings/quotes-mode/send-quote-email-settings.php:201
 #, php-format
@@ -2474,20 +2684,25 @@ msgid ""
 "shipping, tax, add a personalized customer note and email the completed "
 "quote to the customer. The email uses this template."
 msgstr ""
+"Il preventivo manuale crea automaticamente la richiesta di preventivo come "
+"stato dell'ordine 'preventivo'. <a href='%s'>Su ogni ordine</a> con lo stato "
+"'preventivo' puoi modificare i prezzi, la spedizione, le tasse, aggiungere "
+"una nota personalizzata e inviare al cliente via email il preventivo "
+"completo. L'email usa questo template."
 
 #: admin/settings/quotes-mode/send-quote-email-settings.php:207
 #: admin/settings/quotes-mode/send-quote-email-settings.php:214
 msgid "Defaults to <code>[default_value]</code>."
-msgstr ""
+msgstr "Predefinito a <code>[default_value]</code>."
 
 #: admin/settings/quotes-mode/send-quote-email-settings.php:210
 #: admin/settings/quotes-mode/send-quote-email-settings.php:217
 msgid "Quote Request - Pricing"
-msgstr ""
+msgstr "Richiesta Preventivo - Prezzi"
 
 #: admin/settings/quotes-mode/send-quote-email-settings.php:220
 msgid "Message Content"
-msgstr ""
+msgstr "Contenuto Messaggio"
 
 #: admin/settings/quotes-mode/send-quote-email-settings.php:223
 msgid ""
@@ -2496,56 +2711,63 @@ msgid ""
 "order / customer note on the Send Quote function and it will show under this "
 "message and above the quote."
 msgstr ""
+"Questo messaggio è codificato in cima a tutte le pagine di invio email del "
+"preventivo. È l'introduzione al preventivo. Inserisci una nota "
+"personalizzata per ogni ordine / utente  per la funzione Invia Preventivo e "
+"sarà visualizzata sotto questo messaggio e sopra al preventivo."
 
 #: admin/settings/quotes-mode/widget-cart-settings.php:203
 msgid "Your Quote Content"
-msgstr ""
+msgstr "Contenuto del Preventivo"
 
 #: admin/settings/quotes-mode/widget-cart-settings.php:206
 msgid "View Quote Button"
-msgstr ""
+msgstr "Mostra il pulsante Preventivo"
 
 #: admin/settings/quotes-mode/widget-cart-settings.php:217
 msgid "Send Quote &rarr;"
-msgstr ""
+msgstr "Invia Preventivo &rarr;"
 
 #: admin/settings/quotes-mode/widget-cart-settings.php:224
 msgid "No products in the quote."
-msgstr ""
+msgstr "Non ci sono prodotti da preventivare."
 
 #: admin/settings/read-more/global-settings.php:92
 msgid "Read More Settings successfully saved."
-msgstr ""
+msgstr "Le impostazioni per Mostra Altro sono state correttamente salvate. "
 
 #: admin/settings/read-more/global-settings.php:93
 msgid "Error: Read More Settings can not save."
-msgstr ""
+msgstr "Errore: Impossibile salvare le impostazioni per Mostra Altro."
 
 #: admin/settings/read-more/global-settings.php:94
 msgid "Read More Settings successfully reseted."
 msgstr ""
+"Le impostazioni per Mostra Altro sono state correttamente ripristinate."
 
 #: admin/settings/read-more/global-settings.php:224
 #: classes/class-wc-email-inquiry-metabox.php:284
 msgid "Product Card Rule: Show Read More Button"
-msgstr ""
+msgstr "Impostazione Scheda Prodotto: Visualizza Pulsante Mostra Altro"
 
 #: admin/settings/read-more/global-settings.php:286
 msgid "Set Display Type"
-msgstr ""
+msgstr "Imposta tipo di schermata"
 
 #: admin/settings/read-more/global-settings.php:290
 msgid "Show Read More Button as"
-msgstr ""
+msgstr "Visualizza il pulsante Mostra Altro come"
 
 #: admin/settings/read-more/global-settings.php:297
 msgid "Button that shows on mouse hover on product image."
-msgstr ""
+msgstr "Pulsante che appare al passaggio del mouse sull'immagine del prodotto."
 
 #: admin/settings/read-more/global-settings.php:304
 msgid ""
 "Show as button or link text above or below the Add to Cart button position."
 msgstr ""
+"Mostra ome pulsante o link di testo di seguito o a fianco al pulsante "
+"Aggiungi al Carrello."
 
 #: admin/settings/read-more/global-settings.php:321
 msgid ""
@@ -2553,136 +2775,142 @@ msgid ""
 "individually customized for each product from the product edit page > Email "
 "& Cart Meta > Read More tab."
 msgstr ""
+"Il Pulsante / Testo 'Mostra Altro' viene visualizzato solo nella Scheda "
+"Prodotto. Può essere personalizzato individualmente per ogni prodotto dalla "
+"pagina di modifica dei prodotti > Info Email & Scheda > Sezione Mostra Altro"
 
 #: admin/settings/read-more/hover-position-style-settings.php:81
 msgid "Hover Position Style successfully saved."
-msgstr ""
+msgstr "Lo stile al passaggio del mouse è stato correttamente salvato."
 
 #: admin/settings/read-more/hover-position-style-settings.php:82
 msgid "Error: Hover Position Style can not save."
-msgstr ""
+msgstr "Errore: Impossibile salvare lo stile al passaggio del mouse."
 
 #: admin/settings/read-more/hover-position-style-settings.php:83
 msgid "Hover Position Style successfully reseted."
-msgstr ""
+msgstr "Lo stile al passaggio del mouse è stato correttamente ripristinato."
 
 #: admin/settings/read-more/hover-position-style-settings.php:151
 msgid "Hover Position & Style"
-msgstr ""
+msgstr "Stile al passaggio del mouse"
 
 #: admin/settings/read-more/hover-position-style-settings.php:206
 msgid "Button Show On Hover"
-msgstr ""
+msgstr "Vista pulsante al passaggio del mouse"
 
 #: admin/settings/read-more/hover-position-style-settings.php:211
 msgid "Text for Read More Button Show On Hover"
-msgstr ""
+msgstr "Testo per il pulsante Mostra altro al passaggio"
 
 #: admin/settings/read-more/hover-position-style-settings.php:217
 msgid "Button Align"
-msgstr ""
+msgstr "Allinea Pulsante"
 
 #: admin/settings/read-more/hover-position-style-settings.php:224
 msgid "Center"
-msgstr ""
+msgstr "Centra"
 
 #: admin/settings/read-more/hover-position-style-settings.php:230
 msgid "Padding from Button text to Button border Show On Hover"
-msgstr ""
+msgstr "Sfumatura dal testo del pulsante al bordo da mostrare all'apertura"
 
 #: admin/settings/read-more/hover-position-style-settings.php:270
 msgid "Button Transparency"
-msgstr ""
+msgstr "Trasparenza Pulsante"
 
 #: admin/settings/read-more/under-image-style-settings.php:81
 msgid "Under Image Style successfully saved."
-msgstr ""
+msgstr "Stile immagine di sfondo correttamente salvato."
 
 #: admin/settings/read-more/under-image-style-settings.php:82
 msgid "Error: Under Image Style can not save."
-msgstr ""
+msgstr "Errore: Impossibile salvare lo stile dell'immagine di sfondo."
 
 #: admin/settings/read-more/under-image-style-settings.php:83
 msgid "Under Image Style successfully reseted."
-msgstr ""
+msgstr "Lo stile dell'immagine di sfondo è stato correttamente ripristinato."
 
 #: admin/settings/read-more/under-image-style-settings.php:153
 msgid "Under Image Style"
-msgstr ""
+msgstr "Immagine di Sfondo"
 
 #: admin/settings/read-more/under-image-style-settings.php:208
 msgid "Button/Hyperlink Show under Image"
-msgstr ""
+msgstr "Immagine sotto al Pulsante/Collegamento Ipertestuale"
 
 #: admin/settings/read-more/under-image-style-settings.php:212
 msgid "Button or Hyperlink Type"
-msgstr ""
+msgstr "Tipo Pulsante o Collegamento Ipertestuale"
 
 #: admin/settings/read-more/under-image-style-settings.php:224
 msgid "Position relative to Add to Cart button location"
-msgstr ""
+msgstr "Posizione relativa al pulsante Aggiungi al carrello"
 
 #: admin/settings/read-more/under-image-style-settings.php:234
 msgid "Button or Hyperlink Magrin"
-msgstr ""
+msgstr "Margine del pulsante o del collegamento ipertestuale"
 
 #: admin/settings/read-more/under-image-style-settings.php:270
 msgid "Text for Hyperlink show under image"
-msgstr ""
+msgstr "Testo da mostrare sotto l'immagine del collegamento ipertestuale"
 
 #: admin/settings/read-more/under-image-style-settings.php:290
 msgid "Button Styling"
-msgstr ""
+msgstr "Stile Pulsante"
 
 #: admin/settings/read-more/under-image-style-settings.php:296
 msgid "Text for Button show under image"
-msgstr ""
+msgstr "Testo da mostrare sotto l'immagine del pulsante"
 
 #: admin/settings/read-more/under-image-style-settings.php:303
 msgid "Padding from Button text to Button border show under image"
-msgstr ""
+msgstr "Sfumatura dal testo del pulsante al bordo da mostrare sotto l'immagine"
 
 #: admin/settings/rules-roles-settings.php:92
 msgid "Rules & Roles Settings successfully saved."
-msgstr ""
+msgstr "Le impostazioni delle Regole & Ruoli sono state salvate correttamente."
 
 #: admin/settings/rules-roles-settings.php:93
 msgid "Error: Rules & Roles Settings can not save."
-msgstr ""
+msgstr "Errore: Imposibile salvare le impostazioni delle Regole & Ruoli."
 
 #: admin/settings/rules-roles-settings.php:94
 msgid "Rules & Roles Settings successfully reseted."
 msgstr ""
+"Le impostazioni delle Regole & Ruoli sono state ripristinate correttamente."
 
 #: admin/settings/rules-roles-settings.php:275
 msgid "Manual Quote"
-msgstr ""
+msgstr "Preventivo Manuale"
 
 #: admin/settings/rules-roles-settings.php:276
 msgid "Auto Quote"
-msgstr ""
+msgstr "Preventivo Automatico"
 
 #: admin/settings/rules-roles-settings.php:282
 msgid "Conditional Logic"
-msgstr ""
+msgstr "Logica delle Condizioni"
 
 #: admin/settings/rules-roles-settings.php:287
 msgid "Rules & Roles Explanation"
-msgstr ""
+msgstr "Spiegazione Ruoli & Regole"
 
 #: admin/settings/rules-roles-settings.php:295
 msgid "SHOW"
-msgstr ""
+msgstr "MOSTRA"
 
 #: admin/settings/rules-roles-settings.php:296
 msgid "HIDE"
-msgstr ""
+msgstr "NASCONDI"
 
 #: admin/settings/rules-roles-settings.php:299
 msgid ""
 "Activating any Store Rule auto deactivates Product Page Rules 'Add to Cart' "
 "and 'Hide Price'"
 msgstr ""
+"Attivando ogni Regola Negozio verranno disattivate le Regole della Pagina "
+"del Prodotto 'Aggiungi al Carrello' e 'Nascondi il Prezzo'"
 
 #: admin/settings/rules-roles-settings.php:299
 msgid ""
@@ -2690,10 +2918,13 @@ msgid ""
 "conflict. Removing Roles from conflicting Rules makes them instantly "
 "available for adding to the new Rule."
 msgstr ""
+"I Ruoli dell'Utente non vengono mostrati nel menù a tendina delle Regole SE "
+"esiste un conflitto tra altre Regole. Rimuovendo i Ruoli dal conflitto delle "
+"Regole, questi potranno aggiungere una nuova Regola."
 
 #: admin/settings/rules-roles-settings.php:305
 msgid "Product Page Rules:"
-msgstr ""
+msgstr "Regole Pagina Prodotto:"
 
 #: admin/settings/rules-roles-settings.php:306
 msgid ""
@@ -2701,30 +2932,37 @@ msgid ""
 "be filtered on a per User Role basis. These Rules can also be varied on a "
 "product by product basis from each product edit page."
 msgstr ""
+"Le Regole della Pagina del Prodotto applicano una Regola a tutte le pagine "
+"del prodotto che possono essere filtrate in base al ruolo di un utente. "
+"Queste Regole possono essere cambiate per ogni singolo prodotto dalla pagina "
+"di modifica di ognuno di essi."
 
 #: admin/settings/rules-roles-settings.php:311
 #: classes/class-wc-email-inquiry-metabox.php:142
 msgid "Product Page Rule: Hide 'Add to Cart'"
-msgstr ""
+msgstr "Regola Pagina Prodotto: Nascondi 'Aggiungi al Carrello'"
 
 #: admin/settings/rules-roles-settings.php:360
 #: classes/class-wc-email-inquiry-metabox.php:163
 msgid "Product Page Rule: Hide Price"
-msgstr ""
+msgstr "Regola Pagina Prodotto: Nascondi Prezzo"
 
 #: admin/settings/rules-roles-settings.php:424
 msgid "Store Rules:"
-msgstr ""
+msgstr "Regole Negozio:"
 
 #: admin/settings/rules-roles-settings.php:425
 msgid ""
 "Store Rules apply a set of Rules that determine how users use your store "
 "BEFORE and AFTER they log in."
 msgstr ""
+"Le Regole del Negozio applicano una serie di Regole che determinano come "
+"l'utente usa il tuo negozio PRIMA e DOPO l'accesso."
 
 #: admin/settings/rules-roles-settings.php:438
+#, fuzzy
 msgid "Shop Display Templates"
-msgstr ""
+msgstr "Imposta tipo di schermata"
 
 #: admin/settings/rules-roles-settings.php:442
 msgid "Use WooCommerce CSS"
@@ -2738,17 +2976,20 @@ msgstr ""
 
 #: admin/settings/rules-roles-settings.php:463
 msgid "Store Rule: Manual Quote"
-msgstr ""
+msgstr "Regola Negozio: Preventivo Manuale"
 
 #: admin/settings/rules-roles-settings.php:468
 msgid "Check to manually send prices either off-line or via edit order."
 msgstr ""
+"Spunta per inviare manualmente i prezzi non in linea o modificando l'ordine."
 
 #: admin/settings/rules-roles-settings.php:469
 msgid ""
 "Hide prices everywhere including on order email and order details. If you "
 "have shipping costs configured it does not hide shipping costs."
 msgstr ""
+"Nascondi i prezzi ovunque, anche nell'email e nei dettagli dell'ordine. Se "
+"hai costi di spedizione configurati ciò non ne comporterà l'occultamento."
 
 #: admin/settings/rules-roles-settings.php:486
 #: admin/settings/rules-roles-settings.php:541
@@ -2764,11 +3005,13 @@ msgstr ""
 
 #: admin/settings/rules-roles-settings.php:519
 msgid "Store Rule: Auto Quote"
-msgstr ""
+msgstr "Regola Negozio: Preventivo Automatico"
 
 #: admin/settings/rules-roles-settings.php:524
 msgid "Check to auto include system prices in the quote request email."
 msgstr ""
+"Spunta per includere automaticamente i prezzi di sistema nell'email di "
+"richiesta preventivo."
 
 #: admin/settings/rules-roles-settings.php:525
 msgid ""
@@ -2776,6 +3019,10 @@ msgid ""
 "page, checkout page. Prices including shipping show in order email, order "
 "details when subscriber send the quote request."
 msgstr ""
+"Nascondi i prezzi nella pagina del negozio, nella pagina dei dettagli del "
+"prodotto, nella sidebar, nella pagina e widget carrello e nella pagina del "
+"checkout. I prezzi comprensivi di spedizione vengono mostrati nell'email "
+"dell'ordine, e i dettagli quando un cliente invia la richiesta di preventivo."
 
 #: admin/settings/rules-roles-settings.php:542
 msgid ""
@@ -2784,13 +3031,15 @@ msgstr ""
 
 #: admin/settings/rules-roles-settings.php:568
 msgid "Store Rule: Add to Order"
-msgstr ""
+msgstr "Regola Negozio: Aggiungi all'Ordine"
 
 #: admin/settings/rules-roles-settings.php:573
 msgid ""
 "If activated this setting over-rides all other Rules for users who are not "
 "logged in."
 msgstr ""
+"Se questa opzione è attiva ignora tutte le Regole per utenti che non hanno "
+"effettuato l'accesso."
 
 #: admin/settings/rules-roles-settings.php:590
 msgid "ON to Add to Order without auto creating an account with Customer Role."
@@ -2800,7 +3049,7 @@ msgstr ""
 #: admin/settings/rules-roles-settings.php:711
 #: admin/settings/rules-roles-settings.php:779
 msgid "Note"
-msgstr ""
+msgstr "Nota"
 
 #: admin/settings/rules-roles-settings.php:642
 #: admin/settings/rules-roles-settings.php:711
@@ -2809,6 +3058,9 @@ msgid ""
 "either log out or open the site in another browser where you are not logged "
 "in to see the Rule feature is activated."
 msgstr ""
+"Se non applichi le Regole al tuo ruolo es. 'amministratore' dovrai uscire o "
+"aprire il sito in un altro browser da cui non hai effettuato l'accesso per "
+"vedere la funzionalità Regola attiva."
 
 #: admin/settings/rules-roles-settings.php:779
 msgid ""
@@ -2816,6 +3068,9 @@ msgid ""
 "Manual Quote Request you will get 2 Quote Request Received emails - the site "
 "admins copy and the customers copy"
 msgstr ""
+"Quando assegni il Ruolo di Amministratore ai Preventivi Manuali e crei una "
+"richiesta di Preventivo Manuale riceverai due email di Richiesta Preventivo "
+"- la copia dell'amministratore e del cliente"
 
 #: admin/settings/rules-roles-settings.php:779
 msgid ""
@@ -2823,36 +3078,46 @@ msgid ""
 "the customers copy and you will see it shows no prices for each product and "
 "no sub total amount."
 msgstr ""
+"L'email dell'amministratore mostra il subtotale dell'ordine. Non è un bug. "
+"Controlla la copia destinata ai clienti e noterai che non ci sono prezzi per "
+"ogni prodotto e nemmeno un subtotale."
 
 #: admin/settings/rules-roles-settings.php:832
 msgid ""
 "* Store Rules 'add to' Buttons / function is the WooCommerce 'add to cart' "
 "buttons / function."
 msgstr ""
+"* Le regole per i pulsanti / la funzione 'aggiungi a' è la funzione / il "
+"pulsante 'aggiungi al carrello' di WooCommerce."
 
 #: admin/settings/rules-roles-settings.php:832
 msgid ""
 "* WooCommerce has 2 core Conditionals that remove the 'add to cart' button / "
 "function from any product page."
 msgstr ""
+"* WooCommerce ha due Condizioni che rimuovono il pulsante / la funzione "
+"'aggiungi al carrello' da ogni pagina prodotto."
 
 #: admin/settings/rules-roles-settings.php:832
 msgid "1. IF a product has no Price entered."
-msgstr ""
+msgstr "1. SE un prodotto non presenta alcun prezzo."
 
 #: admin/settings/rules-roles-settings.php:832
 msgid "2. IF 'Inventory Management' is ON and product is 'Out of Stock'."
-msgstr ""
+msgstr "2. SE 'Gestione Inventario\" è ON e il prodotto è 'Non disponibile'."
 
 #: admin/settings/rules-roles-settings.php:832
 msgid "Important!"
-msgstr ""
+msgstr "Importante!"
 
 #: admin/settings/rules-roles-settings.php:832
 msgid ""
 "If either of the above Conditional exists on a product then the Store Rule "
 "'add to' button / function cannot show on that product."
 msgstr ""
+"Se una delle Condizioni sopra indicate è associata a un prodotto la regola "
+"per il pulsante / la funzione 'aggiungi a' non può essere visibile per quel "
+"prodotto."
 
 #: admin/settings/rules-roles-settings.php:885
 msgid ""
@@ -2886,50 +3151,50 @@ msgstr ""
 #: admin/tabs/email-inquiry-button-style-tab.php:78
 #: admin/tabs/read-more/button-style-tab.php:78
 msgid "Button Style"
-msgstr ""
+msgstr "Stile Pulsante"
 
 #: admin/tabs/email-inquiry-default-contact-form-tab.php:78
 msgid "Default Form"
-msgstr ""
+msgstr "Form Predefinito"
 
 #: admin/tabs/email-inquiry-popup-style-tab.php:78
 msgid "Pop-Up Style"
-msgstr ""
+msgstr "Stile Pop-Up"
 
 #: classes/class-wc-email-inquiry-functions.php:149
 msgid "Email inquiry for"
-msgstr ""
+msgstr "Richiesta email per"
 
 #: classes/class-wc-email-inquiry-functions.php:150
 msgid "[Copy]: Email inquiry for"
-msgstr ""
+msgstr "[Copy]: Richiesta email per"
 
 #: classes/class-wc-email-inquiry-functions.php:158
 #: classes/class-wc-email-inquiry-hook.php:262
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #: classes/class-wc-email-inquiry-functions.php:164
 msgid "Email Address"
-msgstr ""
+msgstr "Indirizzo Email"
 
 #: classes/class-wc-email-inquiry-functions.php:170
 #: classes/class-wc-email-inquiry-hook.php:268
 msgid "Phone"
-msgstr ""
+msgstr "Telefono"
 
 #: classes/class-wc-email-inquiry-functions.php:180
 #: classes/class-wc-email-inquiry-hook.php:274
 msgid "Message"
-msgstr ""
+msgstr "Messaggio"
 
 #: classes/class-wc-email-inquiry-functions.php:215
 msgid "Sorry, this product don't enable email inquiry."
-msgstr ""
+msgstr "Questo prodotto non è abilitato alle richieste email."
 
 #: classes/class-wc-email-inquiry-functions.php:247
 msgid "Upgrades available for Extra Functionality"
-msgstr ""
+msgstr "Aggiornamenti disponibili per funzionalità Extra"
 
 #: classes/class-wc-email-inquiry-functions.php:248
 msgid ""
@@ -2937,148 +3202,157 @@ msgid ""
 "functionality that is only avaiable by upgrading to one of 3 fully supported "
 "Pro Version plugins."
 msgstr ""
+"<strong>NOTA:</strong> Tutte le funzioni all'interno del bordo giallo sono "
+"caratteristiche extra disponibili solo con l'aggiornamento a una delle 3 "
+"versioni Pro dei plugin."
 
 #: classes/class-wc-email-inquiry-functions.php:249
 msgid "WooCommerce Email Inquiry & Cart Options Pro"
-msgstr ""
+msgstr "WooCommerce Email Inquiry & Cart Options Pro"
 
 #: classes/class-wc-email-inquiry-functions.php:249
 #: classes/class-wc-email-inquiry-functions.php:260
 #: classes/class-wc-email-inquiry-functions.php:272
 msgid "Features"
-msgstr ""
+msgstr "Funzioni"
 
 #: classes/class-wc-email-inquiry-functions.php:252
 msgid "Rule: Hide Product Prices."
-msgstr ""
+msgstr "Regola: Nascondi i prezzi dei prodotti"
 
 #: classes/class-wc-email-inquiry-functions.php:253
 msgid "Email and Cart Product Page Meta."
-msgstr ""
+msgstr "Email e Carrello "
 
 #: classes/class-wc-email-inquiry-functions.php:254
 msgid "Create a mixed 'add to cart' and product brochure store."
 msgstr ""
+"Crea un negozio misto con 'aggiungi al carrello' e descrizione dei prodotti."
 
 #: classes/class-wc-email-inquiry-functions.php:255
 msgid "WYSIWYG Email Inquiry button creator."
-msgstr ""
+msgstr "Realizza un pulsante Richiesta Email in WYSIWYG."
 
 #: classes/class-wc-email-inquiry-functions.php:256
 msgid "WYSIWYG pop-up form creator."
-msgstr ""
+msgstr "Realizza un form pop-up in WYSIWYG."
 
 #: classes/class-wc-email-inquiry-functions.php:257
 msgid "Hyperlinked text instead of a Button."
-msgstr ""
+msgstr "Collegamento ipertestuale anziché un pulsante."
 
 #: classes/class-wc-email-inquiry-functions.php:260
+#, fuzzy
 msgid "WooCommerce Email Inquiry Ultimate"
-msgstr ""
+msgstr "Pagina Richiesta Email"
 
 #: classes/class-wc-email-inquiry-functions.php:263
 msgid "Includes all Email Inquiry and Cart Option Pro features."
-msgstr ""
+msgstr "Include tutte le funzionalità di Email Inquiry e Cart Option Pro."
 
 #: classes/class-wc-email-inquiry-functions.php:264
 msgid "Full integration with Gravity Forms, Conatct Form 7."
-msgstr ""
+msgstr "Massima integrazione con Gravity Forms, Contact Form 7."
 
 #: classes/class-wc-email-inquiry-functions.php:265
 msgid "Custom Inquiry forms with Gravity Forms shortcode."
-msgstr ""
+msgstr "Form di Richiesta personalizzati usando il codice di Gravity Forms."
 
 #: classes/class-wc-email-inquiry-functions.php:266
 msgid "Custom Inquiry forms using Contact Form 7 shortcode."
-msgstr ""
+msgstr "Form di Richiesta personalizzati usando il codice di Contact Form 7."
 
 #: classes/class-wc-email-inquiry-functions.php:267
 msgid "Inquiry form opens On Page below button."
-msgstr ""
+msgstr "Pulsante per aprire il form di Richiesta di seguito."
 
 #: classes/class-wc-email-inquiry-functions.php:268
 msgid "Open Email Inquiry form on new page option."
-msgstr ""
+msgstr "Opzione per aprire il form di Richiesta Email in una nuova pagina."
 
 #: classes/class-wc-email-inquiry-functions.php:269
 msgid "Open Gravity / Contact 7 form by pop-up."
-msgstr ""
+msgstr "Apri il form Gravity / Contact 7 in un pop-up."
 
 #: classes/class-wc-email-inquiry-functions.php:272
 msgid "WooCommerce Quotes and Orders"
-msgstr ""
+msgstr "WooCommerce Quotes and Orders"
 
 #: classes/class-wc-email-inquiry-functions.php:275
 msgid "Includes all features listed above."
-msgstr ""
+msgstr "Include tutte le funzioni elencate di seguito."
 
 #: classes/class-wc-email-inquiry-functions.php:276
 msgid "Extends WooCommerce add to cart mode to 3 new modes."
-msgstr ""
+msgstr "Estendi Aggiungi al Carrello di WooCommerce con 3 nuove funzioni."
 
 #: classes/class-wc-email-inquiry-functions.php:277
 msgid "Converts add to cart function into an add to Quote function."
-msgstr ""
+msgstr "Converti la funzione Aggiungi al Carrello in Confronta"
 
 #: classes/class-wc-email-inquiry-functions.php:278
 msgid "Manual' Quote Mode - quote prices off-line after request."
 msgstr ""
+"Modalità Preventivo Manuale - preventiva i prezzi off-line su richiesta."
 
 #: classes/class-wc-email-inquiry-functions.php:279
 msgid "Auto Quote Mode - Auto sends full quote to user."
 msgstr ""
+"Modalità Preventivo Automatico - Invia automaticamente un preventivo "
+"completo all'utente."
 
 #: classes/class-wc-email-inquiry-functions.php:280
 msgid "Converts add to cart function into add to Order function."
-msgstr ""
+msgstr "Converti la funzione Aggiungi al Carrello in Aggiungi agli Ordini."
 
 #: classes/class-wc-email-inquiry-functions.php:281
 msgid "Full integration with WooCommerce."
-msgstr ""
+msgstr "Massima integrazione con WooCommerce."
 
 #: classes/class-wc-email-inquiry-functions.php:284
 msgid "View this plugins"
-msgstr ""
+msgstr "Consulta la"
 
 #: classes/class-wc-email-inquiry-functions.php:284
 msgid "documentation"
-msgstr ""
+msgstr "documentazione"
 
 #: classes/class-wc-email-inquiry-functions.php:285
 msgid "Visit this plugins"
-msgstr ""
+msgstr "Visita il"
 
 #: classes/class-wc-email-inquiry-functions.php:285
+#, fuzzy
 msgid "support forum"
-msgstr ""
+msgstr "forum di supporto"
 
 #: classes/class-wc-email-inquiry-functions.php:286
 msgid "More FREE a3rev WooCommerce Plugins"
-msgstr ""
+msgstr "Altri plugin a3rev GRATUITI per WooCommerce"
 
 #: classes/class-wc-email-inquiry-functions.php:289
 msgid "WooCommerce Product Sort and Display"
-msgstr ""
+msgstr "WooCommerce Product Sort and Display"
 
 #: classes/class-wc-email-inquiry-functions.php:290
 msgid "WooCommerce Dynamic Products Gallery"
-msgstr ""
+msgstr "WooCommerce Dynamic Products Gallery"
 
 #: classes/class-wc-email-inquiry-functions.php:291
 msgid "WooCommerce Predictive Search"
-msgstr ""
+msgstr "WooCommerce Predictive Search"
 
 #: classes/class-wc-email-inquiry-functions.php:292
 msgid "WooCommerce Compare Products"
-msgstr ""
+msgstr "WooCommerce Compare Products"
 
 #: classes/class-wc-email-inquiry-functions.php:293
 msgid "WooCommerce Widget Product Slideshow"
-msgstr ""
+msgstr "WooCommerce Widget Product Slideshow"
 
 #: classes/class-wc-email-inquiry-functions.php:296
 msgid "More FREE a3rev WordPress plugins"
-msgstr ""
+msgstr "Altri plugin a3rev GRATUITI per WordPress"
 
 #: classes/class-wc-email-inquiry-functions.php:299
 msgid "a3 Responsive Slider"
@@ -3090,122 +3364,124 @@ msgstr ""
 
 #: classes/class-wc-email-inquiry-functions.php:300
 msgid "Contact Us Page - Contact People"
-msgstr ""
+msgstr "Pagina Contatti - Contatto Utenti"
 
 #: classes/class-wc-email-inquiry-functions.php:301
 msgid "WordPress Email Template"
-msgstr ""
+msgstr "Modello Email Wordpress"
 
 #: classes/class-wc-email-inquiry-functions.php:302
 msgid "Page View Count"
-msgstr ""
+msgstr "Contatore Visite Pagina"
 
 #: classes/class-wc-email-inquiry-hook.php:265
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: classes/class-wc-email-inquiry-hook.php:271
 msgid "Subject"
-msgstr ""
+msgstr "Oggetto"
 
 #: classes/class-wc-email-inquiry-hook.php:418
 msgid "Please enter your Name"
-msgstr ""
+msgstr "Inserisci il tuo nome"
 
 #: classes/class-wc-email-inquiry-hook.php:422
 msgid "Please enter valid Email address"
-msgstr ""
+msgstr "Inserisci un indirizzo Email valido"
 
 #: classes/class-wc-email-inquiry-hook.php:426
 msgid "Please enter your Phone"
-msgstr ""
+msgstr "Inserisci il tuo numero di telefono"
 
 #: classes/class-wc-email-inquiry-hook.php:534
 msgid "Documentation"
-msgstr ""
+msgstr "Documentazione"
 
 #: classes/class-wc-email-inquiry-hook.php:535
 msgid "Support"
-msgstr ""
+msgstr "Supporto"
 
 #: classes/class-wc-email-inquiry-metabox.php:17
 msgid "Email & Cart"
-msgstr ""
+msgstr "Email & Carrello"
 
 #: classes/class-wc-email-inquiry-metabox.php:124
 msgid "Reset Product Options"
-msgstr ""
+msgstr "Ripristina Opzioni Prodotto"
 
 #: classes/class-wc-email-inquiry-metabox.php:126
 msgid "Check to reset this product setting to the Global Settings"
 msgstr ""
+"Seleziona per ripristinare queste impostazioni prodotto alle Impostazioni "
+"Globali"
 
 #: classes/class-wc-email-inquiry-metabox.php:133
 msgid "Cart & Price"
-msgstr ""
+msgstr "Carrello & Prezzo"
 
 #: classes/class-wc-email-inquiry-metabox.php:138
 #: classes/class-wc-email-inquiry-metabox.php:188
 #: classes/class-wc-email-inquiry-metabox.php:280
 msgid "Upgrade to"
-msgstr ""
+msgstr "Aggiorna alla"
 
 #: classes/class-wc-email-inquiry-metabox.php:138
 #: classes/class-wc-email-inquiry-metabox.php:188
 msgid "Pro Version"
-msgstr ""
+msgstr "versione Pro"
 
 #: classes/class-wc-email-inquiry-metabox.php:138
 #: classes/class-wc-email-inquiry-metabox.php:188
 #: classes/class-wc-email-inquiry-metabox.php:280
 msgid "to activate"
-msgstr ""
+msgstr "per attivare"
 
 #: classes/class-wc-email-inquiry-metabox.php:171
 #: classes/class-wc-email-inquiry-metabox.php:201
 #: classes/class-wc-email-inquiry-metabox.php:293
 msgid "Apply for all users after log in"
-msgstr ""
+msgstr "Applica a tutti gli utenti dopo il log in"
 
 #: classes/class-wc-email-inquiry-metabox.php:218
 msgid "ON to show Button / Link Text on this Product's Card."
-msgstr ""
+msgstr "ON per mostrare i pulsanti / Link testuale su questa Carta Prodotto"
 
 #: classes/class-wc-email-inquiry-metabox.php:222
 msgid "Email Delivery Options"
-msgstr ""
+msgstr "Opzioni Invio Email"
 
 #: classes/class-wc-email-inquiry-metabox.php:230
 msgid "Copy to"
-msgstr ""
+msgstr "Copia a"
 
 #: classes/class-wc-email-inquiry-metabox.php:235
 msgid "Inquiry Button / Hyperlink Options"
-msgstr ""
+msgstr "Pulsante Richiesta / Opzioni Ipertestuale"
 
 #: classes/class-wc-email-inquiry-metabox.php:240
 msgid "Link"
-msgstr ""
+msgstr "Link"
 
 #: classes/class-wc-email-inquiry-metabox.php:249
 msgid "Text before"
-msgstr ""
+msgstr "Testo prima"
 
 #: classes/class-wc-email-inquiry-metabox.php:254
 msgid "Hyperlink text"
-msgstr ""
+msgstr "Collegamento ipertestuale"
 
 #: classes/class-wc-email-inquiry-metabox.php:259
 msgid "Trailing text"
-msgstr ""
+msgstr "Trascinamento testo"
 
 #: classes/class-wc-email-inquiry-metabox.php:306
 msgid "Button / Link Text"
-msgstr ""
+msgstr "Pulsante / Collegamento Testo"
 
 #: classes/class-wc-email-inquiry-metabox.php:307
 msgid "&lt;empty&gt; defaults to Global text"
-msgstr ""
+msgstr "&lt;empty&gt; predefiniti a testo Globale"
 
 #: templates/emails/order-new-account.php:12
 #: templates/emails/plain/order-new-account.php:10
@@ -3214,4 +3490,46 @@ msgstr ""
 #: templates/emails/quote-new-account.php:12
 #: templates/emails/send-quote.php:12
 msgid "Please Upgrade to WooCommerce Quotes and Orders plugin"
-msgstr ""
+msgstr "Aggiorna al plugin WooCommerce Quotes and Orders"
+
+#, fuzzy
+#~ msgid "Error: "
+#~ msgstr "Messaggio di Errore"
+
+#, fuzzy
+#~ msgid "Blog Title"
+#~ msgstr "Titolo Pulsante"
+
+#, fuzzy
+#~ msgid ""
+#~ "Thanks for purchasing a WooCommerce Email Inquiry and cart Options Pro "
+#~ "License."
+#~ msgstr "WooCommerce Email Inquiry Ultimate"
+
+#, fuzzy
+#~ msgid "View the"
+#~ msgstr "Visualizza File "
+
+#, fuzzy
+#~ msgid "Please enter valid Email addres"
+#~ msgstr "Inserisci un indirizzo Email valido"
+
+#, fuzzy
+#~ msgid "Product Email Inquiry"
+#~ msgstr "Richiesta Prodotto"
+
+#, fuzzy
+#~ msgid "CSS Class Value"
+#~ msgstr "Classe CSS"
+
+#, fuzzy
+#~ msgid "Email Inquiry Form"
+#~ msgstr "Richiesta email per"
+
+#, fuzzy
+#~ msgid "Quotes and Orders 7 Day Free Trial."
+#~ msgstr "Versione Quotes & Orders"
+
+#, fuzzy
+#~ msgid "Enter Form Shortcode"
+#~ msgstr "Inserisci Codice Form Globale"
