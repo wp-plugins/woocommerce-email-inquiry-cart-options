@@ -354,13 +354,6 @@ class WC_EI_Button_Style_Settings extends WC_Email_Inquiry_Admin_UI
 				'type' 		=> 'box_shadow',
 				'default'	=> array( 'enable' => 0, 'h_shadow' => '5px' , 'v_shadow' => '5px', 'blur' => '2px' , 'spread' => '2px', 'color' => '#999999', 'inset' => '' )
 			),
-			array(  
-				'name' 		=> __( 'CSS Class', 'wc_email_inquiry' ),
-				'desc' 		=> __( 'Enter your own button CSS class', 'wc_email_inquiry' ),
-				'id' 		=> 'inquiry_button_class',
-				'type' 		=> 'text',
-				'default'	=> ''
-			),
 			
 			array(
             	'name' 		=> __( 'Hyperlink Styling', 'wc_email_inquiry' ),
@@ -442,7 +435,7 @@ class WC_EI_Button_Style_Settings extends WC_Email_Inquiry_Admin_UI
 <style>
 .a3rev_panel_container .button_hyperlink_margin_blue_message_container {
 <?php if ( get_option( 'wc_ei_button_hyperlink_margin_message_dontshow', 0 ) == 1 ) echo 'display: none !important;'; ?>
-<?php if ( !isset($_SESSION) ) { session_start(); } if ( isset( $_SESSION['wc_ei_button_hyperlink_margin_message_dismiss'] ) ) echo 'display: none !important;'; ?>
+<?php if ( !isset($_SESSION) ) { @session_start(); } if ( isset( $_SESSION['wc_ei_button_hyperlink_margin_message_dismiss'] ) ) echo 'display: none !important;'; ?>
 }
 </style>
 <script>
