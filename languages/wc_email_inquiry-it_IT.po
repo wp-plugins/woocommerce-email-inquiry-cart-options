@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WP e-Commerce Catalog Visibility Email inquiry PRO\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-02 12:10+0700\n"
-"PO-Revision-Date: 2015-02-02 12:10+0700\n"
+"POT-Creation-Date: 2015-02-13 11:00+0700\n"
+"PO-Revision-Date: 2015-02-13 11:00+0700\n"
 "Last-Translator: Nguyen Cong Tuan <mr.nguyencongtuan@gmail.com>\n"
 "Language-Team: a3rev\n"
 "Language: it_IT\n"
@@ -422,65 +422,75 @@ msgstr "Impostazioni finestra Pop-Up"
 
 #: admin/settings/colorbox-popup-settings.php:210
 #: admin/settings/fancybox-popup-settings.php:210
+msgid "Pop-Up Maximum Width"
+msgstr ""
+
+#: admin/settings/colorbox-popup-settings.php:220
+#: admin/settings/fancybox-popup-settings.php:220
+msgid "Pop-Up Maximum Height"
+msgstr ""
+
+#: admin/settings/colorbox-popup-settings.php:230
+#: admin/settings/fancybox-popup-settings.php:230
 msgid "Fix Position on Scroll"
 msgstr "Fissa la posizione durante lo scorrimento"
 
-#: admin/settings/colorbox-popup-settings.php:217
-#: admin/settings/fancybox-popup-settings.php:217
+#: admin/settings/colorbox-popup-settings.php:237
+#: admin/settings/fancybox-popup-settings.php:237
 msgid "Pop-up stays centered in screen while page scrolls behind it."
 msgstr "Il Pop-Up rimane centrato mentre la pagina scorre sotto."
 
-#: admin/settings/colorbox-popup-settings.php:224
-#: admin/settings/fancybox-popup-settings.php:224
+#: admin/settings/colorbox-popup-settings.php:244
+#: admin/settings/fancybox-popup-settings.php:244
 msgid "Pop-up scrolls up and down with the page."
 msgstr "Il Pop-Up scorre su e giù con il resto della pagina."
 
-#: admin/settings/colorbox-popup-settings.php:231
+#: admin/settings/colorbox-popup-settings.php:251
 msgid "Open & Close Transition Effect"
 msgstr "Transizioni Apri & Chiudi"
 
-#: admin/settings/colorbox-popup-settings.php:232
+#: admin/settings/colorbox-popup-settings.php:252
 msgid "Choose a pop-up opening & closing effect. Default - None"
 msgstr ""
 "Scegli un effetto di apertura e chiusura del Pop-up. Predefinito - Nessuno"
 
-#: admin/settings/colorbox-popup-settings.php:238
-#: admin/settings/fancybox-popup-settings.php:238
-#: admin/settings/fancybox-popup-settings.php:251
+#: admin/settings/colorbox-popup-settings.php:258
+#: admin/settings/fancybox-popup-settings.php:258
+#: admin/settings/fancybox-popup-settings.php:271
 msgid "None"
 msgstr "Nessuno"
 
-#: admin/settings/colorbox-popup-settings.php:239
-#: admin/settings/fancybox-popup-settings.php:239
-#: admin/settings/fancybox-popup-settings.php:252
+#: admin/settings/colorbox-popup-settings.php:259
+#: admin/settings/fancybox-popup-settings.php:259
+#: admin/settings/fancybox-popup-settings.php:272
 msgid "Fade"
 msgstr "Dissolvenza"
 
-#: admin/settings/colorbox-popup-settings.php:240
-#: admin/settings/fancybox-popup-settings.php:240
-#: admin/settings/fancybox-popup-settings.php:253
+#: admin/settings/colorbox-popup-settings.php:260
+#: admin/settings/fancybox-popup-settings.php:260
+#: admin/settings/fancybox-popup-settings.php:273
 msgid "Elastic"
 msgstr "Elastica"
 
-#: admin/settings/colorbox-popup-settings.php:244
+#: admin/settings/colorbox-popup-settings.php:264
 msgid "Opening & Closing Speed"
 msgstr "Velocità di apertura e chiusura"
 
-#: admin/settings/colorbox-popup-settings.php:245
+#: admin/settings/colorbox-popup-settings.php:265
 msgid "Milliseconds when open and close pop-up"
 msgstr "Millisecondi per l'apertura e la chiusura dei pop-up"
 
-#: admin/settings/colorbox-popup-settings.php:252
-#: admin/settings/fancybox-popup-settings.php:273
+#: admin/settings/colorbox-popup-settings.php:272
+#: admin/settings/fancybox-popup-settings.php:293
 msgid "Background Overlay Colour"
 msgstr "Colore Copertura Sfondo"
 
-#: admin/settings/colorbox-popup-settings.php:253
-#: admin/settings/fancybox-popup-settings.php:274
+#: admin/settings/colorbox-popup-settings.php:273
+#: admin/settings/fancybox-popup-settings.php:294
 msgid "Select a colour or empty for no colour."
 msgstr "Seleziona un colore o lascia vuoto per non sceglierne nessuno."
 
-#: admin/settings/colorbox-popup-settings.php:253
+#: admin/settings/colorbox-popup-settings.php:273
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:231
 #: admin/settings/email-inquiry-3rd-contact-form-settings.php:263
 #: admin/settings/email-inquiry-button-style-settings.php:320
@@ -492,7 +502,7 @@ msgstr "Seleziona un colore o lascia vuoto per non sceglierne nessuno."
 #: admin/settings/email-inquiry-popup-form-style-settings.php:340
 #: admin/settings/email-inquiry-popup-form-style-settings.php:347
 #: admin/settings/email-inquiry-popup-form-style-settings.php:354
-#: admin/settings/fancybox-popup-settings.php:274
+#: admin/settings/fancybox-popup-settings.php:294
 #: admin/settings/read-more/hover-position-style-settings.php:250
 #: admin/settings/read-more/hover-position-style-settings.php:257
 #: admin/settings/read-more/hover-position-style-settings.php:264
@@ -1396,35 +1406,35 @@ msgstr "Pop-Up Fancybox"
 msgid "Fancybox Pop-Up Settings"
 msgstr "Impostazioni Pop-Up Fancybox"
 
-#: admin/settings/fancybox-popup-settings.php:231
+#: admin/settings/fancybox-popup-settings.php:251
 msgid "Open Transition Effect"
 msgstr "Apri Effetto Transizione"
 
-#: admin/settings/fancybox-popup-settings.php:232
+#: admin/settings/fancybox-popup-settings.php:252
 msgid "Choose a pop-up opening effect. Default - None."
 msgstr "Scegli un effetto in apertura del pop-up. Predefinito - Nessuno"
 
-#: admin/settings/fancybox-popup-settings.php:244
+#: admin/settings/fancybox-popup-settings.php:264
 msgid "Close Transistion Effect"
 msgstr "Chiudi Effetto Transizione"
 
-#: admin/settings/fancybox-popup-settings.php:245
+#: admin/settings/fancybox-popup-settings.php:265
 msgid "Choose a pop-up closing effect. Default - None."
 msgstr "Scegli un effetto in chiusura del pop-up. Predefinito - Nessuno."
 
-#: admin/settings/fancybox-popup-settings.php:257
+#: admin/settings/fancybox-popup-settings.php:277
 msgid "Opening Speed"
 msgstr "Velocità di apertura"
 
-#: admin/settings/fancybox-popup-settings.php:258
+#: admin/settings/fancybox-popup-settings.php:278
 msgid "Milliseconds when open pop-up"
 msgstr "Millisecondi per l'apertura del pop-up"
 
-#: admin/settings/fancybox-popup-settings.php:265
+#: admin/settings/fancybox-popup-settings.php:285
 msgid "Closing Speed"
 msgstr "Velocità di chiusura"
 
-#: admin/settings/fancybox-popup-settings.php:266
+#: admin/settings/fancybox-popup-settings.php:286
 msgid "Milliseconds when close pop-up"
 msgstr "Millisecondi per la chiusura del pop-up"
 
