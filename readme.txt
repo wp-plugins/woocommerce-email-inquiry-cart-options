@@ -2,8 +2,8 @@
 Contributors: a3rev, A3 Revolution Software Development team
 Tags: WooCommerce, WooCommerce Email Inquiry, WooCommerce Catalog Visibility, WooCommerce add to cart, WooCommerce Brochure Page, WooCommerce product Emails
 Requires at least: 3.8
-Tested up to: 4.1
-Stable tag: 1.2.3
+Tested up to: 4.1.1
+Stable tag: 1.2.4
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -195,6 +195,10 @@ You can use this plugin only when you have installed the WooCommerce plugin.
 
 == Changelog ==
 
+= 1.2.4 - 2015/03/19 =
+* Tweak - Tested and Tweaked for full compatibility with WooCommerce Version 2.3.7
+* Tweak - Tested and Tweaked for full compatibility with WordPress Version 4.1.1
+
 = 1.2.3 - 2015/02/13 =
 * Tweak - Major upgrade for full compatibility with WooCommerce major version release 2.3.0 with backward compatibility to WC 2.2.0
 * Tweak - Tested fully compatible with WooCommerce just released version 2.3.3
@@ -363,6 +367,9 @@ You can use this plugin only when you have installed the WooCommerce plugin.
 
 
 == Upgrade Notice ==
+
+= 1.2.4 =
+Upgrade now for full compatibility with WooCommerce Version 2.3.7 and WordPress version 4.1.1
 
 = 1.2.3 =
 Upgrade now for full compatibility with WooCommerce major version release 2.3.0 with backward compatibility to WooCommerce v 2.2.0
