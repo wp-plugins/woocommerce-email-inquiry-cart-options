@@ -220,6 +220,27 @@ class WC_EI_Quotes_Mode_Checkout_Page_Settings extends WC_Email_Inquiry_Admin_UI
 				'separate_option'	=> true,
 			),
 			array(  
+				'name' 		=> __( 'Shipping and Handling', 'wc_email_inquiry' ),
+				'id' 		=> 'shipping_handling_title',
+				'type' 		=> 'text',
+				'default'	=> __( 'Shipping and Handling', 'wc_email_inquiry' ),
+			),
+			array(  
+				'name' 		=> __( 'Shipping help text', 'wc_email_inquiry' ),
+				'desc' 		=> __( "Customer Help text shows at the bottom of Shipping and Handling table.", 'wc_email_inquiry' ),
+				'id' 		=> 'wc_email_inquiry_quote_checkout_shipping_help_text',
+				'type' 		=> 'wp_editor',
+				'default'	=> '',
+				'separate_option'	=> true,
+			),
+			array(  
+				'name' 		=> __( 'Shipping Options Title', 'wc_email_inquiry' ),
+				'desc' 		=> __( "Adds a title above the shipping options", 'wc_email_inquiry' ),
+				'id' 		=> 'shipping_options_title',
+				'type' 		=> 'text',
+				'default'	=> __( 'Select a preferred shipping option', 'wc_email_inquiry' ),
+			),
+			array(  
 				'name' 		=> __( 'Bottom of page Message', 'wc_email_inquiry' ),
 				'desc' 		=> __( "Message that user sees on bottom of checkout page", 'wc_email_inquiry' ),
 				'id' 		=> 'wc_email_inquiry_quote_checkout_bottom_message',

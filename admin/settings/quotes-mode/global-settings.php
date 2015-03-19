@@ -45,7 +45,7 @@ class WC_EI_Quotes_Mode_Global_Settings extends WC_Email_Inquiry_Admin_UI
 	 * @var string
 	 * You must change to correct option name that you are working
 	 */
-	public $option_name = '';
+	public $option_name = 'wc_email_inquiry_quotes_mode_global_settings';
 	
 	/**
 	 * @var string
@@ -82,6 +82,8 @@ class WC_EI_Quotes_Mode_Global_Settings extends WC_Email_Inquiry_Admin_UI
 				'error_message'		=> __( 'Error: Quotes Mode Settings can not save.', 'wc_email_inquiry' ),
 				'reset_message'		=> __( 'Quotes Mode Settings successfully reseted.', 'wc_email_inquiry' ),
 			);
+			
+		add_action( $this->plugin_name . '-' . $this->form_key . '_settings_end', array( $this, 'include_script' ) );
 			
 		add_action( $this->plugin_name . '_set_default_settings' , array( $this, 'set_default_settings' ) );
 				
@@ -199,13 +201,124 @@ class WC_EI_Quotes_Mode_Global_Settings extends WC_Email_Inquiry_Admin_UI
            	),
 			
 			array(
-            	'name' 		=> __( 'Shipping', 'wc_email_inquiry' ),
-				'desc'		=> sprintf( __( 'The Shipping Options set in <a href="%s">WooCommerce Shipping</a> apply to all Quotes Mode templates.', 'wc_email_inquiry'), ( ( version_compare( $woocommerce_db_version, '2.1', '<' ) ) ? admin_url( 'admin.php?page=woocommerce_settings&tab=shipping', 'relative' ) : admin_url( 'admin.php?page=wc-settings&tab=shipping', 'relative' ) ) ),
+            	'name' 		=> __( 'Shipping Options', 'wc_email_inquiry' ),
+				'desc'		=> sprintf( __( 'Configure store Shipping Options at <a href="%s">WooCommerce Shipping</a> and set Quotes mode Shipping visibility options below.', 'wc_email_inquiry'), ( ( version_compare( $woocommerce_db_version, '2.1', '<' ) ) ? admin_url( 'admin.php?page=woocommerce_settings&tab=shipping', 'relative' ) : admin_url( 'admin.php?page=wc-settings&tab=shipping', 'relative' ) ) ),
                 'type' 		=> 'heading',
            	),
 			
+			array(
+            	'name' 		=> __( 'Manual Quotes Shipping', 'wc_email_inquiry' ),
+				'desc'		=> __( 'Settings apply to Checkout, Order Received pages and Customer Quote email. Shipping is not shown the Cart Page.', 'wc_email_inquiry' ),
+                'type' 		=> 'heading',
+           	),
+			array(  
+				'name' 		=> __( 'Display Shipping Options', 'wc_email_inquiry' ),
+				'class'		=> 'manual_quotes_display_shipping_options',
+				'id' 		=> 'manual_quotes_display_shipping_options',
+				'type' 		=> 'onoff_checkbox',
+				'default'	=> 'yes',
+				'checked_value'		=> 'yes',
+				'unchecked_value' 	=> 'no',
+				'checked_label'		=> __( 'ON', 'wc_email_inquiry' ),
+				'unchecked_label' 	=> __( 'OFF', 'wc_email_inquiry' ),
+			),
+			
+			array(
+                'type' 		=> 'heading',
+				'class'		=> 'manual_quotes_display_shipping_prices_container',
+           	),
+			array(  
+				'name' 		=> __( 'Display Shipping Prices', 'wc_email_inquiry' ),
+				'class'		=> 'manual_quotes_display_shipping_prices',
+				'id' 		=> 'manual_quotes_display_shipping_prices',
+				'type' 		=> 'onoff_checkbox',
+				'default'	=> 'yes',
+				'checked_value'		=> 'yes',
+				'unchecked_value' 	=> 'no',
+				'checked_label'		=> __( 'ON', 'wc_email_inquiry' ),
+				'unchecked_label' 	=> __( 'OFF', 'wc_email_inquiry' ),
+			),
+			
+			array(
+            	'name' 		=> __( 'Auto Quotes Shipping', 'wc_email_inquiry' ),
+				'desc'		=> __( 'Settings apply to Checkout page. Shipping is not shown the Cart Page.', 'wc_email_inquiry' ),
+                'type' 		=> 'heading',
+           	),
+			array(  
+				'name' 		=> __( 'Display Shipping Options', 'wc_email_inquiry' ),
+				'class'		=> 'auto_quotes_display_shipping_options',
+				'id' 		=> 'auto_quotes_display_shipping_options',
+				'type' 		=> 'onoff_checkbox',
+				'default'	=> 'yes',
+				'checked_value'		=> 'yes',
+				'unchecked_value' 	=> 'no',
+				'checked_label'		=> __( 'ON', 'wc_email_inquiry' ),
+				'unchecked_label' 	=> __( 'OFF', 'wc_email_inquiry' ),
+			),
+			
+			array(
+                'type' 		=> 'heading',
+				'class'		=> 'auto_quotes_display_shipping_prices_container',
+           	),
+			array(  
+				'name' 		=> __( 'Display Shipping Prices', 'wc_email_inquiry' ),
+				'class'		=> 'auto_quotes_display_shipping_prices',
+				'id' 		=> 'auto_quotes_display_shipping_prices',
+				'type' 		=> 'onoff_checkbox',
+				'default'	=> 'yes',
+				'checked_value'		=> 'yes',
+				'unchecked_value' 	=> 'no',
+				'checked_label'		=> __( 'ON', 'wc_email_inquiry' ),
+				'unchecked_label' 	=> __( 'OFF', 'wc_email_inquiry' ),
+			),
+			
         ));
 	}
+	
+	public function include_script() {
+	?>
+<script>
+(function($) {
+	
+	$(document).ready(function() {
+		
+		if ( $("input.manual_quotes_display_shipping_options:checked").val() == 'yes') {
+			$(".manual_quotes_display_shipping_prices_container").css( {'visibility': 'visible', 'height' : 'auto', 'overflow' : 'inherit'} );
+		} else {
+			$(".manual_quotes_display_shipping_prices_container").css( {'visibility': 'hidden', 'height' : '0px', 'overflow' : 'hidden'} );
+		}
+		
+		if ( $("input.auto_quotes_display_shipping_options:checked").val() == 'yes') {
+			$(".auto_quotes_display_shipping_prices_container").css( {'visibility': 'visible', 'height' : 'auto', 'overflow' : 'inherit'} );
+		} else {
+			$(".auto_quotes_display_shipping_prices_container").css( {'visibility': 'hidden', 'height' : '0px', 'overflow' : 'hidden'} );
+		}
+			
+		$(document).on( "a3rev-ui-onoff_checkbox-switch", '.manual_quotes_display_shipping_options', function( event, value, status ) {
+			$(".manual_quotes_display_shipping_prices_container").hide().css( {'visibility': 'visible', 'height' : 'auto', 'overflow' : 'inherit'} );
+			if ( status == 'true' ) {
+				$(".manual_quotes_display_shipping_prices_container").slideDown();
+			} else {
+				$(".manual_quotes_display_shipping_prices_container").slideUp();
+			}
+		});
+		
+		$(document).on( "a3rev-ui-onoff_checkbox-switch", '.auto_quotes_display_shipping_options', function( event, value, status ) {
+			$(".auto_quotes_display_shipping_prices_container").hide().css( {'visibility': 'visible', 'height' : 'auto', 'overflow' : 'inherit'} );
+			if ( status == 'true' ) {
+				$(".auto_quotes_display_shipping_prices_container").slideDown();
+			} else {
+				$(".auto_quotes_display_shipping_prices_container").slideUp();
+			}
+		});
+		
+	});
+	
+})(jQuery);
+</script>
+    <?php	
+	}
+	
 }
 
 global $wc_ei_quotes_mode_global_settings;
