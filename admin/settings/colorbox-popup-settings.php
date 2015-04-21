@@ -206,6 +206,26 @@ class WC_EI_ColorBox_Popup_Settings extends WC_Email_Inquiry_Admin_UI
             	'name' 		=> __( 'Colorbox Pop-Up Settings', 'wc_email_inquiry' ),
                 'type' 		=> 'heading',
            	),
+           	array(  
+				'name' 		=> __( 'Pop-Up Maximum Width', 'wc_email_inquiry' ),
+				'id' 		=> 'colorbox_popup_width',
+				'desc'		=> 'px',
+				'type' 		=> 'slider',
+				'default'	=> 520,
+				'min'		=> 520,
+				'max'		=> 800,
+				'increment'	=> 10
+			),
+			array(  
+				'name' 		=> __( 'Pop-Up Maximum Height', 'wc_email_inquiry' ),
+				'id' 		=> 'colorbox_popup_height',
+				'desc'		=> 'px',
+				'type' 		=> 'slider',
+				'default'	=> 460,
+				'min'		=> 300,
+				'max'		=> 600,
+				'increment'	=> 10
+			),
 			array(  
 				'name' 		=> __( "Fix Position on Scroll", 'wc_email_inquiry' ),
 				'id' 		=> 'colorbox_center_on_scroll',

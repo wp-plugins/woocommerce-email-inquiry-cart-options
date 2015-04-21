@@ -206,6 +206,26 @@ class WC_EI_Fancybox_Popup_Settings extends WC_Email_Inquiry_Admin_UI
             	'name' 		=> __( 'Fancybox Pop-Up Settings', 'wc_email_inquiry' ),
                 'type' 		=> 'heading',
            	),
+           	array(  
+				'name' 		=> __( 'Pop-Up Maximum Width', 'wc_email_inquiry' ),
+				'id' 		=> 'fancybox_popup_width',
+				'desc'		=> 'px',
+				'type' 		=> 'slider',
+				'default'	=> 520,
+				'min'		=> 520,
+				'max'		=> 800,
+				'increment'	=> 10
+			),
+			array(  
+				'name' 		=> __( 'Pop-Up Maximum Height', 'wc_email_inquiry' ),
+				'id' 		=> 'fancybox_popup_height',
+				'desc'		=> 'px',
+				'type' 		=> 'slider',
+				'default'	=> 460,
+				'min'		=> 300,
+				'max'		=> 600,
+				'increment'	=> 10
+			),
 			array(  
 				'name' 		=> __( "Fix Position on Scroll", 'wc_email_inquiry' ),
 				'id' 		=> 'fancybox_center_on_scroll',
