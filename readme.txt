@@ -2,8 +2,8 @@
 Contributors: a3rev, A3 Revolution Software Development team
 Tags: WooCommerce, WooCommerce Email Inquiry, WooCommerce Catalog Visibility, WooCommerce add to cart, WooCommerce Brochure Page, WooCommerce product Emails
 Requires at least: 3.8
-Tested up to: 4.1.1
-Stable tag: 1.2.4
+Tested up to: 4.2.0
+Stable tag: 1.2.5
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -195,6 +195,12 @@ You can use this plugin only when you have installed the WooCommerce plugin.
 
 == Changelog ==
 
+= 1.2.5 - 2015/04/21 =
+* Tweak - Tested and Tweaked for full compatibility with WordPress Version 4.2.0
+* Tweak - Tested and Tweaked for full compatibility with WooCommerce Version 2.3.8
+* Tweak - enqueue the 'a3rev-admin-flat-ui-style' script on product edit page to fix the height of chosen multiple drop down on meta box
+* Tweak - Update style of plugin framework. Removed the [data-icon] selector to prevent conflict with other plugins that have font awesome icons
+
 = 1.2.4 - 2015/03/19 =
 * Tweak - Tested and Tweaked for full compatibility with WooCommerce Version 2.3.7
 * Tweak - Tested and Tweaked for full compatibility with WordPress Version 4.1.1
@@ -367,6 +373,9 @@ You can use this plugin only when you have installed the WooCommerce plugin.
 
 
 == Upgrade Notice ==
+
+= 1.2.5 =
+Maintenance upgrade. Code tweaks for full compatibility with WordPress 4.2.0 and WooCommerce 2.3.8
 
 = 1.2.4 =
 Upgrade now for full compatibility with WooCommerce Version 2.3.7 and WordPress version 4.1.1
