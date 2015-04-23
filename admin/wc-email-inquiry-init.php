@@ -1,7 +1,7 @@
 <?php
 function wc_email_inquiry_install(){
-	update_option('a3rev_wc_email_inquiry_version', '1.2.5');
-	update_option('a3rev_wc_email_inquiry_ultimate_version', '1.2.3');
+	update_option('a3rev_wc_email_inquiry_version', '1.2.6');
+	update_option('a3rev_wc_email_inquiry_ultimate_version', '1.2.4');
 	update_option('a3rev_wc_orders_quotes_version', '1.1.8');
 
 	// Set Settings Default from Admin Init
@@ -150,8 +150,8 @@ add_filter( 'plugin_row_meta', array('WC_Email_Inquiry_Hook_Filter', 'plugin_ext
 			$wc_ei_admin_init->set_default_settings();
 		}
 
-		update_option('a3rev_wc_email_inquiry_version', '1.2.5');
-		update_option('a3rev_wc_email_inquiry_ultimate_version', '1.2.3');
+		update_option('a3rev_wc_email_inquiry_version', '1.2.6');
+		update_option('a3rev_wc_email_inquiry_ultimate_version', '1.2.4');
 		update_option('a3rev_wc_orders_quotes_version', '1.1.8');
 
 	}
