@@ -128,7 +128,7 @@ class WC_Email_Inquiry_MetaBox
                 </tr>
 			</tbody>
         </table>
-        <div class="wc_ei_tab_bar">
+        <div class="wc_ei_tab_bar a3rev_panel_container" style="visibility: visible; height: auto; overflow: inherit;">
         <ul class="wp-tab-bar">
 			<li class="wp-tab-active"><a href="#wc_ei_cart_price"><?php echo __( 'Cart & Price', 'wc_email_inquiry' ); ?></a></li>
 			<li class="hide-if-no-js"><a href="#wc_ei_email_inquiry"><?php echo __( 'Email Inquiry', 'wc_email_inquiry' ); ?></a></li>
