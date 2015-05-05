@@ -211,7 +211,6 @@ class WC_Email_Inquiry_Hook_Filter
 	}
 	
 	public static function wc_email_inquiry_popup() {
-		check_ajax_referer( 'wc_email_inquiry_popup', 'security' );
 
 		global $wc_email_inquiry_contact_form_settings;
 		global $wc_email_inquiry_customize_email_button;
@@ -284,7 +283,6 @@ class WC_Email_Inquiry_Hook_Filter
 	}
 	
 	public static function wc_email_inquiry_action() {
-		check_ajax_referer( 'wc_email_inquiry_action', 'security' );
 		$product_id 	= esc_attr( stripslashes( $_REQUEST['product_id'] ) );
 		$your_name 		= esc_attr( stripslashes( $_REQUEST['your_name'] ) );
 		$your_email 	= esc_attr( stripslashes( $_REQUEST['your_email'] ) );
