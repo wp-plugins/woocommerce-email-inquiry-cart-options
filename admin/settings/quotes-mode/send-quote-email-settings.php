@@ -303,7 +303,8 @@ class WC_EI_Quotes_Mode_Send_Quote_Email_Settings extends WC_Email_Inquiry_Admin
 								<a href="#" class="button send_quote_toggle_editor"></a>
 
 								<?php if ( is_writable( $local_file ) ) : ?>
-									<a href="<?php echo remove_query_arg( array( 'send_quote_move_template', 'saved' ), add_query_arg( 'send_quote_delete_template', $template ) ); ?>" class="send_quote_delete_template button"><?php _e( 'Delete template file', 'woocommerce' ); ?></a>
+									<?php // fixed for 4.1.2 ?>
+									<a href="<?php echo remove_query_arg( array( 'send_quote_move_template', 'saved' ), esc_url( add_query_arg( 'send_quote_delete_template', $template ) ) ); ?>" class="send_quote_delete_template button"><?php _e( 'Delete template file', 'woocommerce' ); ?></a>
 								<?php endif; ?>
 
 								<?php printf( __( 'This template has been overridden by your theme and can be found in: <code>%s</code>.', 'woocommerce' ), 'yourtheme/woocommerce/' . $this->$template ); ?>
@@ -321,7 +322,8 @@ class WC_EI_Quotes_Mode_Send_Quote_Email_Settings extends WC_Email_Inquiry_Admin
 								<a href="#" class="button send_quote_toggle_editor"></a>
 
 								<?php if ( ( is_dir( get_stylesheet_directory() . '/woocommerce/emails/' ) && is_writable( get_stylesheet_directory() . '/woocommerce/emails/' ) ) || is_writable( get_stylesheet_directory() ) ) : ?>
-									<a href="<?php echo remove_query_arg( array( 'send_quote_delete_template', 'saved' ), add_query_arg( 'send_quote_move_template', $template ) ); ?>" class="button"><?php _e( 'Copy file to theme', 'woocommerce' ); ?></a>
+									<?php // fixed for 4.1.2 ?>
+									<a href="<?php echo remove_query_arg( array( 'send_quote_delete_template', 'saved' ), esc_url( add_query_arg( 'send_quote_move_template', $template ) ) ); ?>" class="button"><?php _e( 'Copy file to theme', 'woocommerce' ); ?></a>
 								<?php endif; ?>
 
 								<?php printf( __( 'To override and edit this email template copy <code>%s</code> to your theme folder: <code>%s</code>.', 'woocommerce' ), plugin_basename( $core_file ) , 'yourtheme/woocommerce/' . $this->$template ); ?>

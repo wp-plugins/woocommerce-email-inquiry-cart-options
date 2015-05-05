@@ -295,6 +295,25 @@ class WC_EI_3RD_Contact_Form_Settings extends WC_Email_Inquiry_Admin_UI
 				'placeholder'		=> __( 'Select Page', 'wc_email_inquiry' ),
 				'css'		=> 'width:300px;',
 			),
+
+			array(
+            	'name' 		=> __( 'Form Header Message', 'wc_email_inquiry' ),
+				'class'		=> '3rd_contact_form_header',
+                'type' 		=> 'heading',
+           	),
+           	array(  
+				'name' 		=> __( 'Header Meassage', 'wc_email_inquiry' ),
+				'desc'		=> __( 'empty and no message will show at the top of the form', 'wc_email_inquiry' ),
+				'id' 		=> 'custom_contact_form_heading',
+				'type' 		=> 'text',
+				'default'	=> __( 'You are making an Email Inquiry about:', 'wc_email_inquiry' ),
+			),
+			array(  
+				'name' 		=> __( 'Meassage Font', 'wc_email_inquiry' ),
+				'id' 		=> 'custom_contact_form_heading_font',
+				'type' 		=> 'typography',
+				'default'	=> array( 'size' => '18px', 'face' => 'Arial, sans-serif', 'style' => 'normal', 'color' => '#000000' )
+			),
 			
 			array(
             	'name' 		=> __( 'Reset Products Contact Form Shortcodes', 'wc_email_inquiry' ),
