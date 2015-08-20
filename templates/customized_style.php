@@ -83,7 +83,7 @@ extract($wc_email_inquiry_customize_email_popup);
 .email_inquiry_cb #cboxLoadedContent, .wc_email_inquiry_form, #fancybox-content > div {
 	background-color: <?php echo $inquiry_form_bg_colour; ?> !important;	
 }
-body .wc_email_inquiry_form, .wc_email_inquiry_form, .wc_email_inquiry_form .wc_email_inquiry_field {
+body .wc_email_inquiry_form, .wc_email_inquiry_form, .wc_email_inquiry_form .wc_email_inquiry_field, body .wc_email_inquiry_field {
 	/* Font */
 	<?php echo $wc_ei_fonts_face->generate_font_css( $inquiry_contact_popup_text ); ?>
 }
