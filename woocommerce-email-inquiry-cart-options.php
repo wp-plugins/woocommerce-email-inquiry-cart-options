@@ -2,7 +2,7 @@
 /*
 Plugin Name: WooCommerce Email Inquiry & Cart Options LITE
 Description: Transform your entire WooCommerce products catalog or any individual product into an online brochure with Product Email Inquiry button and pop-up email form. Add product email inquiry functionality to any product either with WooCommerce functionality or hide that functionality and the page becomes a brochure.
-Version: 1.2.8
+Version: 1.2.9
 Author: A3 Revolution
 Author URI: http://www.a3rev.com/
 License: This software is under commercial license and copyright to A3 Revolution Software Development team
@@ -54,62 +54,4 @@ include ('admin/wc-email-inquiry-init.php');
  */
 register_activation_hook(__FILE__, 'wc_email_inquiry_install');
 
-function wc_email_inquiry_lite_uninstall()
-{
-    if (get_option('wc_email_inquiry_lite_clean_on_deletion') == 1) {
-
-        delete_option('wc_email_inquiry_rules_roles_settings');
-        delete_option('wc_email_inquiry_global_settings');
-        delete_option('wc_email_inquiry_contact_form_settings');
-        delete_option('wc_email_inquiry_3rd_contactforms_settings');
-        delete_option('wc_email_inquiry_email_options');
-        delete_option('wc_email_inquiry_customize_email_button');
-        delete_option('wc_email_inquiry_customize_email_popup');
-        delete_option('wc_email_inquiry_contact_success');
-
-        delete_option('wc_email_inquiry_fancybox_popup_settings');
-        delete_option('wc_email_inquiry_colorbox_popup_settings');
-
-        delete_option('wc_email_inquiry_quote_product_page');
-        delete_option('wc_email_inquiry_quote_widget_cart');
-        delete_option('wc_email_inquiry_quote_cart_page');
-        delete_option('wc_email_inquiry_quote_cart_note');
-        delete_option('wc_email_inquiry_quote_checkout_page');
-        delete_option('wc_email_inquiry_quote_checkout_top_message');
-        delete_option('wc_email_inquiry_quote_checkout_bottom_message');
-        delete_option('wc_email_inquiry_quote_order_received_page');
-        delete_option('wc_email_inquiry_quote_order_received_top_message');
-        delete_option('wc_email_inquiry_quote_order_received_bottom_message');
-        delete_option('wc_email_inquiry_quote_new_account_email_settings');
-        delete_option('wc_email_inquiry_quote_new_account_email_content');
-        delete_option('wc_email_inquiry_quote_send_quote_email_settings');
-        delete_option('quote_send_quote_email_description');
-
-        delete_option('wc_email_inquiry_order_product_page');
-        delete_option('wc_email_inquiry_order_widget_cart');
-        delete_option('wc_email_inquiry_order_cart_page');
-        delete_option('wc_email_inquiry_order_cart_note');
-        delete_option('wc_email_inquiry_order_checkout_page');
-        delete_option('wc_email_inquiry_order_checkout_top_message');
-        delete_option('wc_email_inquiry_order_checkout_bottom_message');
-        delete_option('wc_email_inquiry_order_order_received_page');
-        delete_option('wc_email_inquiry_order_order_received_top_message');
-        delete_option('wc_email_inquiry_order_order_received_bottom_message');
-        delete_option('wc_email_inquiry_order_new_account_email_settings');
-        delete_option('wc_email_inquiry_order_new_account_email_content');
-
-        delete_option('wc_email_inquiry_lite_clean_on_deletion');
-
-        delete_option('wc_email_inquiry_read_more_settings');
-        delete_option('wc_ei_read_more_hover_position_style');
-        delete_option('wc_ei_read_more_under_image_style');
-
-        delete_post_meta_by_key('_wc_email_inquiry_settings_custom');
-
-        wp_delete_post(get_option('wc_email_inquiry_page_id'), true);
-    }
-}
-if (get_option('wc_email_inquiry_lite_clean_on_deletion') == 1) {
-    register_uninstall_hook(__FILE__, 'wc_email_inquiry_lite_uninstall');
-}
 ?>

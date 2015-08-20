@@ -1,6 +1,6 @@
 <?php
 function wc_email_inquiry_install(){
-	update_option('a3rev_wc_email_inquiry_version', '1.2.8');
+	update_option('a3rev_wc_email_inquiry_version', '1.2.9');
 	update_option('a3rev_wc_email_inquiry_ultimate_version', '1.2.6');
 	update_option('a3rev_wc_orders_quotes_version', '1.1.8');
 
@@ -49,6 +49,9 @@ add_filter( 'plugin_row_meta', array('WC_Email_Inquiry_Hook_Filter', 'plugin_ext
 
 	// Add upgrade notice to Dashboard pages
 	add_filter( $wc_ei_admin_init->plugin_name . '_plugin_extension', array( 'WC_Email_Inquiry_Functions', 'plugin_extension' ) );
+
+	// Add extra link on left of Deactivate link on Plugin manager page
+	add_action( 'plugin_action_links_' . WC_EMAIL_INQUIRY_NAME, array( 'WC_Email_Inquiry_Hook_Filter', 'settings_plugin_links' ) );
 
 	// Include style into header
 	add_action('get_header', array('WC_Email_Inquiry_Hook_Filter', 'add_style_header') );
@@ -150,7 +153,7 @@ add_filter( 'plugin_row_meta', array('WC_Email_Inquiry_Hook_Filter', 'plugin_ext
 			$wc_ei_admin_init->set_default_settings();
 		}
 
-		update_option('a3rev_wc_email_inquiry_version', '1.2.8');
+		update_option('a3rev_wc_email_inquiry_version', '1.2.9');
 		update_option('a3rev_wc_email_inquiry_ultimate_version', '1.2.6');
 		update_option('a3rev_wc_orders_quotes_version', '1.1.8');
 

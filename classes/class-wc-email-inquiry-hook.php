@@ -528,5 +528,11 @@ jQuery(document).ready(function() {
 		$links[] = '<a href="http://wordpress.org/support/plugin/woocommerce-email-inquiry-cart-options/" target="_blank">'.__('Support', 'wc_email_inquiry').'</a>';
 		return $links;
 	}
+
+	public static function settings_plugin_links($actions) {
+		$actions = array_merge( array( 'settings' => '<a href="admin.php?page=email-cart-options">' . __( 'Settings', 'wc_email_inquiry' ) . '</a>' ), $actions );
+
+		return $actions;
+	}
 }
 ?>
