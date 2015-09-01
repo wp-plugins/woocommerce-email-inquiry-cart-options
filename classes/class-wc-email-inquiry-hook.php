@@ -16,7 +16,6 @@
  * wc_email_inquiry_popup()
  * wc_email_inquiry_action()
  * add_style_header()
- * include_customized_style()
  * footer_print_scripts()
  * script_contact_popup()
  * a3_wp_admin()
@@ -144,7 +143,6 @@ class WC_Email_Inquiry_Hook_Filter
 		$wc_email_inquiry_button_position = $wc_email_inquiry_customize_email_button['inquiry_button_position'];
 		
 		$wc_email_inquiry_button_class = '';
-		if ( trim( $wc_email_inquiry_customize_email_button['inquiry_button_class'] ) != '') $wc_email_inquiry_button_class = $wc_email_inquiry_customize_email_button['inquiry_button_class'];
 		
 		$button_link = '';
 		if (trim($wc_email_inquiry_text_before) != '') $button_link .= '<span class="wc_email_inquiry_text_before wc_email_inquiry_text_before_'.$product_id.'">'.trim($wc_email_inquiry_text_before).'</span> ';
@@ -213,7 +211,6 @@ class WC_Email_Inquiry_Hook_Filter
 	}
 	
 	public static function wc_email_inquiry_popup() {
-		check_ajax_referer( 'wc_email_inquiry_popup', 'security' );
 
 		global $wc_email_inquiry_contact_form_settings;
 		global $wc_email_inquiry_customize_email_button;
@@ -286,7 +283,6 @@ class WC_Email_Inquiry_Hook_Filter
 	}
 	
 	public static function wc_email_inquiry_action() {
-		check_ajax_referer( 'wc_email_inquiry_action', 'security' );
 		$product_id 	= esc_attr( stripslashes( $_REQUEST['product_id'] ) );
 		$your_name 		= esc_attr( stripslashes( $_REQUEST['your_name'] ) );
 		$your_email 	= esc_attr( stripslashes( $_REQUEST['your_email'] ) );
@@ -301,10 +297,6 @@ class WC_Email_Inquiry_Hook_Filter
 		
 	public static function add_style_header() {
 		wp_enqueue_style('a3_wc_email_inquiry_style', WC_EMAIL_INQUIRY_CSS_URL . '/wc_email_inquiry_style.css');
-	}
-	
-	public static function include_customized_style() {
-		include( WC_EMAIL_INQUIRY_DIR. '/templates/customized_style.php' );
 	}
 	
 	public static function footer_print_scripts() {
@@ -498,8 +490,9 @@ function ei_getWidth() {
 		$suffix = defined('SCRIPT_DEBUG') && SCRIPT_DEBUG ? '' : '.min';
 		
 		wp_enqueue_script('jquery');
-		wp_enqueue_style( 'a3rev-chosen-style', $wc_ei_admin_interface->admin_plugin_url() . '/assets/js/chosen/chosen.css' );
-		wp_enqueue_script( 'chosen', $wc_ei_admin_interface->admin_plugin_url() . '/assets/js/chosen/chosen.jquery' . $suffix . '.js', array( 'jquery' ), true, false );
+		wp_enqueue_style( 'a3rev-chosen-new-style', $wc_ei_admin_interface->admin_plugin_url() . '/assets/js/chosen/chosen' . $suffix . '.css' );
+		wp_enqueue_script( 'a3rev-chosen-new', $wc_ei_admin_interface->admin_plugin_url() . '/assets/js/chosen/chosen.jquery' . $suffix . '.js', array( 'jquery' ), true, false );
+		wp_enqueue_style( 'a3rev-admin-flat-ui-style', $wc_ei_admin_interface->admin_plugin_url() . '/assets/css/admin-flat-ui-style' . $suffix . '.css' );
 	?>
 <script type="text/javascript">
 jQuery(document).ready(function() {
@@ -534,6 +527,12 @@ jQuery(document).ready(function() {
 		$links[] = '<a href="http://docs.a3rev.com/user-guides/woocommerce/woo-email-inquiry-cart-options/" target="_blank">'.__('Documentation', 'wc_email_inquiry').'</a>';
 		$links[] = '<a href="http://wordpress.org/support/plugin/woocommerce-email-inquiry-cart-options/" target="_blank">'.__('Support', 'wc_email_inquiry').'</a>';
 		return $links;
+	}
+
+	public static function settings_plugin_links($actions) {
+		$actions = array_merge( array( 'settings' => '<a href="admin.php?page=email-cart-options">' . __( 'Settings', 'wc_email_inquiry' ) . '</a>' ), $actions );
+
+		return $actions;
 	}
 }
 ?>
