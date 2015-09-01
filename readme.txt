@@ -3,7 +3,7 @@ Contributors: a3rev, A3 Revolution Software Development team
 Tags: WooCommerce, WooCommerce Email Inquiry, WooCommerce Catalog Visibility, WooCommerce add to cart, WooCommerce Brochure Page, WooCommerce product Emails
 Requires at least: 3.8
 Tested up to: 4.3
-Stable tag: 1.2.9
+Stable tag: 1.3.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -194,6 +194,11 @@ You can use this plugin only when you have installed the WooCommerce plugin.
 
 
 == Changelog ==
+
+= 1.3.0 - 2015/09/01 =
+* Tweak - Tested for full compatibility with WooCommerce Version 2.4.6
+* Tweak - Added Settings text link to plugins menu on WordPress Plugins page for faster access to plugins dashboard.
+* Fix - Added 'box-sizing: initial;' for #fancybox-wrap ID to the Close button show correct on top right corner of Fancybox pop-up
 
 = 1.2.9 - 2015/08/20 =
 * Tweak - include new CSSMin lib from https://github.com/tubalmartin/YUI-CSS-compressor-PHP-port into plugin framework instead of old CSSMin lib from http://code.google.com/p/cssmin/ , to avoid conflict with plugins or themes that have CSSMin lib
@@ -395,6 +400,9 @@ You can use this plugin only when you have installed the WooCommerce plugin.
 
 
 == Upgrade Notice ==
+
+= 1.3.0 =
+Maintenance Upgrade. 2 Tweak and 1 bug fixes for full compatibility with WooCommerce Version 2.4.6
 
 = 1.2.9 =
 Major Maintenance Upgrade. 5 Code Tweaks plus 1 bug fixes for full compatibility with WordPress v 4.3.0 and WooCommerce v 2.4.4
